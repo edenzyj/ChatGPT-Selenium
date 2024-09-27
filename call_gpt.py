@@ -22,9 +22,9 @@ class gptParser:
 
     def __call__(self, msg: str):
         # Find the input field and send a question
-        input_field = self.driver.find_elements(
-            By.TAG_NAME, 'textarea')[0]
+        input_field = self.driver.find_elements(By.ID, 'prompt-textarea')[0]
         input_field.send_keys(msg)
+        time.sleep(1)
         input_field.send_keys(Keys.RETURN)
         
         # previous information
@@ -71,13 +71,15 @@ def ask_gpt_for_final_answer(question, answer_one, answer_two):
         print(r)'''
         
     # new chat
-    gpt_parser.new_chat()
+    # gpt_parser.new_chat()
 
     query = "There is a farmer asking about a question.  The question is : " + question + "  " + "This is the first answer : " + answer_one + "  And this is the second answer : " + answer_two + "  If you are a botanist, tell me which one is more precise."
     print(query)
     print("==========")
 
+    time.sleep(3)
     gpt_parser(query)
+    
     time.sleep(5)
     response = gpt_parser.read_respond()
     for r in response:
@@ -97,13 +99,15 @@ def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
         print(r)'''
         
     # new chat
-    gpt_parser.new_chat()
+    # gpt_parser.new_chat()
 
     query = "There is a farmer asking about a question.  The question is : " + question + "  " + "This is the first result from retriever : " + answer_one + "  And this is the second result from retriever : " + answer_two + "  Which retrieval result is more related with the question."
     print(query)
     print("==========")
 
+    time.sleep(3)
     gpt_parser(query)
+    
     time.sleep(5)
     response = gpt_parser.read_respond()
     for r in response:
@@ -112,16 +116,16 @@ def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
     time.sleep(10)
 
 if __name__ == "__main__":
-    question = "What is Anthracnose caused by?"
+    question = "How to prevent and treat Anthracnose?"
     
-    answer_one = "A classic reference! According to Ocfemia, GO, Agati JA (1925), anthracnose is caused by the fungus Colletotrichum lagenarium."
+    answer_one = "To prevent and treat Anthracnose, employ these measures: Cultural Control: Rotate crops, remove infected plant debris, and ensure good air circulation. Resistant Varieties: Use plant varieties resistant to Anthracnose. Proper Watering: Avoid overhead irrigation to reduce leaf wetness. Fungicide Application: Apply appropriate fungicides as needed based on local recommendations. These practices help minimize disease spread and manage outbreaks effectively."
 
-    answer_two = "Anthracnose is a fungal disease caused by various species of the genus Colletotrichum. The pathogen that causes anthracnose depends on the host plant and region. In some hosts or regions, a dominant Colletotrichum species may be responsible for the disease. In hosts such as coffee, citrus, and strawberries, the disease is often caused by Colletotrichum spp. such as C. kahawae, C. acutatum, and C. fragariae, respectively. In regions where the boniense clade is present, the disease is typically caused by Colletotrichum boniense. This clade is characterized by a specific set of morphological and molecular features. The boniense clade is widespread and has been reported to cause anthracnose in various hosts, including coffee, citrus, and other crops. It is considered a major threat to agriculture, as it can cause significant yield loss and reduce crop quality. In regions where the boniense clade is present, it is often the dominant cause of anthracnose, and its presence can have significant implications for disease management and crop protection strategies. It's worth noting that the boniense clade is not the only clade that can cause anthracnose, and other clades, such as the lindemuthianum and dematium clades, can also be responsible for the disease in different hosts and regions."
+    answer_two = "Anthracnose, caused by Colletotrichum spp., can be prevented by using disease-free planting material, practicing crop rotation, and avoiding overhead irrigation. Applying fungicides like copper-based ones and maintaining good field hygiene, such as removing infected plant debris, also helps. For treatment, affected plants should be pruned to remove diseased parts, and appropriate fungicides should be applied according to local guidelines."
     
     ask_gpt_for_final_answer(question, answer_one, answer_two)
     
-    result_one = "Ocfemia, GO, Agati JA (1925). The cause of anthracnose of avocado, mango and upo in the Philippine Islands. Philippine Agriculturalist 14: 199–216."
+    result_one = "Yang SY, Su SC, Liu T, Fan G, Wang J (2011). First report of anthracnose caused by Colletotrichum gloeosporioides on pistachio (Pistacia vera) in China. Plant Disease 95: 1314."
     
-    result_two = "A classic reference! According to Ocfemia, GO, Agati JA (1925), anthracnose is caused by the fungus Colletotrichum lagenarium."
+    result_two = "(2002). 30. Novotny, D., Krizkova, I. & Salava, J. First report of anthracnose caused by Colletotrichum acutatum on strawberry in the Czech"
 
     # ask_gpt_for_retrieve_result(question, result_one, result_two)
