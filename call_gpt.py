@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 class gptParser:
     def __init__(self,
                  driver,
-                 gpt_url: str = 'https://chat.openai.com/'):
+                 gpt_url: str = 'https://chatgpt.com/'):
        
         # Start a webdriver instance and open ChatGPT
         self.driver = driver
