@@ -1,7 +1,9 @@
 from selenium.webdriver.remote.webdriver import By
 import undetected_chromedriver as uc
-import time
 from selenium.webdriver.common.keys import Keys
+
+import os
+import time
 
 class gptParser:
     def __init__(self,
@@ -15,6 +17,8 @@ class gptParser:
     @staticmethod
     def get_driver():
         uc.TARGET_VERSION = 124
+        # options = uc.ChromeOptions()
+        # options.add_argument("--incognito")
         driver = uc.Chrome()
         # driver = webdriver.Chrome(ChromeDriverManager().install())
         # driver = webdriver.Chrome(executable_path="C:/Users/AnnA/Desktop/chromedriver_win32/chromedriver.exe")
@@ -24,7 +28,7 @@ class gptParser:
         # Find the input field and send a question
         input_field = self.driver.find_elements(By.ID, 'prompt-textarea')[0]
         input_field.send_keys(msg)
-        time.sleep(1)
+        time.sleep(5)
         input_field.send_keys(Keys.RETURN)
         
         # previous information
@@ -59,33 +63,34 @@ class gptParser:
     def close(self):
         self.driver.quit()
         
-def ask_gpt_for_final_answer(question, answer_one, answer_two):
+def ask_gpt_for_final_answer(question, answer_one, answer_two, num, fw):
+    print(num)
+    
     driver = gptParser.get_driver()
     gpt_parser = gptParser(driver)
 
-    '''query = "test"
-    gpt_parser(query) 
-    time.sleep(5)
-    response = gpt_parser.read_respond() 
-    for r in response:
-        print(r)'''
-        
-    # new chat
-    # gpt_parser.new_chat()
+    query = "There is a farmer asking about a question.  The question is : " + question + "  " + "This is the first answer : " + answer_one + "  And this is the second answer : " + answer_two + "  If you are a botanist, tell me which one is more precise, or both of them are equal.  Generate less than 200 words."
+    # print(query)
+    # print("==========")
 
-    query = "There is a farmer asking about a question.  The question is : " + question + "  " + "This is the first answer : " + answer_one + "  And this is the second answer : " + answer_two + "  If you are a botanist, tell me which one is more precise."
-    print(query)
-    print("==========")
-
-    time.sleep(3)
+    time.sleep(10)
     gpt_parser(query)
     
-    time.sleep(5)
+    time.sleep(30)
     response = gpt_parser.read_respond()
-    for r in response:
-        print(r)
+    comparison = ""
     
-    time.sleep(20)
+    for r in response:
+        comparison = comparison + r
+        
+    fw.write("Comparison {} :\n".format(num))
+    fw.write(comparison)
+    fw.write("\n\n")
+    
+    time.sleep(10)
+    driver.close()
+    time.sleep(5)
+    
 
 def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
     driver = gptParser.get_driver()
@@ -115,17 +120,42 @@ def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
     
     time.sleep(10)
 
+input_dir = "input_file/"
+output_dir = "output_file/"
+
 if __name__ == "__main__":
     question = "How to prevent and treat Anthracnose?"
     
-    answer_one = "To prevent and treat Anthracnose, employ these measures: Cultural Control: Rotate crops, remove infected plant debris, and ensure good air circulation. Resistant Varieties: Use plant varieties resistant to Anthracnose. Proper Watering: Avoid overhead irrigation to reduce leaf wetness. Fungicide Application: Apply appropriate fungicides as needed based on local recommendations. These practices help minimize disease spread and manage outbreaks effectively."
-
-    answer_two = "Anthracnose, caused by Colletotrichum spp., can be prevented by using disease-free planting material, practicing crop rotation, and avoiding overhead irrigation. Applying fungicides like copper-based ones and maintaining good field hygiene, such as removing infected plant debris, also helps. For treatment, affected plants should be pruned to remove diseased parts, and appropriate fungicides should be applied according to local guidelines."
+    file_1 = input_dir + "tart_stella_generation_2.txt"
+    file_2 = input_dir + "tart_BGElarge_generation_2.txt"
     
-    ask_gpt_for_final_answer(question, answer_one, answer_two)
+    answer_1_list = []
+    answer_2_list = []
     
-    result_one = "Yang SY, Su SC, Liu T, Fan G, Wang J (2011). First report of anthracnose caused by Colletotrichum gloeosporioides on pistachio (Pistacia vera) in China. Plant Disease 95: 1314."
+    with open(file_1, 'r') as fr1:
+        for ans in fr1.read().split('Answer'):
+            answer_1_list.append(ans)
     
-    result_two = "(2002). 30. Novotny, D., Krizkova, I. & Salava, J. First report of anthracnose caused by Colletotrichum acutatum on strawberry in the Czech"
+    with open(file_2, 'r') as fr2:
+        for ans in fr2.read().split('Answer'):
+            answer_2_list.append(ans)
+    
+    file_out = output_dir + "stella_BGElarge_comparison_2.txt"
+    
+    with open(file_out, 'w') as fw:
+        for i in range(10):
+            answer_one = answer_1_list[i+1]
+            answer_one = answer_one.split('{} :\n'.format(i))[1]
+            answer_one = answer_one.replace('\n', ' ')
+            
+            answer_two = answer_2_list[i+1]
+            answer_two = answer_two.split('{} :\n'.format(i))[1]
+            answer_two = answer_two.replace('\n', ' ')
+        
+            ask_gpt_for_final_answer(question, answer_one, answer_two, i, fw)
+    
+    # result_one = "Yang SY, Su SC, Liu T, Fan G, Wang J (2011). First report of anthracnose caused by Colletotrichum gloeosporioides on pistachio (Pistacia vera) in China. Plant Disease 95: 1314."
+    
+    # result_two = "(2002). 30. Novotny, D., Krizkova, I. & Salava, J. First report of anthracnose caused by Colletotrichum acutatum on strawberry in the Czech"
 
     # ask_gpt_for_retrieve_result(question, result_one, result_two)
