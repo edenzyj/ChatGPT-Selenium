@@ -124,10 +124,10 @@ input_dir = "input_file/"
 output_dir = "output_file/"
 
 if __name__ == "__main__":
-    question = "What is Anthracnose caused by?"
+    question = "What are the most effective methods for preventing and controlling anthracnose in strawberry crops?"
     
-    file_1 = input_dir + "tart_miniLML6_generation.txt"
-    file_2 = input_dir + "tart_stella_generation.txt"
+    file_1 = input_dir + "tart_finetune1.5B_generation_3.txt"
+    file_2 = input_dir + "tart_stella400M_generation_3.txt"
     
     answer_1_list = []
     answer_2_list = []
@@ -140,11 +140,11 @@ if __name__ == "__main__":
         for ans in fr2.read().split('Answer'):
             answer_2_list.append(ans)
     
-    output_dir = output_dir + "question1/"
+    output_dir = output_dir + "question3/"
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
     
-    file_out = output_dir + "stella_miniLML6_comparison.txt"
+    file_out = output_dir + "finetune1.5B_stella400M_comparison.txt"
     
     with open(file_out, 'w') as fw:
         for i in range(10):
