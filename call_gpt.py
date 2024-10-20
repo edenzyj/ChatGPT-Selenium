@@ -64,16 +64,17 @@ class gptParser:
         self.driver.quit()
         
 def ask_gpt_for_final_answer(question, answer_one, answer_two, num, fw):
-    print(num)
+    print(question)
+    print("----------")
     
     driver = gptParser.get_driver()
     gpt_parser = gptParser(driver)
 
-    query = "There is a farmer asking about a question.  The question is : " + question + "  " + "This is the first answer : " + answer_one + "  And this is the second answer : " + answer_two + "  If you are a botanist, tell me which one is more precise, or both of them are equal.  Generate less than 200 words."
+    query = "There is a farmer asking a question which is : " + question + "  " + "This is the first answer : " + answer_one + "  And this is the second answer : " + answer_two + "  Which of the following answers is better, the first answer or the second answer?  Give both answers a score in 100 seperatively."
     # print(query)
     # print("==========")
 
-    time.sleep(10)
+    time.sleep(5)
     gpt_parser(query)
     
     time.sleep(30)
@@ -81,7 +82,7 @@ def ask_gpt_for_final_answer(question, answer_one, answer_two, num, fw):
     comparison = ""
     
     for r in response:
-        comparison = comparison + r
+        comparison = comparison + "\n" + r
         
     fw.write("Comparison {} :\n".format(num))
     fw.write(comparison)
@@ -90,6 +91,9 @@ def ask_gpt_for_final_answer(question, answer_one, answer_two, num, fw):
     time.sleep(10)
     driver.close()
     time.sleep(5)
+    
+    print(comparison)
+    print("==========")
     
 
 def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
@@ -106,7 +110,7 @@ def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
     # new chat
     # gpt_parser.new_chat()
 
-    query = "There is a farmer asking about a question.  The question is : " + question + "  " + "This is the first result from retriever : " + answer_one + "  And this is the second result from retriever : " + answer_two + "  Which retrieval result is more related with the question."
+    query = "There is a farmer asking a question which is : " + question + "  " + "This is the first result from retriever : " + answer_one + "  And this is the second result from retriever : " + answer_two + "  Which retrieval result is more related with the question."
     print(query)
     print("==========")
 
@@ -124,39 +128,51 @@ input_dir = "input_file/"
 output_dir = "output_file/"
 
 if __name__ == "__main__":
-    question = "What are the most effective methods for preventing and controlling anthracnose in strawberry crops?"
+    question_file = input_dir + "questions_100.txt"
     
-    file_1 = input_dir + "tart_finetune1.5B_generation_3.txt"
-    file_2 = input_dir + "tart_stella400M_generation_3.txt"
+    question_list = []
+    
+    with open(question_file, 'r') as qfr:
+        for quest in qfr.read().split('\n'):
+            question_list.append(quest)
+        qfr.close()
+        # print(len(question_list))
+    
+    file_1 = input_dir + "taide_100Q_1st_Ans.txt"
+    file_2 = input_dir + "tart_stella1.5B_100Q_1st_Ans.txt"
     
     answer_1_list = []
     answer_2_list = []
     
     with open(file_1, 'r') as fr1:
-        for ans in fr1.read().split('Answer'):
+        for ans in fr1.read().split('Answwer'):
             answer_1_list.append(ans)
+        fr1.close()
+        # print(len(answer_1_list))
     
     with open(file_2, 'r') as fr2:
         for ans in fr2.read().split('Answer'):
             answer_2_list.append(ans)
+        fr2.close()
     
-    output_dir = output_dir + "question3/"
+    output_dir = output_dir + "1st_answers/"
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
     
-    file_out = output_dir + "finetune1.5B_stella400M_comparison.txt"
+    file_out = output_dir + "taide_stella_comparison.txt"
     
     with open(file_out, 'w') as fw:
-        for i in range(10):
+        for i in range(len(question_list)):
             answer_one = answer_1_list[i+1]
             answer_one = answer_one.split('{} :\n'.format(i))[1]
             answer_one = answer_one.replace('\n', ' ')
+            answer_one = answer_one[:-3] + "."
             
             answer_two = answer_2_list[i+1]
             answer_two = answer_two.split('{} :\n'.format(i))[1]
             answer_two = answer_two.replace('\n', ' ')
         
-            ask_gpt_for_final_answer(question, answer_one, answer_two, i, fw)
+            ask_gpt_for_final_answer(question_list[i], answer_one, answer_two, i, fw)
     
     # result_one = "Yang SY, Su SC, Liu T, Fan G, Wang J (2011). First report of anthracnose caused by Colletotrichum gloeosporioides on pistachio (Pistacia vera) in China. Plant Disease 95: 1314."
     
