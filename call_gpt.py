@@ -161,8 +161,8 @@ if __name__ == "__main__":
     
     file_out = output_dir + "taide_stella_comparison.txt"
     
-    with open(file_out, 'w') as fw:
-        for i in range(len(question_list)):
+    with open(file_out, 'a') as fw:
+        for i in range(49, len(question_list)):
             answer_one = answer_1_list[i+1]
             answer_one = answer_one.split('{} :\n'.format(i))[1]
             answer_one = answer_one.replace('\n', ' ')
