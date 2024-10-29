@@ -77,7 +77,7 @@ def ask_gpt_for_final_answer(question, answer_one, answer_two, num, fw):
     time.sleep(5)
     gpt_parser(query)
     
-    time.sleep(30)
+    time.sleep(10)
     response = gpt_parser.read_respond()
     comparison = ""
     
@@ -94,6 +94,40 @@ def ask_gpt_for_final_answer(question, answer_one, answer_two, num, fw):
     
     print(comparison)
     print("==========")
+    
+    return
+    
+    
+def ask_gpt_about_question(question, num, fw):
+    driver = gptParser.get_driver()
+    gpt_parser = gptParser(driver)
+
+    query = "There is a farmer asking a question which is : " + question + "  " + "Is this question an agricultural issue? Give me a short answer only includes True or False."
+    # print(query)
+    # print("==========")
+
+    time.sleep(5)
+    gpt_parser(query)
+    
+    time.sleep(10)
+    response = gpt_parser.read_respond()
+    comfirm = ""
+    
+    for r in response:
+        comfirm = comfirm + "\n" + r
+        
+    fw.write("Question comfirm {} :\n".format(num))
+    fw.write(comfirm)
+    fw.write("\n\n")
+    
+    time.sleep(10)
+    driver.close()
+    time.sleep(5)
+    
+    print(comfirm)
+    print("==========")
+    
+    return
     
 
 def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
@@ -138,14 +172,14 @@ if __name__ == "__main__":
         qfr.close()
         # print(len(question_list))
     
-    file_1 = input_dir + "taide_100Q_1st_Ans.txt"
+    file_1 = input_dir + "llama3.1_tart_stella1.5B_100Q_1st_Ans.txt"
     file_2 = input_dir + "tart_stella1.5B_100Q_1st_Ans.txt"
     
     answer_1_list = []
     answer_2_list = []
     
     with open(file_1, 'r') as fr1:
-        for ans in fr1.read().split('Answwer'):
+        for ans in fr1.read().split('<|start_header_id|>assistant<|end_header_id|>'):
             answer_1_list.append(ans)
         fr1.close()
         # print(len(answer_1_list))
@@ -159,14 +193,28 @@ if __name__ == "__main__":
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
     
-    file_out = output_dir + "taide_stella_comparison.txt"
+    file_out = output_dir + "llama3.1_llama3_comparison_revised.txt"
     
     with open(file_out, 'a') as fw:
-        for i in range(49, len(question_list)):
-            answer_one = answer_1_list[i+1]
+        for i in range(len(question_list)):
+            # TAIDE
+            '''answer_one = answer_1_list[i+1]
             answer_one = answer_one.split('{} :\n'.format(i))[1]
             answer_one = answer_one.replace('\n', ' ')
             answer_one = answer_one[:-3] + "."
+            
+            if answer_one == "Sorry, this is not an agricultural issue. As a language model that strengthens agricultural knowledge and answer, Shennong Taide cannot deal with such problems.":
+                print("*****TAIDE said the question is not an agricultural issue.*****")
+                ask_gpt_about_question(question_list[i], i, fw)
+                continue
+                
+            elif answer_one == "Sorry, the model cannot answer your questions according to the existing data set.":
+                print("*****TAIDE said the question cannot be answered.*****")
+                continue'''
+                
+            # llama3.2
+            answer_one = answer_1_list[i+1]
+            answer_one = answer_one.replace('\n', ' ')
             
             answer_two = answer_2_list[i+1]
             answer_two = answer_two.split('{} :\n'.format(i))[1]
