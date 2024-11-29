@@ -71,17 +71,18 @@ class gptParser:
             self.history = []
 
     def read_respond(self):
-        try:
-            l = []
-            all_elements = self.driver.find_elements(By.CSS_SELECTOR, "p, li")
-            indexed_elements = list(enumerate(all_elements))
-            sorted_elements = sorted(indexed_elements, key=lambda x: x[0])
-            for i in range(len(self.history), len(sorted_elements)-1):
-                response = sorted_elements[i][1].text
-                l.append(response)
-            return l
-        except:
-            return None
+        l = []
+        while len(l) == 0:
+            try:
+                all_elements = self.driver.find_elements(By.CSS_SELECTOR, "p, li")
+                indexed_elements = list(enumerate(all_elements))
+                sorted_elements = sorted(indexed_elements, key=lambda x: x[0])
+                for i in range(len(self.history), len(sorted_elements)-1):
+                    response = sorted_elements[i][1].text
+                    l.append(response)
+                return l
+            except:
+                time.sleep(3)
 
     def new_chat(self):
         self.driver.find_elements("class name", 'text-token-text-primary')[3].click()
@@ -111,7 +112,7 @@ def ask_gpt_for_final_answer(question, answer_one, answer_two, num, fw):
     time.sleep(5)
     gpt_parser(query)
     
-    time.sleep(10)
+    time.sleep(30)
     response = gpt_parser.read_respond()
     comparison = ""
     
@@ -206,8 +207,8 @@ if __name__ == "__main__":
         qfr.close()
         # print(len(question_list))
     
-    file_1 = input_dir + "9907_tart_finetuned360k_100Q_1st_Ans.txt"
-    file_2 = input_dir + "9907_tart_stella1.5B_100Q_1st_Ans.txt"
+    file_1 = input_dir + "Llama3-8b_100Q_1st_Ans.txt"
+    file_2 = input_dir + "tart_stella1.5B_100Q_1st_Ans.txt"
     
     answer_1_list = []
     answer_2_list = []
@@ -223,14 +224,14 @@ if __name__ == "__main__":
             answer_2_list.append(ans)
         fr2.close()
     
-    output_dir = output_dir + "finetune/"
+    output_dir = output_dir + "naive/"
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
     
-    file_out = output_dir + "finetuned360k_9907_comparison_revised.txt"
+    file_out = output_dir + "llama3-8b_rag_comparison_revised.txt"
     
     with open(file_out, 'a') as fw:
-        for i in range(84, len(question_list)):
+        for i in range(len(question_list)):
             # TAIDE
             '''answer_one = answer_1_list[i+1]
             answer_one = answer_one.split('{} :\n'.format(i))[1]
@@ -246,7 +247,7 @@ if __name__ == "__main__":
                 print("*****TAIDE said the question cannot be answered.*****")
                 continue'''
                 
-            # llama3.2
+            # Normal RAG outputs
             answer_one = answer_1_list[i+1]
             answer_one = answer_one.split('{} :\n'.format(i))[1]
             answer_one = answer_one.replace('\n', ' ')
