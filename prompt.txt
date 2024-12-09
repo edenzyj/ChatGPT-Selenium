@@ -1,0 +1,9 @@
+There is a farmer asking a question which is: 
+
+This is the first answer: 
+
+
+And this is the second answer: 
+
+
+Which of the following answers is better, the first answer or the second answer?  Give both answers a score in 100 separately.

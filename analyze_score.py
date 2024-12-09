@@ -1,6 +1,6 @@
-comparison_folder = "output_file/naive/"
+comparison_folder = "output_file/finetune/"
 
-comparison_file = "llama3-8b_rag_comparison_revised.txt"
+comparison_file = "finetuned360k_9907_comparison_revised.txt"
 
 first_scores = []
 second_scores = []

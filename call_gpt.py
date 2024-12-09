@@ -207,8 +207,8 @@ if __name__ == "__main__":
         qfr.close()
         # print(len(question_list))
     
-    file_1 = input_dir + "Llama3-8b_100Q_1st_Ans.txt"
-    file_2 = input_dir + "tart_stella1.5B_100Q_1st_Ans.txt"
+    file_1 = input_dir + "6_tart_stella1.5B_100Q_1st_Ans.txt"
+    file_2 = input_dir + "9907_tart_stella1.5B_100Q_1st_Ans.txt"
     
     answer_1_list = []
     answer_2_list = []
@@ -224,13 +224,13 @@ if __name__ == "__main__":
             answer_2_list.append(ans)
         fr2.close()
     
-    output_dir = output_dir + "naive/"
+    output_dir = output_dir + "9907/"
     if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
     
-    file_out = output_dir + "llama3-8b_rag_comparison_revised.txt"
+    file_out = output_dir + "6_9907_comparison_revised.txt"
     
-    with open(file_out, 'a') as fw:
+    with open(file_out, 'w') as fw:
         for i in range(len(question_list)):
             # TAIDE
             '''answer_one = answer_1_list[i+1]
