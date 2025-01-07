@@ -38,12 +38,12 @@ with open(comparison_folder + comparison_file, "r") as fr:
 first_avr = sum(first_scores) / len(first_scores)
 second_avr = sum(second_scores) / len(second_scores)
 
-first_mse = sum([(score - first_avr)**2 for score in first_scores]) / len(first_scores)
-second_mse = sum([(score - second_avr)**2 for score in second_scores]) / len(second_scores)
+first_msd = sum([(score - first_avr)**2 for score in first_scores]) / len(first_scores)
+second_msd = sum([(score - second_avr)**2 for score in second_scores]) / len(second_scores)
 
 print("First Win : {}".format(first_win))
 print("First Average : {}".format(first_avr))
-print("First MSE : {}".format(first_mse))
+print("First MSD : {}".format(first_msd))
 print("Second Win : {}".format(second_win))
 print("Second Average : {}".format(second_avr))
-print("Second MSE : {}".format(second_mse))
+print("Second MSD : {}".format(second_msd))
