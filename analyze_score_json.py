@@ -3,7 +3,7 @@ import json
 
 comparison_folder = "output_file/9907/"
 
-comparison_file = "no_reference_vs_reference.json"
+comparison_file = "without_reference_vs_include_reference.json"
 
 first_scores = []
 second_scores = []
@@ -15,8 +15,8 @@ with open(comparison_folder + comparison_file, "r") as fr:
     data = json.load(fr)
     
     for item in data:
-        first_score = item['First_Score']
-        second_score = item['Second_Score']
+        first_score = int(item['First_Score'][-2:])
+        second_score = int(item['Second_Score'][-2:])
         
         first_scores.append(first_score)
         second_scores.append(second_score)
