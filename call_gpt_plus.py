@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.remote.webdriver import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 import undetected_chromedriver as uc
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
@@ -31,11 +32,7 @@ class wait_for_text_to_stabilize:
 gpt_url = 'https://chatgpt.com/'
 
 class gptParser:
-    def __init__(self,
-                 driver,
-                 gpt_url: str = gpt_url):
-       
-        # Start a webdriver instance and open ChatGPT
+    def __init__(self, driver, gpt_url: str = gpt_url):
         self.driver = driver
         self.driver.get(gpt_url)
         self.history = []
@@ -43,26 +40,46 @@ class gptParser:
 
     @staticmethod
     def get_driver():
-        options = webdriver.ChromeOptions()
-        options.add_argument("user-data-dir=C:/Users/edenzytj/AppData/Local/Google/Chrome/User Data")
-        options.add_argument("profile-directory=Profile 11")
-        driver = webdriver.Chrome(options=options)
+        options = Options()
+        options.add_argument("--user-data-dir=C:\\Profile 11")
+        options.debugger_address = "127.0.0.1:61441"
 
+        driver = webdriver.Chrome(options=options)
+        
         return driver
 
     def wait_for_login(self):
-        """Wait for user to complete Google login manually"""
-        print("Please log in to ChatGPT using your Google account.")
-        print("Once logged in and you see the ChatGPT interface, press Enter to continue...")
-        input()  # Wait for user to press Enter
+        """Check if already logged in, or wait for manual login if needed"""
+        print("Checking if already logged in to ChatGPT...")
         
-        # Verify we're logged in by checking for the chat interface
+        # Give some time for the page to load
+        time.sleep(5)
+        
+        # Check if we need to login
         try:
-            self.wait.until(EC.presence_of_element_located((By.ID, 'prompt-textarea')))
-            print("Login successful! ChatGPT interface detected.")
-            return True
-        except TimeoutException:
-            print("Login verification failed. Please try again.")
+            # Look for login button or sign-in elements
+            login_elements = self.driver.find_elements(By.XPATH, "//*[contains(text(), 'Log in') or contains(text(), 'Sign in') or contains(text(), '登入')]")
+            if login_elements:
+                print("Login required. Please log in to ChatGPT.")
+                print("Once logged in and you see the ChatGPT interface, please choose the project...")
+                time.sleep(60)  # Wait for user to press Enter
+                
+                # Verify login after user input
+                try:
+                    self.wait.until(EC.presence_of_element_located((By.ID, 'prompt-textarea')))
+                    print("Login successful! ChatGPT interface detected.")
+                    return True
+                except TimeoutException:
+                    print("Login verification failed. Please try again.")
+                    return False
+            else:
+                print("No need to log in...")
+                time.sleep(5)
+                return True
+                
+        except Exception as e:
+            print(f"Error checking login status: {e}")
+            print("Please manually navigate to ChatGPT and log in if needed, then press Enter...")
             return False
 
     def wait_for_response_complete(self):
@@ -78,29 +95,36 @@ class gptParser:
         except TimeoutException:
             print("Stop button not found, response might be instant or already complete")
         
-        # Wait for the stop button to disappear (indicating generation finished)
+        # Wait for the speech button to appear (indicating generation finished)
         try:
-            self.wait.until(
-                EC.invisibility_of_element_located((By.CSS_SELECTOR, "[data-testid='stop-button']"))
+            speech_button = self.wait.until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "[data-testid='composer-speech-button']"))
             )
             print("Response generation completed!")
         except TimeoutException:
             print("Stop button didn't disappear, assuming response is complete")
         
         # Additional wait to ensure DOM is fully updated
-        time.sleep(2)
+        time.sleep(5)
 
     def send_message(self, msg: str):
         """Send a message and wait for response completion"""
         try:
             # Find and clear the input field
             input_field = self.wait.until(EC.element_to_be_clickable((By.ID, 'prompt-textarea')))
+            print("Find the text area!")
             input_field.clear()
+            print("Make sure the text area is clear!")
             input_field.send_keys(msg)
+            print("Input contents done!")
+            
+            time.sleep(5)
             
             # Send the message
+            #send_button = self.driver.find_element(By.CSS_SELECTOR, "[data-testid='send-button']")
+            #send_button.click()
             input_field.send_keys(Keys.RETURN)
-            print(f"Message sent: {msg[:50]}...")
+            print("Send the message done!")
             
             # Wait for response to complete
             self.wait_for_response_complete()
@@ -136,11 +160,12 @@ class gptParser:
     def start_new_chat(self):
         """Start a new chat conversation"""
         try:
-            # Look for new chat button
-            new_chat_button = self.driver.find_element(By.CSS_SELECTOR, "[data-testid='new-chat-button']")
-            new_chat_button.click()
+            # Look for project button
+            project_name = "agrigraphrag-eden/project"
+            project_button = self.driver.find_element(By.XPATH, f"//a[contains(@href, '{project_name}')]")
+            project_button.click()
             time.sleep(2)
-            print("Started new chat")
+            print("Started new chat in the project")
         except NoSuchElementException:
             print("New chat button not found, continuing with current chat")
 
@@ -151,10 +176,10 @@ class gptParser:
 def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
     """Ask GPT for comparison using the existing parser instance"""
     
-    query = f"There is a farmer asking a question which is: {question} " \
-            f"This is the first answer: {answer_one} " \
-            f"And this is the second answer: {answer_two} " \
-            f"Which of the following answers is better, the first answer or the second answer? " \
+    query = f"There is a question: {question}  " \
+            f"This is the first answer:{answer_one}  " \
+            f"And this is the second answer:{answer_two}  " \
+            f"Which of the following answers is better, the first answer or the second answer?  " \
             f"Give both answers a score out of 100 separately."
     
     print(f"Sending comparison query...")
@@ -189,8 +214,9 @@ if __name__ == "__main__":
     output_list = []
     
     # Initialize driver and parser once
-    print("Starting browser and navigating to ChatGPT...")
+    print("Starting browser...")
     driver = gptParser.get_driver()
+    print("Navigating to ChatGPT...")
     gpt_parser = gptParser(driver)
     
     # Wait for manual login
@@ -206,16 +232,19 @@ if __name__ == "__main__":
             
             item = answer_1_list[qid]
             query = item['query']
-            answer_1 = item['answer']
-            answer_2 = answer_2_list[qid]['answer']
+            answer_1 = item['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
+            answer_2 = answer_2_list[qid]['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
             
-            # Start new chat for each comparison to avoid context confusion
-            if i > 0:  # Don't start new chat for the first question
-                gpt_parser.start_new_chat()
+            # Start new chat in the project for each comparison to avoid context confusion
+            gpt_parser.start_new_chat()
             
-            compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1, answer_2)
+            answer_1_no_newline = answer_1.replace("\n", " ")
+            answer_2_no_newline = answer_2.replace("\n", " ")
+            
+            compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1_no_newline, answer_2_no_newline)
             
             output_list.append({
+                "qid": qid,
                 "query": query,
                 "answer 1": answer_1,
                 "answer 2": answer_2,
@@ -224,9 +253,11 @@ if __name__ == "__main__":
             
             print(f"Completed question {i+1}")
             
-            # Save progress after each question
-        with open(file_out, 'w') as fw:
-            json.dump(output_list, fw, indent=4)
+            with open(file_out, 'w') as fw:
+                json.dump(output_list, fw, indent=4)
+                fw.close()
+            
+            time.sleep(30)
     
     except KeyboardInterrupt:
         print("\nProcess interrupted by user")
