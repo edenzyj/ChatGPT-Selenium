@@ -1,9 +1,9 @@
 from cmath import sqrt
 import json
 
-comparison_folder = "output_file/9907/"
+comparison_folder = "output_file/3163/"
 
-comparison_file = "without_reference_vs_include_reference.json"
+comparison_file = "graphRAG_pureLLM_comparison.json"
 
 first_scores = []
 second_scores = []
@@ -15,8 +15,15 @@ with open(comparison_folder + comparison_file, "r") as fr:
     data = json.load(fr)
     
     for item in data:
-        first_score = int(item['First_Score'][-2:])
-        second_score = int(item['Second_Score'][-2:])
+        qid = item['qid']
+        split_list = item['comparison'].split("/100")
+        
+        if len(split_list) < 3:
+            print(f"The comparison doesn't include both scores, qid = {qid}")
+            continue
+        
+        first_score = int(split_list[0].split(" ")[-1])
+        second_score = int(split_list[-2].split(" ")[-1])
         
         first_scores.append(first_score)
         second_scores.append(second_score)
