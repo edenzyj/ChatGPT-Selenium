@@ -41,7 +41,7 @@ class gptParser:
     @staticmethod
     def get_driver():
         options = Options()
-        options.add_argument("--user-data-dir=C:\\Profile 11")
+        options.add_argument("--user-data-dir=C:\\selenium\\chrome_profile")
         options.debugger_address = "127.0.0.1:61441"
 
         driver = webdriver.Chrome(options=options)
@@ -176,11 +176,11 @@ class gptParser:
 def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
     """Ask GPT for comparison using the existing parser instance"""
     
-    query = f"There is a question: {question}  " \
-            f"This is the first answer:{answer_one}  " \
-            f"And this is the second answer:{answer_two}  " \
-            f"Which of the following answers is better, the first answer or the second answer?  " \
-            f"Give both answers a score out of 100 separately."
+    query = f"Here is a farmer question: {question}  " \
+            f"Answer 1: {answer_one}  " \
+            f"Answer 2: {answer_two}  " \
+            f"Which answer is more professional and focused? Please give each answer a separate score out of 100.  " \
+            f"Reply me with the scores first, and then answer the reason less than 100 words."
     
     print(f"Sending comparison query...")
     
