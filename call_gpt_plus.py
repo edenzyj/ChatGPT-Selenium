@@ -41,7 +41,7 @@ class gptParser:
     @staticmethod
     def get_driver():
         options = Options()
-        options.add_argument("--user-data-dir=C:\\selenium\\chrome_profile")
+        options.add_argument("--user-data-dir=C:\\selenium\\pcslab_profile")
         options.debugger_address = "127.0.0.1:61441"
 
         driver = webdriver.Chrome(options=options)
