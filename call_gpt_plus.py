@@ -1,6 +1,3 @@
-import time
-import json
-import random
 from selenium import webdriver
 from selenium.webdriver.remote.webdriver import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,6 +7,9 @@ import undetected_chromedriver as uc
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
+import time
+import json
+import random
 
 class wait_for_text_to_stabilize:
     def __init__(self, locator, timeout=10):
@@ -40,15 +40,48 @@ class gptParser:
 
     @staticmethod
     def get_driver():
-        uc.TARGET_VERSION = 138
-        # options = uc.ChromeOptions()
-        # options.add_argument("--incognito")
+        options = Options()
+        options.add_argument("--user-data-dir=C:\\selenium\\pcslab_profile")
+        options.debugger_address = "127.0.0.1:61441"
 
-        driver = uc.Chrome()
-        # driver = webdriver.Chrome()
-
+        driver = webdriver.Chrome(options=options)
+        
         return driver
-    
+
+    def wait_for_login(self):
+        """Check if already logged in, or wait for manual login if needed"""
+        print("Checking if already logged in to ChatGPT...")
+        
+        # Give some time for the page to load
+        time.sleep(5)
+        
+        # Check if we need to login
+        try:
+            # Look for login button or sign-in elements
+            login_elements = self.driver.find_elements(By.XPATH, "//*[contains(text(), 'Log in') or contains(text(), 'Sign in') or contains(text(), '登入')]")
+            if login_elements:
+                print("Login required. Please log in to ChatGPT.")
+                print("Once logged in and you see the ChatGPT interface, please choose the project...")
+                time.sleep(60)  # Wait for user to press Enter
+                
+                # Verify login after user input
+                try:
+                    self.wait.until(EC.presence_of_element_located((By.ID, 'prompt-textarea')))
+                    print("Login successful! ChatGPT interface detected.")
+                    return True
+                except TimeoutException:
+                    print("Login verification failed. Please try again.")
+                    return False
+            else:
+                print("No need to log in...")
+                time.sleep(5)
+                return True
+                
+        except Exception as e:
+            print(f"Error checking login status: {e}")
+            print("Please manually navigate to ChatGPT and log in if needed, then press Enter...")
+            return False
+
     def wait_for_response_complete(self):
         """Wait for ChatGPT to finish generating response"""
         print("Waiting for ChatGPT response to complete...")
@@ -61,8 +94,6 @@ class gptParser:
             print("Response generation started...")
         except TimeoutException:
             print("Stop button not found, response might be instant or already complete")
-        
-        time.sleep(30)
         
         # Wait for the speech button to appear (indicating generation finished)
         try:
@@ -126,12 +157,22 @@ class gptParser:
             print(f"Error getting response: {e}")
             return "Error retrieving response"
 
-    def new_chat(self):
-        self.driver.find_elements("class name", 'text-token-text-primary')[3].click()
+    def start_new_chat(self):
+        """Start a new chat conversation"""
+        try:
+            # Look for project button
+            project_name = "agrigraphrag-eden/project"
+            project_button = self.driver.find_element(By.XPATH, f"//a[contains(@href, '{project_name}')]")
+            project_button.click()
+            time.sleep(2)
+            print("Started new chat in the project")
+        except NoSuchElementException:
+            print("New chat button not found, continuing with current chat")
 
     def close(self):
+        """Close the browser"""
         self.driver.quit()
-        
+
 def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
     """Ask GPT for comparison using the existing parser instance"""
     
@@ -150,67 +191,6 @@ def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
     except Exception as e:
         print(f"Error in ask_gpt_for_final_answer: {e}")
         return f"Error: {e}"
-    
-    
-def ask_gpt_about_question(question, num, fw):
-    driver = gptParser.get_driver()
-    gpt_parser = gptParser(driver)
-
-    query = "There is a farmer asking a question which is : " + question + "  " + "Is this question an agricultural issue? Give me a short answer only includes True or False."
-    # print(query)
-    # print("==========")
-
-    time.sleep(5)
-    gpt_parser(query)
-    
-    time.sleep(10)
-    response = gpt_parser.read_respond()
-    comfirm = ""
-    
-    for r in response:
-        comfirm = comfirm + "\n" + r
-        
-    fw.write("Question comfirm {} :\n".format(num))
-    fw.write(comfirm)
-    fw.write("\n\n")
-    
-    time.sleep(10)
-    driver.close()
-    time.sleep(5)
-    
-    print(comfirm)
-    print("==========")
-    
-    return
-    
-
-def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
-    driver = gptParser.get_driver()
-    gpt_parser = gptParser(driver)
-
-    '''query = "test"
-    gpt_parser(query) 
-    time.sleep(5)
-    response = gpt_parser.read_respond() 
-    for r in response:
-        print(r)'''
-        
-    # new chat
-    # gpt_parser.new_chat()
-
-    query = "There is a farmer asking a question which is : " + question + "  " + "This is the first result from retriever : " + answer_one + "  And this is the second result from retriever : " + answer_two + "  Which retrieval result is more related with the question."
-    print(query)
-    print("==========")
-
-    time.sleep(3)
-    gpt_parser(query)
-    
-    time.sleep(5)
-    response = gpt_parser.read_respond()
-    for r in response:
-        print(r)
-    
-    time.sleep(10)
 
 input_dir = "input_file/3163/"
 output_dir = "output_file/3163/"
@@ -232,7 +212,19 @@ if __name__ == "__main__":
     random_numbers = [random.randint(0, 999) for _ in range(100)]
     
     output_list = []
-
+    
+    # Initialize driver and parser once
+    print("Starting browser...")
+    driver = gptParser.get_driver()
+    print("Navigating to ChatGPT...")
+    gpt_parser = gptParser(driver)
+    
+    # Wait for manual login
+    if not gpt_parser.wait_for_login():
+        print("Login failed. Exiting...")
+        driver.quit()
+        exit(1)
+    
     try:
         # Process all questions with the same driver instance
         for i, qid in enumerate(random_numbers):
@@ -243,11 +235,8 @@ if __name__ == "__main__":
             answer_1 = item['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
             answer_2 = answer_2_list[qid]['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
             
-            # Initialize driver and parser once
-            print("Starting browser...")
-            driver = gptParser.get_driver()
-            print("Navigating to ChatGPT...")
-            gpt_parser = gptParser(driver)
+            # Start new chat in the project for each comparison to avoid context confusion
+            gpt_parser.start_new_chat()
             
             answer_1_no_newline = answer_1.replace("\n", " ")
             answer_2_no_newline = answer_2.replace("\n", " ")
@@ -268,8 +257,6 @@ if __name__ == "__main__":
                 json.dump(output_list, fw, indent=4)
                 fw.close()
             
-            gpt_parser.close()
-
             time.sleep(30)
     
     except KeyboardInterrupt:
@@ -281,9 +268,3 @@ if __name__ == "__main__":
         print("Closing browser...")
         gpt_parser.close()
         print("Done!")
-    
-    # result_one = "Yang SY, Su SC, Liu T, Fan G, Wang J (2011). First report of anthracnose caused by Colletotrichum gloeosporioides on pistachio (Pistacia vera) in China. Plant Disease 95: 1314."
-    
-    # result_two = "(2002). 30. Novotny, D., Krizkova, I. & Salava, J. First report of anthracnose caused by Colletotrichum acutatum on strawberry in the Czech"
-
-    # ask_gpt_for_retrieve_result(question, result_one, result_two)
