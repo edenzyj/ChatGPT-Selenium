@@ -3,7 +3,7 @@ import json
 
 comparison_folder = "output_file/3163/"
 
-comparison_file = "graphRAG_pureLLM_comparison.json"
+comparison_file = "graphRAG_pureLLM_comparison_150W.json"
 
 first_scores = []
 second_scores = []
