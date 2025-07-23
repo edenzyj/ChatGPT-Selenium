@@ -34,7 +34,7 @@ gpt_url = 'https://chatgpt.com/'
 class gptParser:
     def __init__(self, driver, gpt_url: str = gpt_url):
         self.driver = driver
-        self.driver.get(gpt_url)
+        # self.driver.get(gpt_url)
         self.history = []
         self.wait = WebDriverWait(self.driver, 30)
 
@@ -196,8 +196,8 @@ input_dir = "input_file/3163/"
 output_dir = "output_file/3163/"
 
 if __name__ == "__main__":
-    file_1 = input_dir + "graphRAG_Gen_1000Q_llama3.2.json"
-    file_2 = input_dir + "pure_Gen_1000Q_llama3.2.json"
+    file_1 = input_dir + "graphRAG_Qwen_Gen_1000Q_150W_llama3.2.json"
+    file_2 = input_dir + "pure_Gen_1000Q_150W_llama3.2.json"
     
     with open(file_1, 'r') as fr1:
         answer_1_list = json.load(fr1)
@@ -207,23 +207,23 @@ if __name__ == "__main__":
         answer_2_list = json.load(fr2)
         fr2.close()
     
-    file_out = output_dir + "graphRAG_pureLLM_comparison.json"
+    file_out = output_dir + "graphRAG_pureLLM_comparison_150W_200ex.json"
     
-    random_numbers = [random.randint(0, 999) for _ in range(100)]
+    random_numbers = [random.randint(0, 999) for _ in range(200)]
     
     output_list = []
     
     # Initialize driver and parser once
     print("Starting browser...")
     driver = gptParser.get_driver()
-    print("Navigating to ChatGPT...")
+    # print("Navigating to ChatGPT...")
     gpt_parser = gptParser(driver)
     
-    # Wait for manual login
-    if not gpt_parser.wait_for_login():
-        print("Login failed. Exiting...")
-        driver.quit()
-        exit(1)
+    # # Wait for manual login
+    # if not gpt_parser.wait_for_login():
+    #     print("Login failed. Exiting...")
+    #     driver.quit()
+    #     exit(1)
     
     try:
         # Process all questions with the same driver instance

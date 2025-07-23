@@ -1,0 +1,1 @@
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=61441 --user-data-dir="C:\selenium\pcslab_profile"

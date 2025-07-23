@@ -227,9 +227,9 @@ if __name__ == "__main__":
         answer_2_list = json.load(fr2)
         fr2.close()
     
-    file_out = output_dir + "graphRAG_pureLLM_comparison_150W.json"
+    file_out = output_dir + "graphRAG_pureLLM_comparison_150W_200ex.json"
     
-    random_numbers = [random.randint(0, 999) for _ in range(100)]
+    random_numbers = [random.randint(0, 999) for _ in range(200)]
     
     output_list = []
 
