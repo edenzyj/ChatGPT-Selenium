@@ -1,4 +1,6 @@
 from cmath import sqrt
+from scipy.stats import norm
+import numpy as np
 import json
 
 comparison_folder = "output_file/3163/"
@@ -41,9 +43,18 @@ second_avr = sum(second_scores) / len(second_scores)
 first_vd = sqrt(sum([(score - first_avr)**2 for score in first_scores]) / len(first_scores))
 second_vd = sqrt(sum([(score - second_avr)**2 for score in second_scores]) / len(second_scores))
 
+total = first_win + second_win
+winning_rate = first_win / total
+z = norm.ppf(0.975)  # 1.96 for 95% CI
+std_error = np.sqrt(winning_rate * (1 - winning_rate) / total)
+lower = winning_rate - z * std_error
+upper = winning_rate + z * std_error
+
 print("First Win : {}".format(first_win))
 print("First Average : {}".format(first_avr))
 print("First VD : {}".format(first_vd))
 print("Second Win : {}".format(second_win))
 print("Second Average : {}".format(second_avr))
 print("Second VD : {}".format(second_vd))
+print("Winning rate = {}".format(winning_rate))
+print("95 confidence : [{}, {}]".format(lower, upper))
