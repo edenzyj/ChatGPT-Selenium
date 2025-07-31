@@ -212,11 +212,11 @@ def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
     
     time.sleep(10)
 
-input_dir = "input_file/3163/"
-output_dir = "output_file/3163/"
+input_dir = "input_file/3163/new_prompt/"
+output_dir = "output_file/3163/new_prompt/"
 
 if __name__ == "__main__":
-    file_1 = input_dir + "graphRAG_Qwen_Gen_1000Q_150W_llama3.2.json"
+    file_1 = input_dir + "graphRAG_Qwen_Gen_1000Q_150W_llama3.2_prompt.json"
     file_2 = input_dir + "pure_Gen_1000Q_150W_llama3.2.json"
     
     with open(file_1, 'r') as fr1:
@@ -227,7 +227,7 @@ if __name__ == "__main__":
         answer_2_list = json.load(fr2)
         fr2.close()
     
-    file_out = output_dir + "graphRAG_pureLLM_comparison_150W_200ex.json"
+    file_out = output_dir + "graphRAG_pureLLM_comparison_newPrompt_200ex.json"
     
     random_numbers = [random.randint(0, 999) for _ in range(200)]
     
