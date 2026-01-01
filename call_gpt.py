@@ -139,7 +139,7 @@ def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
             f"Answer 1: {answer_one}  " \
             f"Answer 2: {answer_two}  " \
             f"Which answer is more professional and focused? Please give each answer a separate score out of 100.  " \
-            f"Reply me with the scores first, and then answer the reason less than 100 words."
+            f"Reply me with the scores first, and then answer the reason less than 200 words."
     
     print(f"Sending comparison query...")
     
@@ -212,12 +212,12 @@ def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
     
     time.sleep(10)
 
-input_dir = "input_file/3163/new_prompt/"
-output_dir = "output_file/3163/new_prompt/"
+input_dir = "input_file/RAG_Flow/"
+output_dir = "output_file/RAG_Flow/"
 
 if __name__ == "__main__":
-    file_1 = input_dir + "graphRAG_Qwen_Gen_1000Q_150W_llama3.2_prompt.json"
-    file_2 = input_dir + "pure_Gen_1000Q_150W_llama3.2.json"
+    file_1 = input_dir + "RAGFlow_Gen_1000Q_150W_dsr1-70b.json"
+    file_2 = input_dir + "pure_Gen_1000Q_150W_dsr1-70b.json"
     
     with open(file_1, 'r') as fr1:
         answer_1_list = json.load(fr1)
@@ -227,9 +227,9 @@ if __name__ == "__main__":
         answer_2_list = json.load(fr2)
         fr2.close()
     
-    file_out = output_dir + "graphRAG_pureLLM_comparison_newPrompt_200ex.json"
+    file_out = output_dir + "RAGFlow_pure-dsr1-70b_comparison_100ex.json"
     
-    random_numbers = [random.randint(0, 999) for _ in range(200)]
+    random_numbers = [random.randint(0, 999) for _ in range(100)]
     
     output_list = []
 
@@ -240,8 +240,11 @@ if __name__ == "__main__":
             
             item = answer_1_list[qid]
             query = item['query']
-            answer_1 = item['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
-            answer_2 = answer_2_list[qid]['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
+            answer_1 = item['answer']
+            answer_2 = answer_2_list[qid]['answer']
+            # # Replace when using llama3.2
+            # answer_1 = item['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
+            # answer_2 = answer_2_list[qid]['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
             
             # Initialize driver and parser once
             print("Starting browser...")
