@@ -40,7 +40,7 @@ class gptParser:
 
     @staticmethod
     def get_driver():
-        uc.TARGET_VERSION = 138
+        uc.TARGET_VERSION = 143
         # options = uc.ChromeOptions()
         # options.add_argument("--incognito")
 
@@ -144,7 +144,9 @@ def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
     print(f"Sending comparison query...")
     
     try:
+        time.sleep(5)
         gpt_parser.send_message(query)
+        time.sleep(10)
         response = gpt_parser.get_latest_response()
         return response
     except Exception as e:
