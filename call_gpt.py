@@ -154,36 +154,23 @@ def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
         return f"Error: {e}"
     
     
-def ask_gpt_about_question(question, num, fw):
+def ask_gpt_about_question(gpt_parser, question):
     driver = gptParser.get_driver()
     gpt_parser = gptParser(driver)
 
-    query = "There is a farmer asking a question which is : " + question + "  " + "Is this question an agricultural issue? Give me a short answer only includes True or False."
-    # print(query)
-    # print("==========")
-
-    time.sleep(5)
-    gpt_parser(query)
+    query = "There is a farmer asking a question: " + question + "  " + "Is the above question a question related to research or practice?  Please answer me as simple as possible."
     
-    time.sleep(10)
-    response = gpt_parser.read_respond()
-    comfirm = ""
+    print(f"Sending asking query...")
     
-    for r in response:
-        comfirm = comfirm + "\n" + r
-        
-    fw.write("Question comfirm {} :\n".format(num))
-    fw.write(comfirm)
-    fw.write("\n\n")
-    
-    time.sleep(10)
-    driver.close()
-    time.sleep(5)
-    
-    print(comfirm)
-    print("==========")
-    
-    return
+    try:
+        time.sleep(5)
+        gpt_parser.send_message(query)
+        time.sleep(10)
+        response = gpt_parser.get_latest_response()
+        return response
+    except Exception as e:
+        print(f"Error in ask_gpt_about_question: {e}")
+        return f"Error: {e}"
     
 
 def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
@@ -235,52 +222,74 @@ if __name__ == "__main__":
     
     output_list = []
     
-    # with open(file_out, 'r') as fr:
-    #     output_list = json.load(fr)
-    #     fr.close()
-
+    with open(file_out, 'r') as fr:
+        output_list = json.load(fr)
+        fr.close()
+    
     try:
-        # Process all questions with the same driver instance
-        for i, qid in enumerate(random_numbers):
-            print(f"\nProcessing question {i+1}/{len(random_numbers)} (ID: {qid})")
-            
-            item = answer_1_list[qid]
-            query = item['query']
-            answer_1 = item['answer']
-            answer_2 = answer_2_list[qid]['answer']
-            # # Replace when using llama3.2
-            # answer_1 = item['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
-            # answer_2 = answer_2_list[qid]['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
-            
+        for i, item in enumerate(output_list):
             # Initialize driver and parser once
             print("Starting browser...")
             driver = gptParser.get_driver()
             print("Navigating to ChatGPT...")
             gpt_parser = gptParser(driver)
             
-            answer_1_no_newline = answer_1.replace("\n", " ")
-            answer_2_no_newline = answer_2.replace("\n", " ")
+            query_type = ask_gpt_about_question(gpt_parser, item['query'])
             
-            combined_prompt, compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1_no_newline, answer_2_no_newline)
+            item['query_type'] = query_type
             
-            output_list.append({
-                "qid": qid,
-                "query": query,
-                "answer 1": answer_1,
-                "answer 2": answer_2,
-                "prompt": combined_prompt,
-                "comparison": compare_result
-            })
-            
+            output_list[i] = item
             print(f"Completed question {i+1}")
-            
             with open(file_out, 'w') as fw:
                 json.dump(output_list, fw, indent=4)
                 fw.close()
-            
+
             gpt_parser.close()
 
             time.sleep(30)
+
+    # try:
+    #     # Process all questions with the same driver instance
+    #     for i, qid in enumerate(random_numbers):
+    #         print(f"\nProcessing question {i+1}/{len(random_numbers)} (ID: {qid})")
+            
+    #         item = answer_1_list[qid]
+    #         query = item['query']
+    #         answer_1 = item['answer']
+    #         answer_2 = answer_2_list[qid]['answer']
+    #         # # Replace when using llama3.2
+    #         # answer_1 = item['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
+    #         # answer_2 = answer_2_list[qid]['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
+            
+    #         # Initialize driver and parser once
+    #         print("Starting browser...")
+    #         driver = gptParser.get_driver()
+    #         print("Navigating to ChatGPT...")
+    #         gpt_parser = gptParser(driver)
+            
+    #         answer_1_no_newline = answer_1.replace("\n", " ")
+    #         answer_2_no_newline = answer_2.replace("\n", " ")
+            
+    #         combined_prompt, compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1_no_newline, answer_2_no_newline)
+            
+    #         output_list.append({
+    #             "qid": qid,
+    #             "query": query,
+    #             "answer 1": answer_1,
+    #             "answer 2": answer_2,
+    #             "prompt": combined_prompt,
+    #             "comparison": compare_result
+    #         })
+            
+    #         print(f"Completed question {i+1}")
+            
+    #         with open(file_out, 'w') as fw:
+    #             json.dump(output_list, fw, indent=4)
+    #             fw.close()
+            
+    #         gpt_parser.close()
+
+    #         time.sleep(30)
     
     except KeyboardInterrupt:
         print("\nProcess interrupted by user")
