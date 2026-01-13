@@ -148,7 +148,7 @@ def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
         gpt_parser.send_message(query)
         time.sleep(10)
         response = gpt_parser.get_latest_response()
-        return response
+        return query, response
     except Exception as e:
         print(f"Error in ask_gpt_for_final_answer: {e}")
         return f"Error: {e}"
@@ -234,6 +234,10 @@ if __name__ == "__main__":
     random_numbers = [random.randint(0, 999) for _ in range(100)]
     
     output_list = []
+    
+    # with open(file_out, 'r') as fr:
+    #     output_list = json.load(fr)
+    #     fr.close()
 
     try:
         # Process all questions with the same driver instance
@@ -257,13 +261,14 @@ if __name__ == "__main__":
             answer_1_no_newline = answer_1.replace("\n", " ")
             answer_2_no_newline = answer_2.replace("\n", " ")
             
-            compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1_no_newline, answer_2_no_newline)
+            combined_prompt, compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1_no_newline, answer_2_no_newline)
             
             output_list.append({
                 "qid": qid,
                 "query": query,
                 "answer 1": answer_1,
                 "answer 2": answer_2,
+                "prompt": combined_prompt,
                 "comparison": compare_result
             })
             

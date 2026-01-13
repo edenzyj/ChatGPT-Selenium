@@ -3,9 +3,9 @@ from scipy.stats import norm
 import numpy as np
 import json
 
-comparison_folder = "output_file/3163/new_prompt/"
+comparison_folder = "output_file/RAG_Flow/"
 
-comparison_file = "graphRAG_pureLLM_comparison_newPrompt_200ex.json"
+comparison_file = "RAGFlow_pure-dsr1-70b_comparison_100ex.json"
 
 first_scores = []
 second_scores = []
