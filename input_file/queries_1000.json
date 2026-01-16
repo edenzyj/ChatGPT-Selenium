@@ -1,0 +1,4002 @@
+[
+    {
+        "qid": 0,
+        "query": "How should I manage irrigation in a field with a history of anthracnose?"
+    },
+    {
+        "qid": 1,
+        "query": "What is the significance of host range diversity in the management of fungal pathogens in mixed-crop systems?"
+    },
+    {
+        "qid": 2,
+        "query": "What might happen if the cooling process is skipped or altered during an experiment involving filtrates?"
+    },
+    {
+        "qid": 3,
+        "query": "What is the cheapest way to protect my crop from disease without using too many chemicals?"
+    },
+    {
+        "qid": 4,
+        "query": "How do cultural practices, like watering and spacing, influence plant health?"
+    },
+    {
+        "qid": 5,
+        "query": "Can a single crop host support multiple types of pathogens simultaneously?"
+    },
+    {
+        "qid": 6,
+        "query": "What are some signs that a fruit is infected by a pathogen?"
+    },
+    {
+        "qid": 7,
+        "query": "How do fungi get their food from plants?"
+    },
+    {
+        "qid": 8,
+        "query": "Why is the identification of new Colletotrichum species important for disease management?"
+    },
+    {
+        "qid": 9,
+        "query": "What role does field sanitation play in preventing anthracnose outbreaks?"
+    },
+    {
+        "qid": 10,
+        "query": "How can biocontrol agents be applied to manage anthracnose diseases in crops?"
+    },
+    {
+        "qid": 11,
+        "query": "How can multi-locus sequence typing (MLST) improve fungal taxonomy?"
+    },
+    {
+        "qid": 12,
+        "query": "What methodologies are commonly used in modern genetic research that were similar to those applied by Lucas, Chilton, and Edgerton in their study of Glomerella?"
+    },
+    {
+        "qid": 13,
+        "query": "Does the cultivation of strain 96-067 in an ex-holotype culture at ICMP 19051 provide valuable information for future biotechnological innovations in plant health management?"
+    },
+    {
+        "qid": 14,
+        "query": "Why are strawberries so popular to grow all over the world?"
+    },
+    {
+        "qid": 15,
+        "query": "Why is it important to categorize strawberry cultivars based on their resistance to diseases?"
+    },
+    {
+        "qid": 16,
+        "query": "What makes Colletotrichum nymphaeae a widespread and challenging pathogen to manage?"
+    },
+    {
+        "qid": 17,
+        "query": "What is anthracnose, and which fungus causes it?"
+    },
+    {
+        "qid": 18,
+        "query": "What statistical methods were used to analyze the experimental data?"
+    },
+    {
+        "qid": 19,
+        "query": "What are the challenges and opportunities in integrating molecular diagnostic tools into routine agricultural practices?"
+    },
+    {
+        "qid": 20,
+        "query": "What are the implications of multiple introductions of pathogens for disease management?"
+    },
+    {
+        "qid": 21,
+        "query": "How long does it take for a strawberry to get sick after it's infected?"
+    },
+    {
+        "qid": 22,
+        "query": "What challenges arise in maintaining consistent quality of dragon fruit when combining heat treatment with food additives?"
+    },
+    {
+        "qid": 23,
+        "query": "What are the implications of fungal genomics for developing resistant crop varieties?"
+    },
+    {
+        "qid": 24,
+        "query": "Can we use robots or drones to find diseases in strawberry fields?"
+    },
+    {
+        "qid": 25,
+        "query": "What irrigation system showed better results in controlling flower blight disease during the study's early stages?"
+    },
+    {
+        "qid": 26,
+        "query": "How do inter- and intra-species genetic differences within C. acutatum and C. gloeosporioides influence their pathogenic behavior on different host plants?"
+    },
+    {
+        "qid": 27,
+        "query": "How do Colletotrichum species interact with other microbes in the plant microbiome?"
+    },
+    {
+        "qid": 28,
+        "query": "How do specific gene families, such as those encoding secondary metabolites, influence fungal ecology?"
+    },
+    {
+        "qid": 29,
+        "query": "What molecular techniques are most reliable for diagnosing Colletotrichum infections in agricultural settings?"
+    },
+    {
+        "qid": 30,
+        "query": "What is the role of fungicide resistance in the management of anthracnose?"
+    },
+    {
+        "qid": 31,
+        "query": "What specific features of MEGA X make it valuable for large-scale studies of biodiversity?"
+    },
+    {
+        "qid": 32,
+        "query": "Can C. acutatum also infect crops other than strawberry, such as tomato, eggplant, or pepper, within the same agricultural environment?"
+    },
+    {
+        "qid": 33,
+        "query": "What are the potential long-term benefits of refining disease models using molecular-based methods?"
+    },
+    {
+        "qid": 34,
+        "query": "How does the disease cycle of anthracnose typically progress in strawberry plants?"
+    },
+    {
+        "qid": 35,
+        "query": "What is the primary benefit of using resistant strawberry cultivars?"
+    },
+    {
+        "qid": 36,
+        "query": "To what extent does climate change influence the development and spread of anthracnose in mangoes caused by Colletotrichum siamense in China?"
+    },
+    {
+        "qid": 37,
+        "query": "How do secondary metabolites correlate with the pathogenicity of Colletotrichum strains?"
+    },
+    {
+        "qid": 38,
+        "query": "How do scientists use computers to study plant diseases?"
+    },
+    {
+        "qid": 39,
+        "query": "When refrigerating odor samples for up to six hours, what precautions should be taken to ensure that the temperature is maintained at the appropriate level, and how does this affect the sample's analysis?"
+    },
+    {
+        "qid": 40,
+        "query": "What role does nitrogen form (ammonium vs. nitrate) play in plant health and disease resistance?"
+    },
+    {
+        "qid": 41,
+        "query": "What are the key symptoms of crown rot caused by anthracnose in strawberries?"
+    },
+    {
+        "qid": 42,
+        "query": "What are the symptoms of anthracnose on strawberry fruits?"
+    },
+    {
+        "qid": 43,
+        "query": "How do environmental conditions influence the expression of pathogenicity in Colletotrichum species?"
+    },
+    {
+        "qid": 44,
+        "query": "Why are some strawberries more resistant to diseases than others?"
+    },
+    {
+        "qid": 45,
+        "query": "Why is it bad if fruit diseases happen before or after harvesting?"
+    },
+    {
+        "qid": 46,
+        "query": "Is the research output from the \u00c1rea Protecci\u00f3n Vegetal peer-reviewed before publication in scientific journals?"
+    },
+    {
+        "qid": 47,
+        "query": "Is it possible to categorize Glomerella cingulata var. minor based solely on mycelial characteristics, and what challenges might arise in this classification?"
+    },
+    {
+        "qid": 48,
+        "query": "What are the key outcomes of phylogenetic analysis in studying Colletotrichum species?"
+    },
+    {
+        "qid": 49,
+        "query": "How does Colletotrichum interact with other pathogens?"
+    },
+    {
+        "qid": 50,
+        "query": "What molecular and morphological evidence supports the argument that C. torulosum should be considered a separate species rather than a variety of an existing one?"
+    },
+    {
+        "qid": 51,
+        "query": "How does the infection rate of C. fioriniae compare to that of C. gloeosporioides at 30 dpi on pear fruits?"
+    },
+    {
+        "qid": 52,
+        "query": "How does the use of nitrification inhibitors help reduce fungal disease severity?"
+    },
+    {
+        "qid": 53,
+        "query": "What kind of plants does Colletotrichum infect?"
+    },
+    {
+        "qid": 54,
+        "query": "In what contexts do Dr. Shabi's findings on fungicides apply to other crops?"
+    },
+    {
+        "qid": 55,
+        "query": "Can pruning help in managing anthracnose?"
+    },
+    {
+        "qid": 56,
+        "query": "What are the economic impacts of plant diseases on tropical and subtropical crops?"
+    },
+    {
+        "qid": 57,
+        "query": "How have molecular techniques, including PCR, advanced the identification of Colletotrichum species?"
+    },
+    {
+        "qid": 58,
+        "query": "What insights can be drawn from historical data on mulch and irrigation practices concerning strawberry anthracnose crown rot outbreaks?"
+    },
+    {
+        "qid": 59,
+        "query": "How does monocropping influence the evolution and spread of fungal pathogens in agricultural systems?"
+    },
+    {
+        "qid": 60,
+        "query": "Could the method of comparative genomics outlined in the study be effective for distinguishing between other fungal pathogens in strawberries?"
+    },
+    {
+        "qid": 61,
+        "query": "What are the common propagation methods for strawberry plants?"
+    },
+    {
+        "qid": 62,
+        "query": "What are the typical symptoms of anthracnose on strawberry fruit?"
+    },
+    {
+        "qid": 63,
+        "query": "What are the common symptoms of Colletotrichum infection on strawberry leaves?"
+    },
+    {
+        "qid": 64,
+        "query": "What are some effective strategies for managing soilborne diseases in cereal crops?"
+    },
+    {
+        "qid": 65,
+        "query": "What type of fungicides should I avoid using repeatedly to prevent resistance?"
+    },
+    {
+        "qid": 66,
+        "query": "What tools do scientists use in the lab to study plant diseases?"
+    },
+    {
+        "qid": 67,
+        "query": "How can I tell if my strawberries have anthracnose?"
+    },
+    {
+        "qid": 68,
+        "query": "How has breeding contributed to the development of strawberries with better yield and taste?"
+    },
+    {
+        "qid": 69,
+        "query": "How do cultural dietary practices influence the consumption of nuts and their perceived health benefits across different populations?"
+    },
+    {
+        "qid": 70,
+        "query": "What role does cultural practice play in managing strawberry anthracnose?"
+    },
+    {
+        "qid": 71,
+        "query": "Are there fungicides that work better and cost less for controlling strawberry diseases?"
+    },
+    {
+        "qid": 72,
+        "query": "How does the use of local and indigenous cultivars contribute to sustainable disease management?"
+    },
+    {
+        "qid": 73,
+        "query": "Is it correct to say that light intensity directly influences the infection success of Colletotrichum spp.?"
+    },
+    {
+        "qid": 74,
+        "query": "How do different haplotypes of Colletotrichum vary in their pathogenicity?"
+    },
+    {
+        "qid": 75,
+        "query": "What are some best practices for managing fungal diseases in crops?"
+    },
+    {
+        "qid": 76,
+        "query": "What were the observed phytotoxic effects of certain fungicides on treated strawberry plants?"
+    },
+    {
+        "qid": 77,
+        "query": "What are the long-term effects of repeated pathogen introduction on agricultural biodiversity?"
+    },
+    {
+        "qid": 78,
+        "query": "What are the critical steps in post-harvest handling to ensure high-quality strawberries?"
+    },
+    {
+        "qid": 79,
+        "query": "Can the environment change how Colletotrichum looks?"
+    },
+    {
+        "qid": 80,
+        "query": "Are there any known natural predators or antagonistic organisms that can help reduce the incidence of C. gloeosporioides Group A in fruit orchards?"
+    },
+    {
+        "qid": 81,
+        "query": "What role does host specificity play in classifying Colletotrichum species?"
+    },
+    {
+        "qid": 82,
+        "query": "How do the gene targets selected in this study represent broader themes in molecular biology research today?"
+    },
+    {
+        "qid": 83,
+        "query": "What are the advantages of using rDNA analysis for pathogen identification?"
+    },
+    {
+        "qid": 84,
+        "query": "How were the pathogenicity tests conducted to determine the virulence of Colletotrichum species?"
+    },
+    {
+        "qid": 85,
+        "query": "How do the informative capabilities of newly developed primer pairs compare with established methods for fungal identification?"
+    },
+    {
+        "qid": 86,
+        "query": "How does C. acutatum cause fruit lesions in crops like almond and key lime, and what are the potential long-term effects on crop yield?"
+    },
+    {
+        "qid": 87,
+        "query": "How does the identification of Colletotrichum species impact the management of strawberry diseases in Israel, based on Freeman and Katan's findings?"
+    },
+    {
+        "qid": 88,
+        "query": "What role do protective fungicides like captan play in reducing post-harvest losses in berries like strawberries and blueberries?"
+    },
+    {
+        "qid": 89,
+        "query": "Can fungi grow in a garden or just in the wild?"
+    },
+    {
+        "qid": 90,
+        "query": "How does the frequent use of cutting knives in food preparation affect the maintenance schedule, and what methods can be used to ensure blades remain sharp and properly adjusted over time?"
+    },
+    {
+        "qid": 91,
+        "query": "What challenges are associated with the use of fungicides in managing anthracnose?"
+    },
+    {
+        "qid": 92,
+        "query": "How does anthracnose affect strawberry plant vigor and longevity?"
+    },
+    {
+        "qid": 93,
+        "query": "Can you propose a hypothesis regarding the competitive interactions between the fungal species identified in the study?"
+    },
+    {
+        "qid": 94,
+        "query": "How do abiotic stressors like drought and salinity affect strawberry plant physiology?"
+    },
+    {
+        "qid": 95,
+        "query": "What are the key differences in the disease progression caused by C. gloeosporioides on almond, avocado, and strawberry?"
+    },
+    {
+        "qid": 96,
+        "query": "How does consumer preference influence the traits prioritized in strawberry breeding programs?"
+    },
+    {
+        "qid": 97,
+        "query": "What is the role of the GAPDH gene in identifying Colletotrichum species?"
+    },
+    {
+        "qid": 98,
+        "query": "How does the C. acutatum species complex contribute to our understanding of fungal evolution?"
+    },
+    {
+        "qid": 99,
+        "query": "What methods were used for pathogen isolation in this study?"
+    },
+    {
+        "qid": 100,
+        "query": "Are there pathogens capable of infecting multiple types of crops?"
+    },
+    {
+        "qid": 101,
+        "query": "What do the shapes of Colletotrichum spores tell us?"
+    },
+    {
+        "qid": 102,
+        "query": "Is there a specific minimum or maximum time frame for soaking pressure plates in deionized water, or is overnight soaking always sufficient?"
+    },
+    {
+        "qid": 103,
+        "query": "What implications does the new species C. alatae have for managing anthracnose in yam cultivation in tropical climates?"
+    },
+    {
+        "qid": 104,
+        "query": "What is the significance of Wollenweber\u2019s work on Fusarium in Fusaria Autographice Delineata within the broader field of mycology as it relates to species delineation?"
+    },
+    {
+        "qid": 105,
+        "query": "Can I replant strawberries in the same field after an anthracnose outbreak?"
+    },
+    {
+        "qid": 106,
+        "query": "Can the silicon concentration be determined by simply diluting a 1000 mg/mL stock solution, or are there other factors that need to be considered?"
+    },
+    {
+        "qid": 107,
+        "query": "What do farmers do to protect their strawberries from getting sick?"
+    },
+    {
+        "qid": 108,
+        "query": "How do vegetative compatibility tests contribute to understanding pathogen populations?"
+    },
+    {
+        "qid": 109,
+        "query": "Can plant nutrition affect the severity of anthracnose?"
+    },
+    {
+        "qid": 110,
+        "query": "What are the primary hosts of C. acutatum in addition to strawberries?"
+    },
+    {
+        "qid": 111,
+        "query": "What experimental findings suggest that 'Blakemore' and 'Kurdistan' are more disease-resistant compared to 'Camarosa' and 'Gaviota', and what does this mean for the future of strawberry farming?"
+    },
+    {
+        "qid": 112,
+        "query": "What unique genetic elements help differentiate Colletotrichum species?"
+    },
+    {
+        "qid": 113,
+        "query": "How can studying the life cycles of hemibiotrophic fungi improve strategies for controlling their infections in crops?"
+    },
+    {
+        "qid": 114,
+        "query": "What percentage of isolates were found to belong to the Colletotrichum boninense species complex?"
+    },
+    {
+        "qid": 115,
+        "query": "What is the role of horizontal gene transfer in fungal evolution?"
+    },
+    {
+        "qid": 116,
+        "query": "How do different irrigation systems affect the growth and yield of strawberries?"
+    },
+    {
+        "qid": 117,
+        "query": "How can crop sequences influence the severity of soilborne plant diseases?"
+    },
+    {
+        "qid": 118,
+        "query": "Can diseases like anthracnose spread faster if it rains a lot?"
+    },
+    {
+        "qid": 119,
+        "query": "What role do mating-type genes play in the study of fungal populations?"
+    },
+    {
+        "qid": 120,
+        "query": "How do you differentiate anthracnose from other common strawberry diseases?"
+    },
+    {
+        "qid": 121,
+        "query": "Why might Colletotrichum species be misidentified based on morphological traits alone?"
+    },
+    {
+        "qid": 122,
+        "query": "Can the drying procedure of Tris at 80\u00b0C for three hours be adapted for other common laboratory reagents, and if so, what adjustments would be needed?"
+    },
+    {
+        "qid": 123,
+        "query": "In what ways can the runner\u2019s position outside the glass tank be analyzed from the perspective of conservation laws, particularly the conservation of momentum in an isolated system?"
+    },
+    {
+        "qid": 124,
+        "query": "What historical studies are referenced regarding anthracnose resistance in strawberries?"
+    },
+    {
+        "qid": 125,
+        "query": "Can I control anthracnose without using chemicals?"
+    },
+    {
+        "qid": 126,
+        "query": "What are the primary characteristics of high-quality strawberries?"
+    },
+    {
+        "qid": 127,
+        "query": "Can we create strawberries that are completely safe from diseases?"
+    },
+    {
+        "qid": 128,
+        "query": "What kinds of plants do fungi like to infect?"
+    },
+    {
+        "qid": 129,
+        "query": "How do pathogens behave differently on perennial versus annual crops?"
+    },
+    {
+        "qid": 130,
+        "query": "How should infected plants be disposed of?"
+    },
+    {
+        "qid": 131,
+        "query": "What should I do if my strawberries are already showing symptoms caused by anthracnose?"
+    },
+    {
+        "qid": 132,
+        "query": "What is the role of biotechnology in improving strawberry production?"
+    },
+    {
+        "qid": 133,
+        "query": "How can bioinformatics tools be used to predict potential outbreaks of fungal diseases in crops?"
+    },
+    {
+        "qid": 134,
+        "query": "How does the genetic diversity within pathogen populations affect their adaptability to control measures?"
+    },
+    {
+        "qid": 135,
+        "query": "What specific information does Table 1 provide about the rDNA ITS sequences from various species listed in the phylogenetic analysis?"
+    },
+    {
+        "qid": 136,
+        "query": "How can understanding the genetic diversity of Colletotrichum spp improve strawberry disease management?"
+    },
+    {
+        "qid": 137,
+        "query": "Can we tell if a pathogen is sensitive to chemicals by testing it?"
+    },
+    {
+        "qid": 138,
+        "query": "Why is Colletotrichum siamense considered a significant pathogen in Taiwan's strawberry production?"
+    },
+    {
+        "qid": 139,
+        "query": "What kinds of crops are hurt the most by Colletotrichum?"
+    },
+    {
+        "qid": 140,
+        "query": "How can advancements in genetics help overcome the challenges of disease resistance in strawberries?"
+    },
+    {
+        "qid": 141,
+        "query": "Can anthracnose affect other crops besides strawberries?"
+    },
+    {
+        "qid": 142,
+        "query": "What is the role of gene family evolution in the adaptation of Colletotrichum species to diverse hosts?"
+    },
+    {
+        "qid": 143,
+        "query": "How might advancements in primer development for the Apn2/MAT locus influence future research in mycology?"
+    },
+    {
+        "qid": 144,
+        "query": "How can economic considerations be balanced with the need for sustainable disease management in crop production?"
+    },
+    {
+        "qid": 145,
+        "query": "Which stages of crop development are most affected by Colletotrichum species?"
+    },
+    {
+        "qid": 146,
+        "query": "How does the Department of Horticulture address the issue of invasive species in its research programs?"
+    },
+    {
+        "qid": 147,
+        "query": "Can companion planting help reduce the risk of anthracnose?"
+    },
+    {
+        "qid": 148,
+        "query": "How has international trade influenced the spread of Colletotrichum species?"
+    },
+    {
+        "qid": 149,
+        "query": "What are the possible sources of error when preparing a sulfuric acid solution of 1 N concentration, and how can one minimize these errors in the laboratory setting?"
+    },
+    {
+        "qid": 150,
+        "query": "How did von Arx\u2019s contributions to the classification of Colletotrichum fungi influence the development of diagnostic tools for plant disease identification?"
+    },
+    {
+        "qid": 151,
+        "query": "How do the morphological variations of Colletotrichum species affect their identification and classification?"
+    },
+    {
+        "qid": 152,
+        "query": "How might the findings from this study on C. truncatum pathotypes influence future research into fungal diseases in chili pepper cultivation?"
+    },
+    {
+        "qid": 153,
+        "query": "How do scientists study the shape and size of Colletotrichum?"
+    },
+    {
+        "qid": 154,
+        "query": "What are the primary sources of inoculum for anthracnose in strawberry fields?"
+    },
+    {
+        "qid": 155,
+        "query": "What agricultural practices are recommended to minimize the risk of anthracnose affecting persimmons in various Chinese provinces?"
+    },
+    {
+        "qid": 156,
+        "query": "How does Colletotrichum survive between growing seasons?"
+    },
+    {
+        "qid": 157,
+        "query": "What are the ecological roles of endophytic fungi in plant health and stress tolerance?"
+    },
+    {
+        "qid": 158,
+        "query": "What is the impact of plant diseases on crop yield and quality?"
+    },
+    {
+        "qid": 159,
+        "query": "Can I combine fungicides to save time and money? If yes, which ones should I mix?"
+    },
+    {
+        "qid": 160,
+        "query": "What are the advantages and disadvantages of using ammonium hydroxide in an aqueous solution for laboratory experiments, particularly when it must be allowed to cool before proceeding with further steps?"
+    },
+    {
+        "qid": 161,
+        "query": "How can pathogenicity tests help determine the aggressiveness of fungal isolates?"
+    },
+    {
+        "qid": 162,
+        "query": "How does the choice of nitrogen type influence the nutritional quality of fruits and vegetables produced?"
+    },
+    {
+        "qid": 163,
+        "query": "How can multi-locus genetic analyses improve our understanding of pathogen populations in agriculture?"
+    },
+    {
+        "qid": 164,
+        "query": "What lessons can be learned from the use of heat treatment in controlling nematodes in crops like potatoes for application in strawberries?"
+    },
+    {
+        "qid": 165,
+        "query": "What ethical considerations arise when conducting research on the dispersal patterns of plant pathogens like Fusarium poae and Fusarium culmorum?"
+    },
+    {
+        "qid": 166,
+        "query": "What factors could lead to ambiguous conclusions when using MrModelTest v2 for model selection in evolutionary biology studies?"
+    },
+    {
+        "qid": 167,
+        "query": "Can fungi make plants grow better or just cause harm?"
+    },
+    {
+        "qid": 168,
+        "query": "How does ap-PCR assist in Colletotrichum identification?"
+    },
+    {
+        "qid": 169,
+        "query": "How do pathogens infect both aboveground and belowground parts of plants?"
+    },
+    {
+        "qid": 170,
+        "query": "How does the importation of infected plant material affect local ecosystems?"
+    },
+    {
+        "qid": 171,
+        "query": "How does clade-based calibration improve the accuracy of disease models?"
+    },
+    {
+        "qid": 172,
+        "query": "Why is accurate identification of plant pathogens important for disease management?"
+    },
+    {
+        "qid": 173,
+        "query": "How can we tell if a fruit has a disease?"
+    },
+    {
+        "qid": 174,
+        "query": "How does the geographic origin of isolates affect genetic diversity in Colletotrichum populations?"
+    },
+    {
+        "qid": 175,
+        "query": "What preventive measures can farmers take to reduce the spread of anthracnose in their fields?"
+    },
+    {
+        "qid": 176,
+        "query": "How do protective fungicides like propiconazole and systemic ones like prochloraz differ in their modes of action against pathogens such as Colletotrichum?"
+    },
+    {
+        "qid": 177,
+        "query": "What are the limitations of progressive sequence alignment when dealing with highly divergent sequences in evolutionary tree construction?"
+    },
+    {
+        "qid": 178,
+        "query": "What is the significance of the 57-bp intron from CtCut1 in the pAA1 cassette's gene silencing mechanism?"
+    },
+    {
+        "qid": 179,
+        "query": "In what ways do the AC4 gene and Tomato leaf curl virus affect tomato plants' health?"
+    },
+    {
+        "qid": 180,
+        "query": "How does plant density impact the severity of anthracnose?"
+    },
+    {
+        "qid": 181,
+        "query": "What are the advantages of using Life Science Identifiers (LSIDs) in fungal taxonomy and classification as seen in the Index of Fungi?"
+    },
+    {
+        "qid": 182,
+        "query": "What are the primary genetic markers used in the phylogenetic analysis of Colletotrichum species?"
+    },
+    {
+        "qid": 183,
+        "query": "What distinguishes monophyletic lineages within the C. acutatum species complex from other fungal pathogens?"
+    },
+    {
+        "qid": 184,
+        "query": "How do scientists use DNA to understand plant diseases?"
+    },
+    {
+        "qid": 185,
+        "query": "Could the support from the Mushroom Research Foundation lead to new innovations in sustainable agricultural practices, particularly in the realm of mycology?"
+    },
+    {
+        "qid": 186,
+        "query": "What were the specific contributions of Smith et al. (1990) to the understanding of disease resistance in crop production?"
+    },
+    {
+        "qid": 187,
+        "query": "What typical challenges might arise from interpreting the data associated with a mean of 8.8 in this study?"
+    },
+    {
+        "qid": 188,
+        "query": "Can varying levels of calcium nitrate improve the resistance of tomato seedlings to Fusarium oxysporum in peat-vermiculite mixtures?"
+    },
+    {
+        "qid": 189,
+        "query": "How can integrated pest management (IPM) strategies be adapted to target emerging fungal pathogens?"
+    },
+    {
+        "qid": 190,
+        "query": "What are conidia, and why are they important for Colletotrichum?"
+    },
+    {
+        "qid": 191,
+        "query": "In what ways did the Funda\u00e7\u00e3o para a Ci\u00eancia e Tecnologia, Portugal, support L. F. S. Leandro's doctoral research on strawberry plants?"
+    },
+    {
+        "qid": 192,
+        "query": "What are the benefits of greenhouse cultivation for strawberry production?"
+    },
+    {
+        "qid": 193,
+        "query": "What factors influence the global distribution of plant pathogens?"
+    },
+    {
+        "qid": 194,
+        "query": "How do anthracnose symptoms differ between plant tissues?"
+    },
+    {
+        "qid": 195,
+        "query": "How can farmers use the findings from science to control plant diseases?"
+    },
+    {
+        "qid": 196,
+        "query": "What are the limitations of using morphological characteristics for identifying Colletotrichum species?"
+    },
+    {
+        "qid": 197,
+        "query": "How can the risk of moisture contamination be minimized when using small manila envelopes for storing ground samples, and how do different research fields address this issue through specialized storage techniques?"
+    },
+    {
+        "qid": 198,
+        "query": "What environmental conditions are most favorable for plant infections to occur throughout their growth stages?"
+    },
+    {
+        "qid": 199,
+        "query": "How does Ligustrum lucidum leaf spot interact with other common plant diseases found in Auckland gardens, and could this interaction result in synergistic effects on plant health?"
+    },
+    {
+        "qid": 200,
+        "query": "Why is Colletotrichum gloeosporioides a complex species?"
+    },
+    {
+        "qid": 201,
+        "query": "What environmental conditions favor the spread of anthracnose?"
+    },
+    {
+        "qid": 202,
+        "query": "What is the common reaction of most commercial strawberry cultivars in Iran to anthracnose fruit rot?"
+    },
+    {
+        "qid": 203,
+        "query": "What is the relationship between nutrient deficiencies and Colletotrichum infections?"
+    },
+    {
+        "qid": 204,
+        "query": "What approaches can be taken to minimize post-harvest losses caused by fungal infections in fruits and vegetables?"
+    },
+    {
+        "qid": 205,
+        "query": "Can intercropping reduce the risk of anthracnose in strawberries?"
+    },
+    {
+        "qid": 206,
+        "query": "What role do species-specific primers play in accurately diagnosing plant diseases caused by Colletotrichum species?"
+    },
+    {
+        "qid": 207,
+        "query": "What are the potential risks to data integrity if uniform grinding and mixing are not prioritized during sample preparation for testing?"
+    },
+    {
+        "qid": 208,
+        "query": "In analytical chemistry, what role does the precision of standard solutions play in calculating micronutrient cation concentrations using a calibration curve?"
+    },
+    {
+        "qid": 209,
+        "query": "What factors contribute to the development of fungicide resistance in agricultural pathogens?"
+    },
+    {
+        "qid": 210,
+        "query": "Does the failure of laboratory instruments typically lead to inaccurate results, and what preventive steps can laboratories take to reduce the likelihood of instrument malfunction?"
+    },
+    {
+        "qid": 211,
+        "query": "Can a single plant species be affected by multiple pathogens?"
+    },
+    {
+        "qid": 212,
+        "query": "What are the symptoms and consequences of strawberry anthracnose at different stages of plant development?"
+    },
+    {
+        "qid": 213,
+        "query": "What are the implications of finding different Colletotrichum genotypes in regions where multi-crop farming is practiced?"
+    },
+    {
+        "qid": 214,
+        "query": "What does the variance analysis in the 2003-2004 experiment reveal about the relative contributions of fungal isolate and strawberry cultivar to crown rot development?"
+    },
+    {
+        "qid": 215,
+        "query": "In what ways can education on Colletotrichum infections enhance sustainable practices in tropical fruit farming?"
+    },
+    {
+        "qid": 216,
+        "query": "What are the challenges of implementing integrated pest management in strawberry farming?"
+    },
+    {
+        "qid": 217,
+        "query": "How does sexual reproduction impact the genetic variability of plant pathogens?"
+    },
+    {
+        "qid": 218,
+        "query": "What potential benefits could arise from conducting further research into the genetic diversity of Colletotrichum species affecting strawberries?"
+    },
+    {
+        "qid": 219,
+        "query": "What planting methods can help reduce the impact of soilborne diseases like Colletotrichum?"
+    },
+    {
+        "qid": 220,
+        "query": "How does C. acutatum differ from C. gloeosporioides in cultural morphology?"
+    },
+    {
+        "qid": 221,
+        "query": "How does the pathogenicity of Colletotrichum gloeosporioides affect strawberry crops, and how is it assessed?"
+    },
+    {
+        "qid": 222,
+        "query": "What is the impact of Colletotrichum karstii on strawberry plants?"
+    },
+    {
+        "qid": 223,
+        "query": "How can vegetative compatibility and molecular techniques complement traditional morphological methods in Colletotrichum species identification?"
+    },
+    {
+        "qid": 224,
+        "query": "Were the measurements of colony diameter consistent across all isolates during the morphological characterization process?"
+    },
+    {
+        "qid": 225,
+        "query": "What are the main host plants affected by Colletotrichum species, and what economic impact do they have?"
+    },
+    {
+        "qid": 226,
+        "query": "What kinds of international partnerships were fostered by YL\u2019s mobility stay under the Erasmus Mundus Program during their research on plant health?"
+    },
+    {
+        "qid": 227,
+        "query": "What kind of plants can be affected by Colletotrichum?"
+    },
+    {
+        "qid": 228,
+        "query": "How were detached fruits prepared for inoculation in this study?"
+    },
+    {
+        "qid": 229,
+        "query": "Can fungi be found in all plants, or just some?"
+    },
+    {
+        "qid": 230,
+        "query": "How does anthracnose affect fruit quality in preharvest and postharvest stages?"
+    },
+    {
+        "qid": 231,
+        "query": "How long can the pathogen survive in the soil?"
+    },
+    {
+        "qid": 232,
+        "query": "What are the long-term implications of not managing anthracnose effectively?"
+    },
+    {
+        "qid": 233,
+        "query": "How do the phytotoxic effects observed in strawberries treated with prochloraz compare to effects on crops like wheat treated with azole fungicides?"
+    },
+    {
+        "qid": 234,
+        "query": "How effective is Colletotrichum gloeosporioides in reducing the spread of St. John's-wort in Canadian agricultural environments?"
+    },
+    {
+        "qid": 235,
+        "query": "How can controlled environment agriculture address the challenges of seasonal strawberry production?"
+    },
+    {
+        "qid": 236,
+        "query": "How might findings regarding the genetic structure of C. acutatum influence future research on plant pathogens?"
+    },
+    {
+        "qid": 237,
+        "query": "How does Colletotrichum acutatum compare to other pathogens like Botrytis cinerea in terms of its impact on strawberry production?"
+    },
+    {
+        "qid": 238,
+        "query": "How does fungal reproductive strategy affect genetic diversity within species?"
+    },
+    {
+        "qid": 239,
+        "query": "What role does humidity play in the life cycle of the Colletotrichum?"
+    },
+    {
+        "qid": 240,
+        "query": "What factors contribute to the heterogeneity of Colletotrichum populations?"
+    },
+    {
+        "qid": 241,
+        "query": "How do scientists tell the difference between good fungi and bad fungi?"
+    },
+    {
+        "qid": 242,
+        "query": "What are the challenges in species classification within the Colletotrichum genus, and how have they been addressed?"
+    },
+    {
+        "qid": 243,
+        "query": "What type of organisms are species of the genus Colletotrichum?"
+    },
+    {
+        "qid": 244,
+        "query": "What kinds of plants can get sick from a disease caused by fungi?"
+    },
+    {
+        "qid": 245,
+        "query": "How could educators leverage the findings from the Papaw document to create more engaging curriculum materials on dermatological health?"
+    },
+    {
+        "qid": 246,
+        "query": "What implications do the identified Colletotrichum species have for coffee production practices and crop management in northern Thailand?"
+    },
+    {
+        "qid": 247,
+        "query": "What role does international trade play in introducing and dispersing plant pathogens?"
+    },
+    {
+        "qid": 248,
+        "query": "Is there a likelihood that additional varieties will be recognized within the Colletotrichum genus in future studies?"
+    },
+    {
+        "qid": 249,
+        "query": "How do factors such as fungicide concentration and combination formulations affect the efficacy against Colletotrichum acutatum?"
+    },
+    {
+        "qid": 250,
+        "query": "What types of fertilizers should be avoided to prevent worsening Colletotrichum infections?"
+    },
+    {
+        "qid": 251,
+        "query": "How can secondary metabolites serve as markers for fungal classification?"
+    },
+    {
+        "qid": 252,
+        "query": "Which Colletotrichum species complex did the majority of the isolates belong to?"
+    },
+    {
+        "qid": 253,
+        "query": "How does ap-PCR contribute to understanding pathogen diversity?"
+    },
+    {
+        "qid": 254,
+        "query": "Can fungi spread in the rain or wind?"
+    },
+    {
+        "qid": 255,
+        "query": "Which Colletotrichum species complex had the lowest percentage of isolates?"
+    },
+    {
+        "qid": 256,
+        "query": "What are the limitations of current diagnostic methods for Colletotrichum infections?"
+    },
+    {
+        "qid": 257,
+        "query": "What are the potential benefits and limitations of using resistant crop varieties in integrated disease management systems?"
+    },
+    {
+        "qid": 258,
+        "query": "What are the key official methods used in chemical analysis according to AOAC (1990) and how have these methods evolved over time in the field of analytical chemistry?"
+    },
+    {
+        "qid": 259,
+        "query": "How do environmental factors like humidity and temperature influence the spread of anthracnose?"
+    },
+    {
+        "qid": 260,
+        "query": "What scientific evidence supports the claim that Ca(NO3)2 is beneficial for strawberry growers dealing with diseases like anthracnose?"
+    },
+    {
+        "qid": 261,
+        "query": "What are the primary methods used for characterizing genetic diversity in Colletotrichum species?"
+    },
+    {
+        "qid": 262,
+        "query": "How do fungicides contribute to the management of anthracnose in strawberries?"
+    },
+    {
+        "qid": 263,
+        "query": "How can farmers prevent the spread of anthracnose in strawberry fields?"
+    },
+    {
+        "qid": 264,
+        "query": "What role does field sanitation play in controlling anthracnose?"
+    },
+    {
+        "qid": 265,
+        "query": "How do researchers confirm the identity of fungal isolates in laboratory conditions?"
+    },
+    {
+        "qid": 266,
+        "query": "What are the mechanisms by which fungal pathogens overcome host immune defenses, and how can these insights be applied to crop breeding?"
+    },
+    {
+        "qid": 267,
+        "query": "What are the most common symptoms of Colletotrichum infections on different parts of strawberry plants?"
+    },
+    {
+        "qid": 268,
+        "query": "What were the primary pathogenic differences observed among Colletotrichum species affecting strawberries, and what implications might this have for agricultural practices, according to Smith and Black?"
+    },
+    {
+        "qid": 269,
+        "query": "How does environmental variation impact the morphological traits of Colletotrichum species?"
+    },
+    {
+        "qid": 270,
+        "query": "Why is chemical fungicide application limited in strawberry fields?"
+    },
+    {
+        "qid": 271,
+        "query": "What are the potential chemical reactions that occur when tartaric acid is introduced to a phosphate solution after a 10-minute wait, and how do these affect the final compound?"
+    },
+    {
+        "qid": 272,
+        "query": "How does the study by O'Donnell et al. address the potential for new species within the Gibberella fujikuroi complex to influence plant health?"
+    },
+    {
+        "qid": 273,
+        "query": "How does climate change impact the epidemiology of fungal diseases like anthracnose in strawberries?"
+    },
+    {
+        "qid": 274,
+        "query": "How might the discovery of Colletotrichum cradwickii on T. cacao branches in Jamaica influence research into fungal pathogens in cacao cultivation globally?"
+    },
+    {
+        "qid": 275,
+        "query": "How does plant density affect disease spread?"
+    },
+    {
+        "qid": 276,
+        "query": "What are the primary mechanisms that allow Colletotrichum acutatum and C. fragariae to resist copper and benomyl, and how might these mechanisms evolve over time?"
+    },
+    {
+        "qid": 277,
+        "query": "What advanced analytical challenges might PhD students face when interpreting complex datasets related to fruit disease and statistical variance?"
+    },
+    {
+        "qid": 278,
+        "query": "What are some of the ethical considerations researchers must be aware of when their paper is accepted for publication in academic journals, particularly for papers accepted on 3 January 2015?"
+    },
+    {
+        "qid": 279,
+        "query": "Can you identify potential ambiguities in the application of a zero to six disease severity rating for plant diseases among different research teams?"
+    },
+    {
+        "qid": 280,
+        "query": "How is crop rotation used to maintain soil health in strawberry farms?"
+    },
+    {
+        "qid": 281,
+        "query": "How can the overuse of certain fertilizers increase the risk of Colletotrichum?"
+    },
+    {
+        "qid": 282,
+        "query": "Can strawberries get better if they catch a disease?"
+    },
+    {
+        "qid": 283,
+        "query": "How do different strains of Colletotrichum vary in their ability to form lesions on peach, guava, and apple fruits, and what factors might contribute to these differences?"
+    },
+    {
+        "qid": 284,
+        "query": "How do plant pathogens influence crop yield and food security on a global scale?"
+    },
+    {
+        "qid": 285,
+        "query": "What do fungi do to plants?"
+    },
+    {
+        "qid": 286,
+        "query": "What is the significance of trade in the introduction of C. acutatum into the UK?"
+    },
+    {
+        "qid": 287,
+        "query": "How can integrated pest management (IPM) strategies be adapted to control anthracnose in strawberries?"
+    },
+    {
+        "qid": 288,
+        "query": "How does C. acutatum spread in agricultural environments?"
+    },
+    {
+        "qid": 289,
+        "query": "How do changes in the concentration of MgCl2 in the PCR buffer affect the amplification process when using the Applied Biosystems Veriti Thermal Cycler?"
+    },
+    {
+        "qid": 290,
+        "query": "How do different Colletotrichum species contribute to the overall impact of anthracnose diseases?"
+    },
+    {
+        "qid": 291,
+        "query": "What steps should I take after a heavy rainfall to prevent anthracnose spread?"
+    },
+    {
+        "qid": 292,
+        "query": "How do the yield losses caused by Colletotrichum acutatum in strawberries compare to those caused by Fusarium oxysporum in bananas?"
+    },
+    {
+        "qid": 293,
+        "query": "What factors should be considered when developing disease control strategies for fruit crops?"
+    },
+    {
+        "qid": 294,
+        "query": "How effective are traditional fungicides, such as captan and thiram, in managing strawberry anthracnose?"
+    },
+    {
+        "qid": 295,
+        "query": "What is the role of vegetative compatibility grouping (VCG) in determining genetic relationships within Colletotrichum populations?"
+    },
+    {
+        "qid": 296,
+        "query": "What are the steps involved in creating a resistant strawberry cultivar against Colletotrichum species?"
+    },
+    {
+        "qid": 297,
+        "query": "How can research on pathogen gene families inform the development of targeted fungicides or resistance traits?"
+    },
+    {
+        "qid": 298,
+        "query": "What key factors did Shenoy, Jeewon, and Hyde identify as influencing fungal community composition in their 2007 research?"
+    },
+    {
+        "qid": 299,
+        "query": "Can a fungus that infects strawberries also infect other plants?"
+    },
+    {
+        "qid": 300,
+        "query": "How do base pair differences in the ITS sequences affect the classification of closely related plant varieties?"
+    },
+    {
+        "qid": 301,
+        "query": "What specific conditions in the experiment are most responsible for the loss of C. acutatum infectivity over time?"
+    },
+    {
+        "qid": 302,
+        "query": "What are the major challenges in studying plant-pathogen interactions across diverse fungal genera?"
+    },
+    {
+        "qid": 303,
+        "query": "How do the Colletotrichum species identified in coffee berries of northern Thailand compare in terms of virulence, and what implications does this have for integrated pest management strategies?"
+    },
+    {
+        "qid": 304,
+        "query": "What should I do if anthracnose is already widespread in my field?"
+    },
+    {
+        "qid": 305,
+        "query": "How do fungal pathogens adapt to new host species?"
+    },
+    {
+        "qid": 306,
+        "query": "In what ways might the regional differences in strawberry fruit infection influence the fungal isolates' characteristics?"
+    },
+    {
+        "qid": 307,
+        "query": "How does nitrogen fertilization influence Colletotrichum disease severity?"
+    },
+    {
+        "qid": 308,
+        "query": "How do phylogenetic analyses contribute to our understanding of fungal biodiversity?"
+    },
+    {
+        "qid": 309,
+        "query": "What long-term implications do the findings about strawberry anthracnose pathogens have for sustainable agriculture in Europe?"
+    },
+    {
+        "qid": 310,
+        "query": "What are the environmental implications of using fungicides in strawberry fields compared to ornamental plants like roses?"
+    },
+    {
+        "qid": 311,
+        "query": "Can anthracnose affect the quality and yield of the strawberries?"
+    },
+    {
+        "qid": 312,
+        "query": "What are the comparative benefits of heat treatment versus chemical treatments for managing plant diseases?"
+    },
+    {
+        "qid": 313,
+        "query": "What are the practical challenges faced when implementing species-level models for plant diseases in agriculture?"
+    },
+    {
+        "qid": 314,
+        "query": "Does the 1931 collection of Musa sp. by G. von Becze reveal any new characteristics of Musa species in relation to environmental adaptations?"
+    },
+    {
+        "qid": 315,
+        "query": "Can a single plant be affected by more than one disease at the same time?"
+    },
+    {
+        "qid": 316,
+        "query": "What role does environmental and cultural conditions play in exacerbating strawberry anthracnose?"
+    },
+    {
+        "qid": 317,
+        "query": "Is it possible that certain farming practices could mitigate the effects of anthracnose on crownvetch, according to Forer et al. (1973)?"
+    },
+    {
+        "qid": 318,
+        "query": "How does the duration of storage for digested samples in a cool environment correlate with the accuracy of subsequent chemical analysis or microbial testing?"
+    },
+    {
+        "qid": 319,
+        "query": "How has technology improved strawberry farming techniques?"
+    },
+    {
+        "qid": 320,
+        "query": "How can molecular tools, such as CRISPR and transcriptomics, revolutionize our understanding of plant-pathogen interactions?"
+    },
+    {
+        "qid": 321,
+        "query": "Can mulching help in controlling anthracnose?"
+    },
+    {
+        "qid": 322,
+        "query": "What strategies can be employed to mitigate the economic impact of plant diseases caused by fungal pathogens?"
+    },
+    {
+        "qid": 323,
+        "query": "How does MAFFT address the problem of sequence alignment in the context of evolutionary models, particularly in species with distant common ancestors?"
+    },
+    {
+        "qid": 324,
+        "query": "How do the research findings from the \u00c1rea Protecci\u00f3n Vegetal influence agricultural practices beyond Paraguay?"
+    },
+    {
+        "qid": 325,
+        "query": "How do researchers utilize the morphological features of Colletotrichum to differentiate between species in their studies?"
+    },
+    {
+        "qid": 326,
+        "query": "What is the significance of Colletotrichum karstii in strawberry anthracnose?"
+    },
+    {
+        "qid": 327,
+        "query": "Can you identify specific crops that might benefit from the higher cation exchange capacity (CEC) of organic matter in soils with a certain pH range?"
+    },
+    {
+        "qid": 328,
+        "query": "How does Colletotrichum spp survive unfavorable conditions between growing seasons?"
+    },
+    {
+        "qid": 329,
+        "query": "What can I do if my current fungicides are not working on my strawberries?"
+    },
+    {
+        "qid": 330,
+        "query": "How was Colletotrichum boninense identified?"
+    },
+    {
+        "qid": 331,
+        "query": "How can crop rotation reduce the risk of Colletotrichum infections?"
+    },
+    {
+        "qid": 332,
+        "query": "How is genetic diversity assessed in fungal populations?"
+    },
+    {
+        "qid": 333,
+        "query": "What are the key differences between Colletotrichum acutatum and Colletotrichum gloeosporioides?"
+    },
+    {
+        "qid": 334,
+        "query": "How do the methods of data analysis employed in this study compare to traditional approaches in phylogenetic research?"
+    },
+    {
+        "qid": 335,
+        "query": "Is there a specific region where anthracnose in Polygonatum falcatum is more prevalent, according to the research?"
+    },
+    {
+        "qid": 336,
+        "query": "Why is it important to study the phylogenetic relationships among Colletotrichum species?"
+    },
+    {
+        "qid": 337,
+        "query": "Could the appearance of dense white fumes of HClO4 at 235 \u00b0C signal any potential hazards in a chemical process, and how should one proceed with caution?"
+    },
+    {
+        "qid": 338,
+        "query": "What is anthracnose and which crops are commonly affected by it?"
+    },
+    {
+        "qid": 339,
+        "query": "What role do genetic groups (A1 to A9) play in the classification of Colletotrichum acutatum?"
+    },
+    {
+        "qid": 340,
+        "query": "What are the benefits of international collaboration in the study of plant diseases?"
+    },
+    {
+        "qid": 341,
+        "query": "How does environmental temperature affect the growth of Colletotrichum isolates?"
+    },
+    {
+        "qid": 342,
+        "query": "What are the challenges of using ITS sequences for species discrimination in Colletotrichum?"
+    },
+    {
+        "qid": 343,
+        "query": "What environmental conditions favor the spread of Colletotrichum?"
+    },
+    {
+        "qid": 344,
+        "query": "How does anthracnose impact the post-harvest quality of strawberries?"
+    },
+    {
+        "qid": 345,
+        "query": "What is the role of appressoria in the infection process of Colletotrichum species?"
+    },
+    {
+        "qid": 346,
+        "query": "How does multi-locus phylogeny contribute to understanding Colletotrichum diversity?"
+    },
+    {
+        "qid": 347,
+        "query": "Does the observed matrix formation in living host cells by C. acutatum and C. fragariae resemble typical biotrophic behavior found in other fungal pathogens?"
+    },
+    {
+        "qid": 348,
+        "query": "Why do farmers bring plants from other countries, and is it safe?"
+    },
+    {
+        "qid": 349,
+        "query": "What is anthracnose, and how does it harm plants?"
+    },
+    {
+        "qid": 350,
+        "query": "What ground cover plants are suitable for a cover crop system?"
+    },
+    {
+        "qid": 351,
+        "query": "How do environmental conditions influence the spread and severity of Colletotrichum infections in crops?"
+    },
+    {
+        "qid": 352,
+        "query": "How does the genetic diversity of Colletotrichum clavatum impact its virulence, as suggested by Agosteo et al. (2011)?"
+    },
+    {
+        "qid": 353,
+        "query": "Which species were found to cause lesions on wounded strawberry leaves?"
+    },
+    {
+        "qid": 354,
+        "query": "How does phylogenetic analysis contribute to resolving Colletotrichum species complexes?"
+    },
+    {
+        "qid": 355,
+        "query": "How do molecular techniques such as ribosomal DNA analysis and RFLP contribute to understanding the genetic diversity within C. gloeosporioides populations?"
+    },
+    {
+        "qid": 356,
+        "query": "Why is the study of genetic variation in Colletotrichum spp. isolates important for strawberry growers worldwide?"
+    },
+    {
+        "qid": 357,
+        "query": "What chemical processes are described in the 1936 Umbreit and Bond paper regarding industrial and engineering chemistry, and how do they relate to the analysis of chemical reactions in the field?"
+    },
+    {
+        "qid": 358,
+        "query": "How does the size and appearance of the conidia, particularly their granular or guttulate content, indicate how they function in the dissemination of the fungal species?"
+    },
+    {
+        "qid": 359,
+        "query": "How do I know if a plant variety is resistant to anthracnose?"
+    },
+    {
+        "qid": 360,
+        "query": "What is the easiest way to keep my nursery plants free from disease?"
+    },
+    {
+        "qid": 361,
+        "query": "How can comparative genomic studies inform crop protection strategies in diverse agricultural systems?"
+    },
+    {
+        "qid": 362,
+        "query": "What are the genetic traits that breeders prioritize when developing new strawberry varieties?"
+    },
+    {
+        "qid": 363,
+        "query": "How might the historical interactions between humans and pear trees shape our understanding of agricultural biodiversity today?"
+    },
+    {
+        "qid": 364,
+        "query": "Can soil amendments help reduce the severity of anthracnose?"
+    },
+    {
+        "qid": 365,
+        "query": "How does the propagation period affect the spread of anthracnose in strawberries?"
+    },
+    {
+        "qid": 366,
+        "query": "How does crop diversity affect the sustainability of strawberry production systems?"
+    },
+    {
+        "qid": 367,
+        "query": "Is it safe to compost infected plant material?"
+    },
+    {
+        "qid": 368,
+        "query": "Do animals or insects help spread plant diseases like fungi?"
+    },
+    {
+        "qid": 369,
+        "query": "How can I test if my plants are infected with Colletotrichum spp.?"
+    },
+    {
+        "qid": 370,
+        "query": "How was Colletotrichum miaoliense characterized?"
+    },
+    {
+        "qid": 371,
+        "query": "How do environmental factors affect the lifestyle and pathogenicity of C. acutatum species complex members?"
+    },
+    {
+        "qid": 372,
+        "query": "How do scientists figure out which Colletotrichum type they are looking at?"
+    },
+    {
+        "qid": 373,
+        "query": "What is the role of host resistance in managing strawberry anthracnose?"
+    },
+    {
+        "qid": 374,
+        "query": "How do scientists test whether a pathogen can affect different types of plants?"
+    },
+    {
+        "qid": 375,
+        "query": "How could college-level students apply MAFFT in their own research projects or coursework related to genetics and evolutionary biology?"
+    },
+    {
+        "qid": 376,
+        "query": "Can Colletotrichum infect fruits and leaves?"
+    },
+    {
+        "qid": 377,
+        "query": "Are the fungal pathogens in the top 10 list restricted to certain regions, or do they have a global presence across different continents?"
+    },
+    {
+        "qid": 378,
+        "query": "Can boron deficiencies in soil cause irreversible damage to plants over time, or is there potential for recovery if boron levels are restored?"
+    },
+    {
+        "qid": 379,
+        "query": "What are the environmental impacts of large-scale strawberry farming?"
+    },
+    {
+        "qid": 380,
+        "query": "Why might planting oats before wheat help control Colletotrichum?"
+    },
+    {
+        "qid": 381,
+        "query": "How does anthracnose affect the overall quality and yield of strawberries?"
+    },
+    {
+        "qid": 382,
+        "query": "Did the research indicate that asexual reproduction in garden strawberries leads to increased or decreased genetic variation over time?"
+    },
+    {
+        "qid": 383,
+        "query": "What are the advantages of combining fungicides like prochloraz-Zn and folpet for managing diseases in fruits like strawberries or apples?"
+    },
+    {
+        "qid": 384,
+        "query": "How can farmers manage plant diseases caused by Colletotrichum?"
+    },
+    {
+        "qid": 385,
+        "query": "How do environmental conditions affect the severity of anthracnose?"
+    },
+    {
+        "qid": 386,
+        "query": "What is the impact of agricultural practices, such as monocropping, on the evolution and spread of fungal pathogens?"
+    },
+    {
+        "qid": 387,
+        "query": "Why does Colletotrichum sometimes look different under different conditions?"
+    },
+    {
+        "qid": 388,
+        "query": "What is the best way to keep plants healthy and prevent diseases?"
+    },
+    {
+        "qid": 389,
+        "query": "How can post-harvest fungal infections be minimized to improve food security and reduce waste?"
+    },
+    {
+        "qid": 390,
+        "query": "What is the potential for applying the genetic findings from the 1993 study to develop new disease-resistant coffee varieties?"
+    },
+    {
+        "qid": 391,
+        "query": "How does the ambiguity in the logit transformation figures affect the interpretation of strawberry infection rates in different treatments?"
+    },
+    {
+        "qid": 392,
+        "query": "In a laboratory context, what methods can be employed to further investigate the efficacy of these fungicides against Colletotrichum acutatum?"
+    },
+    {
+        "qid": 393,
+        "query": "How important is the annealing temperature in the context of PCR, and what effects could it have on amplification specificity?"
+    },
+    {
+        "qid": 394,
+        "query": "How does pacC affect the biosynthesis of melanin in Colletotrichum gloeosporioides, and does this impact fungal virulence?"
+    },
+    {
+        "qid": 395,
+        "query": "How do Chen et al. (2005) explain the relationship between KLAP1 gene and KLA infection in key lime leaves versus other plant tissues?"
+    },
+    {
+        "qid": 396,
+        "query": "What challenges exist in Colletotrichum taxonomy?"
+    },
+    {
+        "qid": 397,
+        "query": "How does temperature influence the spread and severity of anthracnose in strawberries?"
+    },
+    {
+        "qid": 398,
+        "query": "What were the major soil-related challenges identified in the FAO 1974 manual for the Euphrates irrigation project, and how were these challenges addressed through scientific soil analysis?"
+    },
+    {
+        "qid": 399,
+        "query": "What integrated pest management (IPM) strategies can be used for Colletotrichum diseases?"
+    },
+    {
+        "qid": 400,
+        "query": "How do PCR-based techniques facilitate the study of fungal pathogens?"
+    },
+    {
+        "qid": 401,
+        "query": "Why do some plants get infected by diseases in the field, and others after they are harvested?"
+    },
+    {
+        "qid": 402,
+        "query": "How is pathogenicity testing used to validate the identity of Colletotrichum isolates?"
+    },
+    {
+        "qid": 403,
+        "query": "What are the advantages of using multi-gene phylogenetic analysis for studying fungi?"
+    },
+    {
+        "qid": 404,
+        "query": "How do the disease management practices for strawberries in Israel compare to those used in Brazil, especially for diseases like anthracnose?"
+    },
+    {
+        "qid": 405,
+        "query": "Are there any biological agents that can suppress Colletotrichum in the soil?"
+    },
+    {
+        "qid": 406,
+        "query": "If the K concentration is found to exceed the prescribed maximum standard, is dilution necessary, and how should this be reflected in the final concentration measurement?"
+    },
+    {
+        "qid": 407,
+        "query": "What are the symptoms of anthracnose caused by C. acutatum?"
+    },
+    {
+        "qid": 408,
+        "query": "What are the symptoms of anthracnose on strawberries?"
+    },
+    {
+        "qid": 409,
+        "query": "What role do plant health inspection surveys play in monitoring and controlling fungal diseases in agriculture?"
+    },
+    {
+        "qid": 410,
+        "query": "What does Black (1993) suggest regarding the relationship between soil fertility and water management practices, and how can irrigation techniques be optimized to improve nutrient availability in soils?"
+    },
+    {
+        "qid": 411,
+        "query": "How do the growth rates of pathogens differ when isolated from various hosts?"
+    },
+    {
+        "qid": 412,
+        "query": "In what ways does the analysis of lesion areas contribute to understanding the virulence of specific isolates in plant pathology studies?"
+    },
+    {
+        "qid": 413,
+        "query": "Why do researchers grow Colletotrichum in the lab?"
+    },
+    {
+        "qid": 414,
+        "query": "What is the sexual morph associated with C. acutatum?"
+    },
+    {
+        "qid": 415,
+        "query": "Are there any common misconceptions about Fusarium section Liseola that Nirenberg addressed in his research?"
+    },
+    {
+        "qid": 416,
+        "query": "What are the primary challenges in differentiating Colletotrichum gloeosporioides and Colletotrichum acutatum in diverse pathosystems?"
+    },
+    {
+        "qid": 417,
+        "query": "Can the presence of C. novae-zelandiae on grapefruit in New Zealand lead to increased vigilance among citrus growers worldwide?"
+    },
+    {
+        "qid": 418,
+        "query": "What strategies are most effective in reducing the economic losses caused by fungal diseases in crops?"
+    },
+    {
+        "qid": 419,
+        "query": "What are the potential benefits of precision agriculture technologies in strawberry farming?"
+    },
+    {
+        "qid": 420,
+        "query": "How can the C. acutatum species complex serve as a model for studying broader evolutionary patterns in fungal plant pathogens?"
+    },
+    {
+        "qid": 421,
+        "query": "What should I do to prevent the disease from spreading in my strawberry field?"
+    },
+    {
+        "qid": 422,
+        "query": "What is the role of Mississippi's climate and soil conditions in testing and developing anthracnose-resistant strawberry cultivars?"
+    },
+    {
+        "qid": 423,
+        "query": "What are the potential risks of relying on a single molecular marker for species identification?"
+    },
+    {
+        "qid": 424,
+        "query": "What genetic markers were used in the multilocus phylogenetic analysis?"
+    },
+    {
+        "qid": 425,
+        "query": "What factors contribute to the high incidence of anthracnose in Taiwan's strawberry fields?"
+    },
+    {
+        "qid": 426,
+        "query": "How can farmers stop fruit diseases from spreading to other plants?"
+    },
+    {
+        "qid": 427,
+        "query": "What are the implications of fungicide application on soil health and microbial diversity in agricultural systems?"
+    },
+    {
+        "qid": 428,
+        "query": "What are the benefits of using DNA sequencing to study crop diseases?"
+    },
+    {
+        "qid": 429,
+        "query": "Can I use fungicides on strawberry plants that already have flowers or fruits?"
+    },
+    {
+        "qid": 430,
+        "query": "What genetic markers are commonly employed in studying plant pathogens?"
+    },
+    {
+        "qid": 431,
+        "query": "What are the issues with misidentified ITS sequences in public databases?"
+    },
+    {
+        "qid": 432,
+        "query": "Why is it challenging to distinguish between various Colletotrichum species in field conditions?"
+    },
+    {
+        "qid": 433,
+        "query": "Can overwatering contribute to the spread of anthracnose?"
+    },
+    {
+        "qid": 434,
+        "query": "How does plant mortality caused by pathogens in strawberries compare to similar issues in grapevines caused by Eutypa lata?"
+    },
+    {
+        "qid": 435,
+        "query": "Can anthracnose be detected in the early stages of plant growth?"
+    },
+    {
+        "qid": 436,
+        "query": "What is the best time to apply fungicides for anthracnose?"
+    },
+    {
+        "qid": 437,
+        "query": "Are there any natural ways to stop fungi from attacking plants?"
+    },
+    {
+        "qid": 438,
+        "query": "What role do fungicide formulations and combinations play in optimizing disease suppression in agriculture?"
+    },
+    {
+        "qid": 439,
+        "query": "What are the long-term effects of anthracnose on strawberry plants?"
+    },
+    {
+        "qid": 440,
+        "query": "What are the benefits of greenhouse cultivation for small-scale strawberry farmers?"
+    },
+    {
+        "qid": 441,
+        "query": "Are there natural methods to disinfect plant materials before planting?"
+    },
+    {
+        "qid": 442,
+        "query": "What methods can farmers use to control anthracnose disease in crops?"
+    },
+    {
+        "qid": 443,
+        "query": "What are the implications of discovering latent infections caused by Colletotrichum species in postharvest diseases of tropical fruits?"
+    },
+    {
+        "qid": 444,
+        "query": "Does the HNO\u2083-HClO\u2084 digestion method affect the determination of other elements besides zinc, iron, manganese, and copper in plant tissues with high silica content?"
+    },
+    {
+        "qid": 445,
+        "query": "What are the best strategies for breeding strawberry cultivars resistant to Colletotrichum species?"
+    },
+    {
+        "qid": 446,
+        "query": "Will these treatments harm the strawberries I sell to customers?"
+    },
+    {
+        "qid": 447,
+        "query": "What role do local climatic conditions play in shaping the epidemiology of Colletotrichum echinochloae in Japan's agricultural landscapes?"
+    },
+    {
+        "qid": 448,
+        "query": "How does crop rotation benefit fields affected by anthracnose?"
+    },
+    {
+        "qid": 449,
+        "query": "What tools do scientists use to see Colletotrichum better?"
+    },
+    {
+        "qid": 450,
+        "query": "Is the reliance on internal reference samples a viable long-term strategy for laboratories looking to reduce costs while maintaining high standards of testing?"
+    },
+    {
+        "qid": 451,
+        "query": "What are the potential consequences of using untreated propagation material in agriculture?"
+    },
+    {
+        "qid": 452,
+        "query": "What are the consequences of late detection of anthracnose in strawberry fields?"
+    },
+    {
+        "qid": 453,
+        "query": "What are the primary export markets for strawberries grown in Iran?"
+    },
+    {
+        "qid": 454,
+        "query": "What symptoms should I look for to diagnose anthracnose?"
+    },
+    {
+        "qid": 455,
+        "query": "What tools do scientists use to study the genes of pathogens?"
+    },
+    {
+        "qid": 456,
+        "query": "How might the dynamic simulation methods discussed by Leffelaar and Ferrari (1989) be adapted for use in organic farming systems for pest management?"
+    },
+    {
+        "qid": 457,
+        "query": "How can anthracnose be managed?"
+    },
+    {
+        "qid": 458,
+        "query": "How can I use heat treatment to protect my strawberry plants, and is it safe for the plants?"
+    },
+    {
+        "qid": 459,
+        "query": "What methods are used to establish host ranges for Colletotrichum species?"
+    },
+    {
+        "qid": 460,
+        "query": "What are the advantages of using resistant crop varieties?"
+    },
+    {
+        "qid": 461,
+        "query": "What is the best way to handle infected plants without harming healthy ones?"
+    },
+    {
+        "qid": 462,
+        "query": "How can studying pathogen populations help in forecasting and managing crop disease epidemics?"
+    },
+    {
+        "qid": 463,
+        "query": "What are the best practices for extending the shelf life of strawberries during transportation?"
+    },
+    {
+        "qid": 464,
+        "query": "What happens to plants when Colletotrichum attacks them?"
+    },
+    {
+        "qid": 465,
+        "query": "In what ways can MEGA X aid researchers in constructing timetrees for comparative genomics?"
+    },
+    {
+        "qid": 466,
+        "query": "Could the fact that C. constrictum and C. dacrycarpi share a high posterior probability value suggest any shared evolutionary traits?"
+    },
+    {
+        "qid": 467,
+        "query": "What are the ethical considerations in conducting research on imported pathogens?"
+    },
+    {
+        "qid": 468,
+        "query": "Why is there a need for accurate information about the pathogen population?"
+    },
+    {
+        "qid": 469,
+        "query": "Can farmers stop Colletotrichum from harming their crops?"
+    },
+    {
+        "qid": 470,
+        "query": "How does accurate labeling of soil samples ensure that depth and profile information is not lost during the transport process, and why is this critical to laboratory procedures?"
+    },
+    {
+        "qid": 471,
+        "query": "What are the advantages and limitations of using goodness-of-fit statistics to validate incubation and latency models in species across different thermal niches?"
+    },
+    {
+        "qid": 472,
+        "query": "What future research is suggested for better management of strawberry anthracnose?"
+    },
+    {
+        "qid": 473,
+        "query": "How can the integration of molecular tools and ecological studies help improve the understanding and control of Colletotrichum-related diseases in agroecosystems?"
+    },
+    {
+        "qid": 474,
+        "query": "How does the spread of pathogens between nurseries and production fields impact regional agricultural practices?"
+    },
+    {
+        "qid": 475,
+        "query": "What specific processes do Colletotrichum spp. use to penetrate host tissues through appressoria?"
+    },
+    {
+        "qid": 476,
+        "query": "What challenges are associated with the management of anthracnose in strawberry fields?"
+    },
+    {
+        "qid": 477,
+        "query": "In what ways does pH affect the cation exchange capacity (CEC) in clay minerals, and how does this impact soil fertility?"
+    },
+    {
+        "qid": 478,
+        "query": "What role does soil fertility play in strawberry production?"
+    },
+    {
+        "qid": 479,
+        "query": "Which crops are most vulnerable to anthracnose during storage?"
+    },
+    {
+        "qid": 480,
+        "query": "What strategies can be employed to reduce the environmental footprint of chemical-based disease management approaches?"
+    },
+    {
+        "qid": 481,
+        "query": "What methods were used to collect and isolate Colletotrichum species from strawberry fields?"
+    },
+    {
+        "qid": 482,
+        "query": "Why do scientists need to study Colletotrichum under special conditions?"
+    },
+    {
+        "qid": 483,
+        "query": "Are there established guidelines for conducting experiments to assess the cross-infection rates of Colletotrichum isolates?"
+    },
+    {
+        "qid": 484,
+        "query": "Can a single host be infected by multiple Colletotrichum species?"
+    },
+    {
+        "qid": 485,
+        "query": "How can I improve air circulation in my field to reduce disease incidence?"
+    },
+    {
+        "qid": 486,
+        "query": "How has strawberry anthracnose impacted the economic sustainability of strawberry production?"
+    },
+    {
+        "qid": 487,
+        "query": "Can anthracnose spread through contaminated tools?"
+    },
+    {
+        "qid": 488,
+        "query": "Can a setup that includes clamping tubing to the bottom of the funnel be optimized to prevent clogging in a filtration system, and how?"
+    },
+    {
+        "qid": 489,
+        "query": "How can predictive modeling be applied to control anthracnose in high-value crops like strawberries?"
+    },
+    {
+        "qid": 490,
+        "query": "How have comparative genomic studies advanced our knowledge of host-pathogen interactions in Colletotrichum species?"
+    },
+    {
+        "qid": 491,
+        "query": "What potential does metabolite profiling hold for resolving natural relationships in Colletotrichum?"
+    },
+    {
+        "qid": 492,
+        "query": "What additional steps are required after performing nucleotide BLAST searches to validate the results and ensure that they are biologically relevant?"
+    },
+    {
+        "qid": 493,
+        "query": "What are some morphological characteristics used to distinguish pathogens?"
+    },
+    {
+        "qid": 494,
+        "query": "What symptoms should farmers look for to identify a Colletotrichum infection?"
+    },
+    {
+        "qid": 495,
+        "query": "What is the significance of Benomyl sensitivity testing in identifying Colletotrichum species and understanding fungicide resistance?"
+    },
+    {
+        "qid": 496,
+        "query": "How have the findings from Wageningen University\u2019s Laboratory of Phytopathology contributed to advancements in integrated pest management practices in crop production?"
+    },
+    {
+        "qid": 497,
+        "query": "What factors complicate the identification of Colletotrichum species in plant disease studies?"
+    },
+    {
+        "qid": 498,
+        "query": "How do environmental conditions in rice paddies influence the effectiveness of the fungal disease discussed in Daniel et al.'s study?"
+    },
+    {
+        "qid": 499,
+        "query": "What impact did product timing and application frequency have on disease control outcomes in the 2016-2017 strawberry management study?"
+    },
+    {
+        "qid": 500,
+        "query": "What is the historical significance of C. acutatum s.l. in UK strawberry production?"
+    },
+    {
+        "qid": 501,
+        "query": "What impact does the pathogenicity of Colletotrichum species have on the post-harvest quality of strawberries?"
+    },
+    {
+        "qid": 502,
+        "query": "What are the differences between traditional and hydroponic strawberry farming?"
+    },
+    {
+        "qid": 503,
+        "query": "What are the key differences between Colletotrichum boninense and Colletotrichum siamense?"
+    },
+    {
+        "qid": 504,
+        "query": "How can breeding programs benefit from identifying relatively resistant cultivars?"
+    },
+    {
+        "qid": 505,
+        "query": "What are the typical symptoms of anthracnose disease in strawberries?"
+    },
+    {
+        "qid": 506,
+        "query": "Can anthracnose be transmitted through seeds?"
+    },
+    {
+        "qid": 507,
+        "query": "How should I monitor my strawberry plants for signs of anthracnose?"
+    },
+    {
+        "qid": 508,
+        "query": "What are the roles of pollinators in strawberry production?"
+    },
+    {
+        "qid": 509,
+        "query": "How does heat treatment contribute to the control of strawberry anthracnose, and what are its limitations?"
+    },
+    {
+        "qid": 510,
+        "query": "Does the study indicate whether the CglCUT1 gene exhibits variability in different environmental conditions?"
+    },
+    {
+        "qid": 511,
+        "query": "What is the significance of the 3 to 5% difference in normality between calcium and the calcium + magnesium mixture when analyzing chemical samples?"
+    },
+    {
+        "qid": 512,
+        "query": "What role does vegetative compatibility grouping play in studying plant pathogens?"
+    },
+    {
+        "qid": 513,
+        "query": "What does an infected plant look like?"
+    },
+    {
+        "qid": 514,
+        "query": "Can the antifungal activity in subtropical fruits be quantified using standard laboratory techniques, and if so, how reliable are these methods in predicting the fruit\u2019s resistance to fungal decay?"
+    },
+    {
+        "qid": 515,
+        "query": "What are the advantages of using Bayesian methods in phylogenetic studies?"
+    },
+    {
+        "qid": 516,
+        "query": "What is the significance of the detached fruit assay in this study?"
+    },
+    {
+        "qid": 517,
+        "query": "What potential ambiguities exist in the research regarding rain distribution and the splash dispersal of Colletotrichum acutatum, and how might they affect interpretations?"
+    },
+    {
+        "qid": 518,
+        "query": "What are the common symptoms of anthracnose in plants?"
+    },
+    {
+        "qid": 519,
+        "query": "Which treatment is the most effective on anthracnose?"
+    },
+    {
+        "qid": 520,
+        "query": "What are the primary genetic factors that differentiate Colletotrichum orbiculare from other Colletotrichum species at the molecular level?"
+    },
+    {
+        "qid": 521,
+        "query": "How can molecular techniques enhance the detection and identification of plant pathogens in field conditions?"
+    },
+    {
+        "qid": 522,
+        "query": "What is the significance of the length-to-width ratio of appressoria in distinguishing between different strains of Colletotrichum?"
+    },
+    {
+        "qid": 523,
+        "query": "What environmental conditions favor the development of anthracnose?"
+    },
+    {
+        "qid": 524,
+        "query": "How do cultural practices and environmental factors influence the long-term effectiveness of nonchemical control methods?"
+    },
+    {
+        "qid": 525,
+        "query": "Is it advisable to apply fungicides as a preventive measure?"
+    },
+    {
+        "qid": 526,
+        "query": "How does the selection of ex-type strains impact the validity of the phylogenetic conclusions drawn in this study?"
+    },
+    {
+        "qid": 527,
+        "query": "What role do fungal endophytes play in enhancing plant stress tolerance and productivity?"
+    },
+    {
+        "qid": 528,
+        "query": "How can a high school student use the calibration curve method to find the concentration of K in a solution, given that the atomic weight of potassium is 39.1?"
+    },
+    {
+        "qid": 529,
+        "query": "What is the role of cover crops in managing soil-borne diseases like anthracnose?"
+    },
+    {
+        "qid": 530,
+        "query": "What do the infected parts of plants look like when Colletotrichum attacks?"
+    },
+    {
+        "qid": 531,
+        "query": "How does the cooling rate of a solution in a flask affect the stability of the chemical components involved in the mixture, and what research methods could be used to analyze this at a doctoral level?"
+    },
+    {
+        "qid": 532,
+        "query": "What factors should be considered when choosing between traditional and modern farming methods for strawberries?"
+    },
+    {
+        "qid": 533,
+        "query": "Can the focus on genetic diversity in early studies of Colletotrichum help us predict future disease outbreaks in agricultural systems?"
+    },
+    {
+        "qid": 534,
+        "query": "How do soil amendments like dolomitic lime impact fungal diseases in plants?"
+    },
+    {
+        "qid": 535,
+        "query": "How do the authors differentiate between conserved genes and those that may be more variable within ascomycetes?"
+    },
+    {
+        "qid": 536,
+        "query": "What is the role of statistical analysis in evaluating disease resistance in plants?"
+    },
+    {
+        "qid": 537,
+        "query": "What was the significance of the nucleotide sequencing of the glyceraldehyde-3-phosphate dehydrogenase gene from Glomerella cingulata in the Templeton et al. (1992) study?"
+    },
+    {
+        "qid": 538,
+        "query": "What are the genetic differences between C. nymphaeae and C. godetiae?"
+    },
+    {
+        "qid": 539,
+        "query": "How can the statistical treatment of spore measurements influence conclusions drawn in mycological research?"
+    },
+    {
+        "qid": 540,
+        "query": "What are the different parts of a plant that can get sick?"
+    },
+    {
+        "qid": 541,
+        "query": "How can sustainable practices enhance the long-term viability of strawberry farming?"
+    },
+    {
+        "qid": 542,
+        "query": "How does the infection strategy of hemibiotrophic fungi like Colletotrichum species transition between biotrophic and necrotrophic phases?"
+    },
+    {
+        "qid": 543,
+        "query": "Do fungi live inside or outside of plants?"
+    },
+    {
+        "qid": 544,
+        "query": "What are the benefits and challenges of using biological control agents against fungal plant diseases?"
+    },
+    {
+        "qid": 545,
+        "query": "How do variations in the Colletotrichum gloeosporioides genome correlate with host resistance mechanisms in tropical fruit species?"
+    },
+    {
+        "qid": 546,
+        "query": "How might the findings regarding Colletotrichum inform future studies on fungal interactions in mixed-species communities?"
+    },
+    {
+        "qid": 547,
+        "query": "How can I avoid wasting money on ineffective treatments for my strawberries?"
+    },
+    {
+        "qid": 548,
+        "query": "What are the key indicators of soil health in strawberry farming?"
+    },
+    {
+        "qid": 549,
+        "query": "Is it possible to prevent anthracnose from occurring in the first place?"
+    },
+    {
+        "qid": 550,
+        "query": "How do scientists find out what makes plants sick?"
+    },
+    {
+        "qid": 551,
+        "query": "What is the primary pathogen causing anthracnose fruit rot in strawberries in Iran?"
+    },
+    {
+        "qid": 552,
+        "query": "Are there specific Colletotrichum species that have been identified as the primary threats to citrus production in Europe, and how are they managed?"
+    },
+    {
+        "qid": 553,
+        "query": "How does the association of Colletotrichum godetiae with Clarkia hybrida cv. Kelvedon Glory inform its original classification?"
+    },
+    {
+        "qid": 554,
+        "query": "How does the application of biofertilizers compare to synthetic fertilizers in strawberry cultivation?"
+    },
+    {
+        "qid": 555,
+        "query": "How can the identification of key pathogenicity genes inform the development of disease-resistant crops?"
+    },
+    {
+        "qid": 556,
+        "query": "What are the challenges of distinguishing between closely related Colletotrichum species in agricultural research?"
+    },
+    {
+        "qid": 557,
+        "query": "Why is it important to correctly identify Colletotrichum species?"
+    },
+    {
+        "qid": 558,
+        "query": "What are the typical symptoms of anthracnose caused by Colletotrichum?"
+    },
+    {
+        "qid": 559,
+        "query": "What are the primary methods used to identify pathogens causing anthracnose?"
+    },
+    {
+        "qid": 560,
+        "query": "Should I dip my strawberry plants before planting them? If so, what should I dip them in?"
+    },
+    {
+        "qid": 561,
+        "query": "How did Howard assess the effectiveness of cultural practices, such as crop rotation, in managing strawberry fruit rot in his 1972 study?"
+    },
+    {
+        "qid": 562,
+        "query": "What is the significance of C. orchidophilum being restricted to the Orchidaceae family in terms of its ecology and distribution?"
+    },
+    {
+        "qid": 563,
+        "query": "Are there any specific cultural practices that can reduce the spread of anthracnose?"
+    },
+    {
+        "qid": 564,
+        "query": "How does Colletotrichum spp interact with other pathogens in strawberry fields?"
+    },
+    {
+        "qid": 565,
+        "query": "What are the benefits of using resistant varieties in managing anthracnose?"
+    },
+    {
+        "qid": 566,
+        "query": "What are some common symptoms of nutrient stress in plants caused by fungal infections?"
+    },
+    {
+        "qid": 567,
+        "query": "What is the role of pH adjustment in controlling fungal diseases in agriculture?"
+    },
+    {
+        "qid": 568,
+        "query": "How does the choice of mulching materials influence water retention and weed control in strawberry fields?"
+    },
+    {
+        "qid": 569,
+        "query": "Under what conditions can C. acutatum survive for months in soil, and how does soil type and moisture affect this survival?"
+    },
+    {
+        "qid": 570,
+        "query": "How do time constraints of 15.5 hours versus 1.60 hours affect the impact of profile alignment at 0.2779 in terms of system responsiveness?"
+    },
+    {
+        "qid": 571,
+        "query": "What strategies are recommended for the prevention of anthracnose in strawberry nurseries?"
+    },
+    {
+        "qid": 572,
+        "query": "How do laboratory studies of genetically isolated fungi compare to field studies in terms of observing interbreeding characteristics?"
+    },
+    {
+        "qid": 573,
+        "query": "According to von Arx's 1957 paper, how does Colletotrichum differ from other genera of plant-pathogenic fungi in terms of lifecycle and pathogenicity?"
+    },
+    {
+        "qid": 574,
+        "query": "How does Colletotrichum miaoliense differ genetically from other species?"
+    },
+    {
+        "qid": 575,
+        "query": "Is it possible to fully eliminate anthracnose from a strawberry field in Florida through fungicide treatment alone, or is integrated pest management (IPM) more effective?"
+    },
+    {
+        "qid": 576,
+        "query": "How can the exchangeable calcium in a sample affect the measurement results when using oxalate in mineral analysis, and what steps can be taken to minimize errors?"
+    },
+    {
+        "qid": 577,
+        "query": "What temperature ranges support optimal growth in Colletotrichum species, and how might temperature shifts affect their growth?"
+    },
+    {
+        "qid": 578,
+        "query": "Which cultivar was found to be the most susceptible to anthracnose fruit rot?"
+    },
+    {
+        "qid": 579,
+        "query": "How did Beech and Simpson assess the viability of exporting strawberries from the UK in their 1989 study?"
+    },
+    {
+        "qid": 580,
+        "query": "How does cultivar selection impact the overall profitability of strawberry farming?"
+    },
+    {
+        "qid": 581,
+        "query": "Why is Colletotrichum bad for farmers?"
+    },
+    {
+        "qid": 582,
+        "query": "How has molecular biology transformed the study of plant-pathogen interactions?"
+    },
+    {
+        "qid": 583,
+        "query": "What impact does the anthracnose fungus, collected by R. Villanueva-Arce in 2003, have on fruit-bearing plants beyond Annona cherimola?"
+    },
+    {
+        "qid": 584,
+        "query": "How does the global market demand shape the production strategies for strawberries?"
+    },
+    {
+        "qid": 585,
+        "query": "What role does crop rotation play in managing the risk of anthracnose fruit rot in relation to ground cover and weather variability?"
+    },
+    {
+        "qid": 586,
+        "query": "How does the switch between biotrophic and necrotrophic lifestyles impact the pathogenicity of plant fungi?"
+    },
+    {
+        "qid": 587,
+        "query": "Can the identification of specific Colletotrichum species lead to targeted treatment options for affected strawberry crops in Israel?"
+    },
+    {
+        "qid": 588,
+        "query": "How can early detection of Colletotrichum infection be achieved in crop fields?"
+    },
+    {
+        "qid": 589,
+        "query": "What specific factors might explain why C. acutatum did not produce disease symptoms on most of the tested plants, even though conidia were recovered from them?"
+    },
+    {
+        "qid": 590,
+        "query": "What tools are used to check the DNA of Colletotrichum?"
+    },
+    {
+        "qid": 591,
+        "query": "What are the primary methods for maintaining fungal cultures in laboratories?"
+    },
+    {
+        "qid": 592,
+        "query": "Based on the results of the phylogenetic analyses, would you say that the isolates from Jiangxi Province demonstrate significant genetic variability?"
+    },
+    {
+        "qid": 593,
+        "query": "How do deficiencies in essential minerals affect plant susceptibility to fungal diseases?"
+    },
+    {
+        "qid": 594,
+        "query": "Why is ammonium nitrogen better than nitrate nitrogen for reducing Colletotrichum?"
+    },
+    {
+        "qid": 595,
+        "query": "How does the choice of plant cultivars influence the overall disease management strategy in crop production?"
+    },
+    {
+        "qid": 596,
+        "query": "What factors influence the prevalence of the perfect stage in different Colletotrichum species?"
+    },
+    {
+        "qid": 597,
+        "query": "How does the comparison of TUB2 sequences between CBS 292.67 and other fungal strains inform the classification and evolutionary history of fungal species?"
+    },
+    {
+        "qid": 598,
+        "query": "What happens to strawberries if the fungus isn't stopped?"
+    },
+    {
+        "qid": 599,
+        "query": "What are the challenges associated with open-field cultivation of strawberries?"
+    },
+    {
+        "qid": 600,
+        "query": "What is the typical incubation period for anthracnose symptoms to appear on strawberries?"
+    },
+    {
+        "qid": 601,
+        "query": "Can high school students demonstrate a clear understanding of the principles behind phylogenetic trees generated by PAUP* 4.0, or is additional support necessary?"
+    },
+    {
+        "qid": 602,
+        "query": "How does pathogen load during the nursery phase impact disease prevalence in mature crop fields?"
+    },
+    {
+        "qid": 603,
+        "query": "How does heavy rainfall influence the development of anthracnose in strawberries?"
+    },
+    {
+        "qid": 604,
+        "query": "What are the trade-offs between using heat treatments and chemical treatments for managing fungal diseases in perennials like strawberries and citrus?"
+    },
+    {
+        "qid": 605,
+        "query": "How do environmental changes, such as global warming, influence the prevalence and distribution of plant pathogens?"
+    },
+    {
+        "qid": 606,
+        "query": "What challenges are associated with the morphological identification of Colletotrichum species?"
+    },
+    {
+        "qid": 607,
+        "query": "What is the best time of the year to treat strawberries to keep them healthy?"
+    },
+    {
+        "qid": 608,
+        "query": "How does the use of plasticulture affect the economic and environmental aspects of strawberry farming?"
+    },
+    {
+        "qid": 609,
+        "query": "How do agricultural practices influence the co-evolution of crops and their associated pathogens?"
+    },
+    {
+        "qid": 610,
+        "query": "To what extent does the presence of the sexual stage (Glomerella) in C. gloeosporioides contribute to genetic diversity and pathogenicity?"
+    },
+    {
+        "qid": 611,
+        "query": "What are the key morphological features used to differentiate Colletotrichum species?"
+    },
+    {
+        "qid": 612,
+        "query": "Does changing the soil or fertilizer help with Colletotrichum?"
+    },
+    {
+        "qid": 613,
+        "query": "How can the research by Munir et al. be applied to improve educational programs about apple disease management for farmers?"
+    },
+    {
+        "qid": 614,
+        "query": "How can secondary metabolite profiles assist in Colletotrichum taxonomy?"
+    },
+    {
+        "qid": 615,
+        "query": "What are the benefits of incorporating organic farming methods in strawberry cultivation?"
+    },
+    {
+        "qid": 616,
+        "query": "How can latent infections affect long-term disease management in crops?"
+    },
+    {
+        "qid": 617,
+        "query": "Is it possible to quantify the effects of fertilization type on the recovery rates of specific pathogens from plant roots?"
+    },
+    {
+        "qid": 618,
+        "query": "Can irrigation methods influence the spread of anthracnose?"
+    },
+    {
+        "qid": 619,
+        "query": "How does continuous monocropping affect the severity of Colletotrichum diseases?"
+    },
+    {
+        "qid": 620,
+        "query": "How can species identification errors impact the effectiveness of disease management strategies?"
+    },
+    {
+        "qid": 621,
+        "query": "What is the role of NaOH in the color change of p-nitrophenol solution, and how does this demonstrate the concept of acid-base indicators?"
+    },
+    {
+        "qid": 622,
+        "query": "What are the main challenges in controlling fungal pathogens in strawberry crops?"
+    },
+    {
+        "qid": 623,
+        "query": "How can farmers manage labor and resources efficiently during planting and harvesting?"
+    },
+    {
+        "qid": 624,
+        "query": "What role does soil health play in mitigating the effects of fungal pathogens on plant health?"
+    },
+    {
+        "qid": 625,
+        "query": "How does GFP expression in Colletotrichum acutatum assist in differentiating between non-pathogenic and pathogenic strains during infection experiments?"
+    },
+    {
+        "qid": 626,
+        "query": "How does heat treatment work for controlling plant diseases?"
+    },
+    {
+        "qid": 627,
+        "query": "What is the importance of selecting the right planting time to avoid anthracnose?"
+    },
+    {
+        "qid": 628,
+        "query": "What are some limitations of using ITS sequencing for fungal taxonomy?"
+    },
+    {
+        "qid": 629,
+        "query": "How can haplotypes be used to trace the introduction of pathogens into new regions?"
+    },
+    {
+        "qid": 630,
+        "query": "How does the TUB2 sequence of Colletotrichum guajavae compare to that of C. scovillei in terms of nucleotide differences?"
+    },
+    {
+        "qid": 631,
+        "query": "What are the primary methods of anthracnose spread in strawberry fields?"
+    },
+    {
+        "qid": 632,
+        "query": "What happens to a plant when it gets infected by fungi?"
+    },
+    {
+        "qid": 633,
+        "query": "Which herbicide should be used to manage fungal diseases?"
+    },
+    {
+        "qid": 634,
+        "query": "What are the benefits and limitations of biological control methods for managing fungal plant diseases?"
+    },
+    {
+        "qid": 635,
+        "query": "How can the soil be improved?"
+    },
+    {
+        "qid": 636,
+        "query": "What are some practical examples of experiments where dissolving ammonium metavanadate in hot deionized water would be advantageous, and how does this process facilitate the study of vanadate chemistry?"
+    },
+    {
+        "qid": 637,
+        "query": "What are the comparative effectiveness and limitations of various fungicides, including prochloraz formulations, for controlling strawberry anthracnose?"
+    },
+    {
+        "qid": 638,
+        "query": "What are the key indicators of an effective fungicide application against anthracnose?"
+    },
+    {
+        "qid": 639,
+        "query": "In what ways can nursery practices for strawberries, such as those for the cultivar Ofra, influence the success of transplanting in the field?"
+    },
+    {
+        "qid": 640,
+        "query": "How do the advancements in molecular identification methods, like using GAPDH and TUB2, compare to older methods based purely on morphological characteristics?"
+    },
+    {
+        "qid": 641,
+        "query": "How can international collaboration enhance our ability to manage fungal pathogens in global agriculture?"
+    },
+    {
+        "qid": 642,
+        "query": "What role does the genetic basis of fungal mating systems play in the ecological adaptation of Colletotrichum species?"
+    },
+    {
+        "qid": 643,
+        "query": "Are there specific geographical regions where the genetic diversity of Colletotrichum acutatum is notably higher?"
+    },
+    {
+        "qid": 644,
+        "query": "How effective are fungicides such as captan and folpet when used on high-value crops like tomatoes and strawberries?"
+    },
+    {
+        "qid": 645,
+        "query": "Why are the fruits cracking?"
+    },
+    {
+        "qid": 646,
+        "query": "Did the study suggest any best practices for implementing crop rotation and nitrogen fertilization in strawberry fields?"
+    },
+    {
+        "qid": 647,
+        "query": "How does the presence of high concentrations of other cations, such as sodium or potassium, impact the accuracy of EDTA titrations for calcium and magnesium in a college chemistry lab?"
+    },
+    {
+        "qid": 648,
+        "query": "How does the consistency of ground samples affect the outcome of laboratory tests, and why is it necessary to ensure that dried samples are ground properly before conducting experiments?"
+    },
+    {
+        "qid": 649,
+        "query": "What are the primary environmental factors required for successful strawberry cultivation?"
+    },
+    {
+        "qid": 650,
+        "query": "What are the key differences between the Colletotrichum isolates identified in the study and other known pathogens of pepper plants?"
+    },
+    {
+        "qid": 651,
+        "query": "What are the benefits and risks of using chemical treatments in agriculture?"
+    },
+    {
+        "qid": 652,
+        "query": "How do temperature and light conditions affect strawberry flowering and fruiting?"
+    },
+    {
+        "qid": 653,
+        "query": "What are the three types of assays used to evaluate strawberry cultivar resistance?"
+    },
+    {
+        "qid": 654,
+        "query": "Which environmental conditions favor the development of anthracnose in Taiwan?"
+    },
+    {
+        "qid": 655,
+        "query": "Which cultivation practices can reduce the spread of fungal diseases in strawberries?"
+    },
+    {
+        "qid": 656,
+        "query": "How do I test whether a treatment is working effectively on my crops?"
+    },
+    {
+        "qid": 657,
+        "query": "How does the rotation speed of an electric stirrer influence the dispersion of various types of mineral samples, and what would be the ideal speed for preventing mineral degradation?"
+    },
+    {
+        "qid": 658,
+        "query": "How do variations within the C. acutatum species complex influence host specialization and infection patterns?"
+    },
+    {
+        "qid": 659,
+        "query": "In what ways can disease prediction models benefit from integrating species-level data for anthracnose?"
+    },
+    {
+        "qid": 660,
+        "query": "How do fungi like Gaeumannomyces affect the structure of plant roots?"
+    },
+    {
+        "qid": 661,
+        "query": "How does pathogen diversity within a population affect the success of fungicide treatments?"
+    },
+    {
+        "qid": 662,
+        "query": "What are the challenges of scaling hydroponic strawberry production for commercial use?"
+    },
+    {
+        "qid": 663,
+        "query": "What is the recommended procedure for disinfecting tools?"
+    },
+    {
+        "qid": 664,
+        "query": "How do fungi look when they are on a plant?"
+    },
+    {
+        "qid": 665,
+        "query": "Could the herbicide-induced changes in soil microbiota affect the persistence and spread of Colletotrichum fructicola on strawberry crops and weeds?"
+    },
+    {
+        "qid": 666,
+        "query": "What cultivation practices can limit the spread of Colletotrichum?"
+    },
+    {
+        "qid": 667,
+        "query": "What are the environmental risks associated with using chemical fungicides for anthracnose control?"
+    },
+    {
+        "qid": 668,
+        "query": "What is the significance of the CAL gene in the study of Colletotrichum species?"
+    },
+    {
+        "qid": 669,
+        "query": "Which crops are most affected by diseases during the fruiting stage?"
+    },
+    {
+        "qid": 670,
+        "query": "How can researchers differentiate between genetic variation and phenotypic variation in fungal species?"
+    },
+    {
+        "qid": 671,
+        "query": "Has Dr. Timmer published extensively on citrus disease control strategies, and if so, in which journals?"
+    },
+    {
+        "qid": 672,
+        "query": "How is irrigation managed in strawberry farms to optimize water use?"
+    },
+    {
+        "qid": 673,
+        "query": "What factors contribute to the resilience of switchgrass in the face of anthracnose disease caused by Colletotrichum navitas?"
+    },
+    {
+        "qid": 674,
+        "query": "What role do genetic similarities play in the spread and management of Colletotrichum-related diseases?"
+    },
+    {
+        "qid": 675,
+        "query": "What are the primary economic impacts of anthracnose disease on strawberry production?"
+    },
+    {
+        "qid": 676,
+        "query": "How do multi-gene phylogenies improve the classification of Colletotrichum species?"
+    },
+    {
+        "qid": 677,
+        "query": "What does \"genetic compatibility\" mean when talking about plant diseases?"
+    },
+    {
+        "qid": 678,
+        "query": "How do genetic variations in Colletotrichum species affect their pathogenicity on different hosts?"
+    },
+    {
+        "qid": 679,
+        "query": "How was the pathogenicity of different Colletotrichum species assessed?"
+    },
+    {
+        "qid": 680,
+        "query": "What are the implications of Colletotrichum endophyticum on agricultural practices and crop yield enhancement?"
+    },
+    {
+        "qid": 681,
+        "query": "What environmental conditions promote the growth of anthracnose pathogens in strawberries?"
+    },
+    {
+        "qid": 682,
+        "query": "How do molecular tools aid in distinguishing between closely related fungal species?"
+    },
+    {
+        "qid": 683,
+        "query": "What role does pH play in water quality for agricultural purposes, and how is this addressed by Ayers and Westcot (1985)?"
+    },
+    {
+        "qid": 684,
+        "query": "What post-harvest techniques are used to extend the shelf life of strawberries?"
+    },
+    {
+        "qid": 685,
+        "query": "How can environmental conditions, like temperature and humidity, affect crop health?"
+    },
+    {
+        "qid": 686,
+        "query": "What are some common methods to identify pathogens across different hosts?"
+    },
+    {
+        "qid": 687,
+        "query": "In the absence of a functional cuticle, does the cutinase enzyme still play an important role in fungal infection of chili fruits?"
+    },
+    {
+        "qid": 688,
+        "query": "What types of soil samples are best extracted using a tube auger or screw auger, and how does the tool selection influence the overall outcome of soil analysis in research projects?"
+    },
+    {
+        "qid": 689,
+        "query": "How do we know when a plant is sick from fungi?"
+    },
+    {
+        "qid": 690,
+        "query": "Why is fungicide sensitivity testing relevant for Colletotrichum?"
+    },
+    {
+        "qid": 691,
+        "query": "Can you identify the main symptoms of anthracnose on chili plants caused by Colletotrichum species, and how do they differ across various strains?"
+    },
+    {
+        "qid": 692,
+        "query": "What are some examples of Colletotrichum species causing anthracnose in plants?"
+    },
+    {
+        "qid": 693,
+        "query": "How much drying is required to remove all excess water from the electrode after rinsing it with DI water in order to ensure that no residual moisture remains on the surface?"
+    },
+    {
+        "qid": 694,
+        "query": "How does the phenotypic plasticity of C. gloeosporioides contribute to its adaptability across different host species and environmental conditions?"
+    },
+    {
+        "qid": 695,
+        "query": "How does fungicide sensitivity testing help in managing crop diseases?"
+    },
+    {
+        "qid": 696,
+        "query": "How does temperature affect the development of anthracnose?"
+    },
+    {
+        "qid": 697,
+        "query": "What role do the structures observed in Figure 4 play in the lifecycle of Colletotrichum miaoliense?"
+    },
+    {
+        "qid": 698,
+        "query": "What method was used to identify the Colletotrichum species?"
+    },
+    {
+        "qid": 699,
+        "query": "What insights can be drawn from the use of molecular tools, such as PCR, in identifying pathogens like Phytophthora infestans and Colletotrichum acutatum?"
+    },
+    {
+        "qid": 700,
+        "query": "Was the fungal isolate from Psidium guajava in Assam, India first discovered by M. Das in 1991, and what are the possible implications of this date for mycological research?"
+    },
+    {
+        "qid": 701,
+        "query": "How do host specificity and cross-infection potential impact the epidemiology of Colletotrichum species in multi-crop environments?"
+    },
+    {
+        "qid": 702,
+        "query": "Could a sudden wilting of plants indicate herbicide damage?"
+    },
+    {
+        "qid": 703,
+        "query": "What are some clear indicators that suggest a relationship between genetic diversity and disease resistance in Colletotrichum acutatum?"
+    },
+    {
+        "qid": 704,
+        "query": "What percentage of the isolates were identified as Colletotrichum siamense?"
+    },
+    {
+        "qid": 705,
+        "query": "Can molecular techniques, such as PCR or gene sequencing, be used to accurately identify Colletotrichum lupini var. setosum in lupin crops, and how reliable are these techniques?"
+    },
+    {
+        "qid": 706,
+        "query": "How do I prevent the introduction of pests and diseases into my farm?"
+    },
+    {
+        "qid": 707,
+        "query": "Are there significant differences in the effectiveness of calcium sulfate versus calcium chloride in managing anthracnose fruit rot?"
+    },
+    {
+        "qid": 708,
+        "query": "Is crop rotation effective against anthracnose?"
+    },
+    {
+        "qid": 709,
+        "query": "What are the main factors influencing the adaptation of strawberry cultivars to different climates?"
+    },
+    {
+        "qid": 710,
+        "query": "What are the advantages of using resistant strawberry cultivars over chemical fungicides?"
+    },
+    {
+        "qid": 711,
+        "query": "In what way does the historical use of the term \"Psidium guajava\" reflect the ongoing influence of indigenous languages in modern botanical nomenclature?"
+    },
+    {
+        "qid": 712,
+        "query": "What is the significance of species complexes in understanding fungal taxonomy and evolution?"
+    },
+    {
+        "qid": 713,
+        "query": "Can farmers stop Colletotrichum from spreading to their plants?"
+    },
+    {
+        "qid": 714,
+        "query": "What are the implications of this study for strawberry breeding programs?"
+    },
+    {
+        "qid": 715,
+        "query": "What role does the specific gravity of the CuSO4 solution play in the preparation of the diluted 50 ppm NO3-N solution?"
+    },
+    {
+        "qid": 716,
+        "query": "How do I know if my strawberry plants have crown rot, and what can I do about it?"
+    },
+    {
+        "qid": 717,
+        "query": "What are the implications of pathogen gene flow between wild and cultivated plant species?"
+    },
+    {
+        "qid": 718,
+        "query": "What historical events contributed to the spread of C. acutatum in Europe?"
+    },
+    {
+        "qid": 719,
+        "query": "How can comparative transcriptomics enhance our understanding of fungal lifestyle transitions?"
+    },
+    {
+        "qid": 720,
+        "query": "What is the impact of anthracnose on strawberry yield and quality?"
+    },
+    {
+        "qid": 721,
+        "query": "How does the genetic diversity of anthracnose pathogens influence agricultural practices in regions where it is prevalent?"
+    },
+    {
+        "qid": 722,
+        "query": "What is anthracnose fruit rot, and why is it a concern for strawberry production?"
+    },
+    {
+        "qid": 723,
+        "query": "What experimental methodologies were used to evaluate the efficacy of fungicides and heat treatment against Colletotrichum acutatum?"
+    },
+    {
+        "qid": 724,
+        "query": "How do integrated management strategies for strawberry anthracnose align with approaches used for powdery mildew in grapes?"
+    },
+    {
+        "qid": 725,
+        "query": "What are the key characteristics of soilborne fungal pathogens?"
+    },
+    {
+        "qid": 726,
+        "query": "Is there a specific stage of plant growth when strawberries are most vulnerable to anthracnose?"
+    },
+    {
+        "qid": 727,
+        "query": "How often should the treatment for anthracnose be applied?"
+    },
+    {
+        "qid": 728,
+        "query": "Did any cultivar show a delayed increase in disease incidence that impacted the results towards the end of the 2003\u20132004 season?"
+    },
+    {
+        "qid": 729,
+        "query": "How does climate change influence the spread and severity of fungal diseases in agriculture?"
+    },
+    {
+        "qid": 730,
+        "query": "In the context of preparing a 2N hydrochloric acid solution from concentrated HCl, how important is the quality and purity of the deionized water, and what could happen if impure water is used?"
+    },
+    {
+        "qid": 731,
+        "query": "What organic control options are available for anthracnose?"
+    },
+    {
+        "qid": 732,
+        "query": "Does the use of Bayesian hierarchical models in evolutionary biology lead to a better understanding of species relationships compared to traditional methods?"
+    },
+    {
+        "qid": 733,
+        "query": "What advancements have been made in linking metabolite profiles to Colletotrichum species identification?"
+    },
+    {
+        "qid": 734,
+        "query": "What are the nutritional requirements of strawberries during different growth stages?"
+    },
+    {
+        "qid": 735,
+        "query": "How do modern molecular tools advance our understanding of pathogen biology and its implications for crop management?"
+    },
+    {
+        "qid": 736,
+        "query": "How might the biochemistry of microcycle conidiation be relevant to advancements in agricultural practices?"
+    },
+    {
+        "qid": 737,
+        "query": "How does Azomethine-H contribute to reducing the exposure of researchers to hazardous acids compared to carmine and curcumin in laboratory settings?"
+    },
+    {
+        "qid": 738,
+        "query": "What are the potential implications of understanding the biology of Colletotrichum for mango export industries?"
+    },
+    {
+        "qid": 739,
+        "query": "What is the relevance of the ITS region in the identification of Colletotrichum species?"
+    },
+    {
+        "qid": 740,
+        "query": "Can rain facilitate the movement of airborne pathogens, and what are the potential consequences for agricultural biosecurity?"
+    },
+    {
+        "qid": 741,
+        "query": "How does cross-infection potential among crops complicate disease management?"
+    },
+    {
+        "qid": 742,
+        "query": "What is the role of ACT and TUB2 genes in Colletotrichum species identification?"
+    },
+    {
+        "qid": 743,
+        "query": "What role do genetic studies play in understanding Colletotrichum species diversity?"
+    },
+    {
+        "qid": 744,
+        "query": "Does the use of a 50 mL centrifuge tube to weigh 5 grams of soil provide an adequate balance between precision and practicality in environmental laboratory experiments, and why might smaller or larger containers be less ideal for this purpose?"
+    },
+    {
+        "qid": 745,
+        "query": "How does the lifecycle of hemibiotrophic fungi influence their control in agricultural systems?"
+    },
+    {
+        "qid": 746,
+        "query": "How can I distinguish between chemical damage and anthracnose symptoms on my plants?"
+    },
+    {
+        "qid": 747,
+        "query": "Can you detail the process through which Colletotrichum gloeosporioides was confirmed as a pathogen of walnut through multigene phylogenetic analysis?"
+    },
+    {
+        "qid": 748,
+        "query": "Why is sensitivity to chemical treatments an important characteristic of pathogens?"
+    },
+    {
+        "qid": 749,
+        "query": "What methods are commonly used to assess disease resistance in strawberry cultivars?"
+    },
+    {
+        "qid": 750,
+        "query": "How do regional climatic variations affect the growth patterns of C. scovillei across the provinces?"
+    },
+    {
+        "qid": 751,
+        "query": "What are the risks of cross-infection in mixed-crop farming systems?"
+    },
+    {
+        "qid": 752,
+        "query": "Can I mix different fungicides to control anthracnose more effectively?"
+    },
+    {
+        "qid": 753,
+        "query": "Could the observed growth rate of C. siamense (12.9 \u00b1 1.9 mm per day) and C. fructicola (13.1 \u00b1 1.7 mm per day) be affected by seasonal changes in their natural habitats?"
+    },
+    {
+        "qid": 754,
+        "query": "How does temperature affect the growth of Colletotrichum species?"
+    },
+    {
+        "qid": 755,
+        "query": "What are the main differences between the frequency distribution methods used in fungicide sensitivity analysis, and how do Scott\u2019s 1979 techniques compare in terms of accuracy and reliability?"
+    },
+    {
+        "qid": 756,
+        "query": "How is MEGA X utilized in teaching evolutionary genetics to students?"
+    },
+    {
+        "qid": 757,
+        "query": "Can fungi jump from one plant to another?"
+    },
+    {
+        "qid": 758,
+        "query": "Can anthracnose be transmitted through water runoff?"
+    },
+    {
+        "qid": 759,
+        "query": "Can I use the same fungicide every year, or will it stop working over time?"
+    },
+    {
+        "qid": 760,
+        "query": "Which Colletotrichum species were first reported as strawberry anthracnose pathogens?"
+    },
+    {
+        "qid": 761,
+        "query": "What are the key morphological traits used to differentiate between plant pathogens?"
+    },
+    {
+        "qid": 762,
+        "query": "What are the potential environmental benefits of using single-dip treatments with fungicides in strawberry transplants?"
+    },
+    {
+        "qid": 763,
+        "query": "What does a scientist do when they find a new kind of Colletotrichum?"
+    },
+    {
+        "qid": 764,
+        "query": "How does the presence of pollinators affect strawberry yield and fruit quality?"
+    },
+    {
+        "qid": 765,
+        "query": "Why is manganese important for plant growth, and how can its deficiency be identified?"
+    },
+    {
+        "qid": 766,
+        "query": "How do different strawberry cultivars compare in their susceptibility to Colletotrichum fragariae infection under varying environmental conditions?"
+    },
+    {
+        "qid": 767,
+        "query": "In what ways does the research challenge or reinforce existing knowledge about the role of phosphite in plant pathology?"
+    },
+    {
+        "qid": 768,
+        "query": "What are the long-term ecological impacts of widespread fungicide use in intensive farming systems?"
+    },
+    {
+        "qid": 769,
+        "query": "How often do I need to spray fungicides, and which ones work best for strawberries?"
+    },
+    {
+        "qid": 770,
+        "query": "Are there any organic or non-chemical ways to manage strawberry diseases?"
+    },
+    {
+        "qid": 771,
+        "query": "What are the consequences of using infected planting material in strawberry nurseries?"
+    },
+    {
+        "qid": 772,
+        "query": "What impact does anthracnose have on strawberry seedlings in Taiwan?"
+    },
+    {
+        "qid": 773,
+        "query": "Is it easy or hard to tell different types of Colletotrichum apart?"
+    },
+    {
+        "qid": 774,
+        "query": "What are the first signs of anthracnose on strawberries?"
+    },
+    {
+        "qid": 775,
+        "query": "How does Colletotrichum acutatum spread from nurseries to field crops?"
+    },
+    {
+        "qid": 776,
+        "query": "How can growers in the Netherlands distinguish between different types of leaf spot diseases on Dracaena plants, and what tools or techniques are best for early detection?"
+    },
+    {
+        "qid": 777,
+        "query": "What patterns of geographic distribution are observed in the C. acutatum species complex, and what historical factors might explain these patterns?"
+    },
+    {
+        "qid": 778,
+        "query": "What happens if Colletotrichum infects an important crop like coffee or wheat?"
+    },
+    {
+        "qid": 779,
+        "query": "How does soil pH influence nutrient availability for strawberry plants?"
+    },
+    {
+        "qid": 780,
+        "query": "Which strawberry cultivars were identified as most resistant to anthracnose fruit rot?"
+    },
+    {
+        "qid": 781,
+        "query": "Can the findings in Yaguchi et al. (1996) about Colletotrichum acutatum help in developing strategies to prevent anthracnose in other plants beyond Cosmos bipinnatus?"
+    },
+    {
+        "qid": 782,
+        "query": "Why is genetic diversity among pathogen populations important to study?"
+    },
+    {
+        "qid": 783,
+        "query": "Why do some plants get sick from fungi?"
+    },
+    {
+        "qid": 784,
+        "query": "How would varying the temperature of water affect the weight displacement measurements of a clod, and what role does water density play in this context?"
+    },
+    {
+        "qid": 785,
+        "query": "How do geographic variations in C. gloeosporioides populations affect their pathogenicity and virulence on crops like avocado and almond?"
+    },
+    {
+        "qid": 786,
+        "query": "Why is species identification important in managing Colletotrichum diseases?"
+    },
+    {
+        "qid": 787,
+        "query": "What is the impact of filling a pre-weighed volumetric flask to the mark with boiled deionized water in terms of solution preparation, and how is the boiling step related to this process?"
+    },
+    {
+        "qid": 788,
+        "query": "What is the Colletotrichum acutatum species complex, and why is it significant in plant pathology?"
+    },
+    {
+        "qid": 789,
+        "query": "How does the high genetic diversity of Colletotrichum spp impact disease management?"
+    },
+    {
+        "qid": 790,
+        "query": "How do environmental conditions influence the efficacy of fungicides across different plant species?"
+    },
+    {
+        "qid": 791,
+        "query": "What challenges are associated with resistance development in Colletotrichum species to fungicides like prochloraz?"
+    },
+    {
+        "qid": 792,
+        "query": "How can molecular tools be applied to manage anthracnose disease in agriculture?"
+    },
+    {
+        "qid": 793,
+        "query": "How do gene families encoding carbohydrate-active enzymes and proteases contribute to the pathogenicity of Colletotrichum species?"
+    },
+    {
+        "qid": 794,
+        "query": "What are the implications of genomic studies for understanding the lifestyle transitions in Colletotrichum fungi?"
+    },
+    {
+        "qid": 795,
+        "query": "Why is it hard to find one solution for all Colletotrichum diseases?"
+    },
+    {
+        "qid": 796,
+        "query": "How do researchers standardize pathogenicity tests for comparison across studies?"
+    },
+    {
+        "qid": 797,
+        "query": "How does plant stress contribute to disease susceptibility?"
+    },
+    {
+        "qid": 798,
+        "query": "Do the strawberry cultivars used in this study represent a specific group of cultivars from the Kurdistan Agricultural and Natural Resources Research and Education Center, or is there a broader variety involved?"
+    },
+    {
+        "qid": 799,
+        "query": "Can Colletotrichum spread from one plant to another?"
+    },
+    {
+        "qid": 800,
+        "query": "How does the size and shape of conidia relate to the ecological role and pathogenicity of fungi?"
+    },
+    {
+        "qid": 801,
+        "query": "How does host range diversity in the C. acutatum species complex correlate with genetic variability and genome plasticity?"
+    },
+    {
+        "qid": 802,
+        "query": "What factors influence the taste and sweetness of strawberries?"
+    },
+    {
+        "qid": 803,
+        "query": "How do host-pathogen interactions shape the evolution of disease resistance in agricultural plants?"
+    },
+    {
+        "qid": 804,
+        "query": "What are the implications of identifying the NIS1 effector gene in C. orbiculare for understanding plant-pathogen interactions in N. benthamiana?"
+    },
+    {
+        "qid": 805,
+        "query": "How is Fragaria \u00d7 ananassa (strawberry) significant to global agriculture?"
+    },
+    {
+        "qid": 806,
+        "query": "Is the \u2014addfragments option useful for enhancing the resolution of ITS sequence alignments in fungal biodiversity studies?"
+    },
+    {
+        "qid": 807,
+        "query": "What is the relationship between soil type and plant disease severity?"
+    },
+    {
+        "qid": 808,
+        "query": "What are the most effective cultural practices for managing anthracnose in strawberry fields?"
+    },
+    {
+        "qid": 809,
+        "query": "What is anthracnose and why is it significant to strawberry production?"
+    },
+    {
+        "qid": 810,
+        "query": "How can I reduce the use of chemicals while keeping my plants healthy?"
+    },
+    {
+        "qid": 811,
+        "query": "Why is it hard to control Colletotrichum?"
+    },
+    {
+        "qid": 812,
+        "query": "Name some crops affected by Colletotrichum."
+    },
+    {
+        "qid": 813,
+        "query": "What are the limitations of using morphological characters for Colletotrichum taxonomy?"
+    },
+    {
+        "qid": 814,
+        "query": "What are the typical molecular tools used to study genetic relationships among fungi?"
+    },
+    {
+        "qid": 815,
+        "query": "What ecological roles do endophytic fungi play in their host plant environments?"
+    },
+    {
+        "qid": 816,
+        "query": "How does Colletotrichum spread among plants?"
+    },
+    {
+        "qid": 817,
+        "query": "What factors influence the morphological and biological differentiation of Fusarium species in the Liseola section as outlined by Nirenberg?"
+    },
+    {
+        "qid": 818,
+        "query": "How do the results from Damm et al. (2009) contribute to our understanding of genetic variation in species?"
+    },
+    {
+        "qid": 819,
+        "query": "How can farmers minimize the risk of anthracnose during the strawberry growing season?"
+    },
+    {
+        "qid": 820,
+        "query": "What impact does soil moisture have on the spread of anthracnose?"
+    },
+    {
+        "qid": 821,
+        "query": "How does sexual reproduction vary among Colletotrichum species, and what role does it play in their evolution?"
+    },
+    {
+        "qid": 822,
+        "query": "What method was used to determine the aggressiveness of different Colletotrichum spp on strawberries?"
+    },
+    {
+        "qid": 823,
+        "query": "Did the study demonstrate that Colletotrichum musae is the sole agent responsible for banana anthracnose, or were other fungal species involved?"
+    },
+    {
+        "qid": 824,
+        "query": "What are the implications of importing propagation material for disease management in agriculture?"
+    },
+    {
+        "qid": 825,
+        "query": "Can the distribution patterns of Carica papaya, Fragaria x ananassa, and Lycopersicon esculentum in Queensland be linked to specific soil types?"
+    },
+    {
+        "qid": 826,
+        "query": "How are strawberry plants propagated in nurseries for large-scale farming?"
+    },
+    {
+        "qid": 827,
+        "query": "How does the geographic distribution of strawberry anthracnose correlate with the distribution of strawberry farms in Zhejiang Province?"
+    },
+    {
+        "qid": 828,
+        "query": "How does the evolutionary history of the cutinase family in fungi help us understand the complexity of gene functionalization and adaptation?"
+    },
+    {
+        "qid": 829,
+        "query": "What are the potential economic impacts of olive anthracnose on the olive oil industry in Portugal?"
+    },
+    {
+        "qid": 830,
+        "query": "What are the key safety guidelines when working with concentrated acids and hazardous chemicals in a laboratory environment?"
+    },
+    {
+        "qid": 831,
+        "query": "What are the implications of climate change on the future of strawberry cultivation?"
+    },
+    {
+        "qid": 832,
+        "query": "Can resistant varieties completely prevent anthracnose?"
+    },
+    {
+        "qid": 833,
+        "query": "How does conidial morphology vary among Colletotrichum species, and why is this significant?"
+    },
+    {
+        "qid": 834,
+        "query": "How might clade-based approaches be applied to other fungal genera besides Colletotrichum?"
+    },
+    {
+        "qid": 835,
+        "query": "How does anthracnose in strawberries compare to crown rot in asparagus in terms of disease progression and management strategies?"
+    },
+    {
+        "qid": 836,
+        "query": "How does the strawberry production industry contribute to local economies in agricultural regions?"
+    },
+    {
+        "qid": 837,
+        "query": "How can differences in conidial morphology between fungal strains help identify specific genetic or environmental adaptations within a population?"
+    },
+    {
+        "qid": 838,
+        "query": "How do fungi find their way to a new plant?"
+    },
+    {
+        "qid": 839,
+        "query": "How do genomic studies inform strategies for managing plant diseases in agriculture?"
+    },
+    {
+        "qid": 840,
+        "query": "Why is a multi-gene approach more reliable for Colletotrichum systematics?"
+    },
+    {
+        "qid": 841,
+        "query": "How can I monitor my field for early signs of anthracnose?"
+    },
+    {
+        "qid": 842,
+        "query": "How does the anthracnose pathogen survive between strawberry growing seasons?"
+    },
+    {
+        "qid": 843,
+        "query": "What are the key considerations when selecting a site for strawberry farming?"
+    },
+    {
+        "qid": 844,
+        "query": "How do fungal populations evolve in response to fungicide application?"
+    },
+    {
+        "qid": 845,
+        "query": "What is vegetative compatibility grouping (VCG), and how is it used for Colletotrichum?"
+    },
+    {
+        "qid": 846,
+        "query": "What are the long-term effects of repeated anthracnose outbreaks on strawberry farms?"
+    },
+    {
+        "qid": 847,
+        "query": "Why is it important to choose resistant plant varieties when planting?"
+    },
+    {
+        "qid": 848,
+        "query": "Which regions in Iran are the major strawberry production areas surveyed in the study?"
+    },
+    {
+        "qid": 849,
+        "query": "What role does cutinase play in the interaction between Pyrenopeziza brassicae and brassica plants according to Davies et al. (2000)?"
+    },
+    {
+        "qid": 850,
+        "query": "What molecular techniques were employed in the study to identify Colletotrichum species?"
+    },
+    {
+        "qid": 851,
+        "query": "How can studying Colletotrichum help farmers protect their crops?"
+    },
+    {
+        "qid": 852,
+        "query": "What role does manganese play in protecting plants from Colletotrichum?"
+    },
+    {
+        "qid": 853,
+        "query": "How might the classification of Colletotrichum isolates into 13 species enhance our understanding of mango diseases?"
+    },
+    {
+        "qid": 854,
+        "query": "What are the most promising technological advancements for early detection and diagnosis of fungal plant diseases?"
+    },
+    {
+        "qid": 855,
+        "query": "What were the primary conclusions drawn about the aggressiveness of isolates during the 2001\u20132002 season?"
+    },
+    {
+        "qid": 856,
+        "query": "According to the 2008 research findings, can early intervention improve outcomes for patients with retinal disorders?"
+    },
+    {
+        "qid": 857,
+        "query": "What factors determine host specificity in plant pathogens?"
+    },
+    {
+        "qid": 858,
+        "query": "Are heat treatments effective in controlling strawberry anthracnose across various environmental conditions, according to the research by Wang, Turechek, and Peres (2017)?"
+    },
+    {
+        "qid": 859,
+        "query": "How does overhead irrigation contribute to the spread of anthracnose in strawberries?"
+    },
+    {
+        "qid": 860,
+        "query": "How does long-term exposure to fungal pathogens influence the genetic diversity of crops?"
+    },
+    {
+        "qid": 861,
+        "query": "How can MEGA X be applied in the analysis of sequence alignments for phylogenetic studies?"
+    },
+    {
+        "qid": 862,
+        "query": "Why is it important to identify the specific Colletotrichum species causing anthracnose in a region?"
+    },
+    {
+        "qid": 863,
+        "query": "Can Colletotrichum gloeosporioides be considered a major threat to the agricultural industry in tropical fruit cultivation, or are there other pathogens that have a more significant impact?"
+    },
+    {
+        "qid": 864,
+        "query": "What methods are used to differentiate Colletotrichum species?"
+    },
+    {
+        "qid": 865,
+        "query": "What are the potential risks of fungicide resistance in managing anthracnose?"
+    },
+    {
+        "qid": 866,
+        "query": "How does the occurrence of Berberis glaucocarpa leaf spot in 2007, as noted in the N. Waipara C7 collection, compare to other documented cases of similar diseases in other parts of the world?"
+    },
+    {
+        "qid": 867,
+        "query": "How does Colletotrichum spp affect the root system of strawberry plants?"
+    },
+    {
+        "qid": 868,
+        "query": "What is the risk of replanting strawberries in a field with a history of anthracnose?"
+    },
+    {
+        "qid": 869,
+        "query": "What are the risks of introducing new plants into a field with known anthracnose issues?"
+    },
+    {
+        "qid": 870,
+        "query": "What are the key symptoms of anthracnose observed in strawberry plants?"
+    },
+    {
+        "qid": 871,
+        "query": "What role does MEGA X play in understanding the evolutionary history of pathogens?"
+    },
+    {
+        "qid": 872,
+        "query": "How does the host specificity of certain Colletotrichum lineages relate to their evolutionary trajectories?"
+    },
+    {
+        "qid": 873,
+        "query": "How does the geographical origin of strawberry transplants affect the prevalence of C. fragariae infections in the southeastern United States?"
+    },
+    {
+        "qid": 874,
+        "query": "How does MEGA X facilitate phylogenetic analysis in evolutionary biology?"
+    },
+    {
+        "qid": 875,
+        "query": "What impact does soil pH have on the development of anthracnose?"
+    },
+    {
+        "qid": 876,
+        "query": "What was the primary aim of the study conducted on Colletotrichum species in Taiwan?"
+    },
+    {
+        "qid": 877,
+        "query": "What makes rDNA analysis a reliable tool for Colletotrichum research?"
+    },
+    {
+        "qid": 878,
+        "query": "How can integrated pest management strategies be optimized to address fungal diseases effectively?"
+    },
+    {
+        "qid": 879,
+        "query": "What are the advantages of using MEGA X for modeling nucleotide or amino acid substitutions in molecular studies?"
+    },
+    {
+        "qid": 880,
+        "query": "How do environmental factors like humidity and temperature influence disease development?"
+    },
+    {
+        "qid": 881,
+        "query": "How do seasonal variations influence strawberry flowering and fruiting cycles?"
+    },
+    {
+        "qid": 882,
+        "query": "Why are standardized cultivation protocols important for fungal research?"
+    },
+    {
+        "qid": 883,
+        "query": "What factors, aside from cutinase silencing, could influence the infection efficiency of C. truncatum transformants in the soybean pathogenicity bioassay?"
+    },
+    {
+        "qid": 884,
+        "query": "How can we figure out which pathogen is making the plant sick?"
+    },
+    {
+        "qid": 885,
+        "query": "What measures can be taken to improve the resistance of strawberry plants to anthracnose?"
+    },
+    {
+        "qid": 886,
+        "query": "How can understanding Colletotrichum DNA help in controlling the disease?"
+    },
+    {
+        "qid": 887,
+        "query": "Can harvesting ferns in wet weather conditions affect the movement of fungal spores between various farms?"
+    },
+    {
+        "qid": 888,
+        "query": "Do ap-PCR and restriction digest analyses of rDNA offer complementary insights into the genetic diversity of Colletotrichum species affecting crops like strawberries?"
+    },
+    {
+        "qid": 889,
+        "query": "What strategies can mitigate the risk of cross-resistance among different fungicide classes in agricultural pathogens?"
+    },
+    {
+        "qid": 890,
+        "query": "Are the environmental conditions in the regions where C. truncatum was found conducive to its proliferation compared to other species with straight conidia?"
+    },
+    {
+        "qid": 891,
+        "query": "In the early 1990s, did Hach Company provide solutions for testing non-potable water sources, such as industrial effluent, and what specific instruments were designed for this purpose?"
+    },
+    {
+        "qid": 892,
+        "query": "Did the research in the Iwokrama Forest Reserve find any evidence of host specificity or generalist behavior in the Colletotrichum endophytes isolated from various plant species?"
+    },
+    {
+        "qid": 893,
+        "query": "How does the interference from anionic species impact the measurement of calcium and magnesium in a clinical or environmental sample, and how does lanthanum (La) mitigate this?"
+    },
+    {
+        "qid": 894,
+        "query": "What are the implications of high genetic diversity in pathogen populations for disease control?"
+    },
+    {
+        "qid": 895,
+        "query": "How does cross-infection potential affect disease management?"
+    },
+    {
+        "qid": 896,
+        "query": "What are the implications of finding multiple Colletotrichum species in a single strawberry field?"
+    },
+    {
+        "qid": 897,
+        "query": "How can MEGA X be used to infer genetic distances between populations?"
+    },
+    {
+        "qid": 898,
+        "query": "How does the use of organic farming methods affect soil health and productivity compared to conventional farming, based on Brady and Weil\u2019s perspective?"
+    },
+    {
+        "qid": 899,
+        "query": "How do cultural practices and environmental stressors interact to affect plant susceptibility to fungal infections?"
+    },
+    {
+        "qid": 900,
+        "query": "Why is integrated pest management (IPM) recommended for controlling anthracnose?"
+    },
+    {
+        "qid": 901,
+        "query": "Which assay revealed the least incidence of crown infection among strawberry cultivars?"
+    },
+    {
+        "qid": 902,
+        "query": "How do temperature fluctuations between day and night affect the formation of conidia in Colletotrichum acutatum on strawberry leaves?"
+    },
+    {
+        "qid": 903,
+        "query": "How do fungi spread to different plants?"
+    },
+    {
+        "qid": 904,
+        "query": "How do different plant growth stages of Carthamus tinctorius influence the susceptibility to Colletotrichum acutatum infection?"
+    },
+    {
+        "qid": 905,
+        "query": "How do diseases affect fruit on trees compared to fruit that is already picked?"
+    },
+    {
+        "qid": 906,
+        "query": "What research methods are employed to study the impact of Colletotrichum on citrus plant physiology?"
+    },
+    {
+        "qid": 907,
+        "query": "How can molecular markers, such as arbitrarily primed PCR (ap-PCR) and rDNA analysis, be applied to distinguish between C. gloeosporioides and C. acutatum populations from different geographical regions?"
+    },
+    {
+        "qid": 908,
+        "query": "How do I treat infected runners or transplants before planting them in the field?"
+    },
+    {
+        "qid": 909,
+        "query": "How can traditional and molecular methods be combined to improve disease diagnostics?"
+    },
+    {
+        "qid": 910,
+        "query": "In a college-level chemistry class, how does the calibration curve for phosphorus concentration help students understand the relationship between concentration and absorbance in a spectrophotometric analysis of an unknown sample?"
+    },
+    {
+        "qid": 911,
+        "query": "What is the best way to stop strawberry plants from dying after transplanting?"
+    },
+    {
+        "qid": 912,
+        "query": "What are the key lifestyle adaptations observed among members of the C. acutatum species complex, such as biotrophy, necrotrophy, and endophytism?"
+    },
+    {
+        "qid": 913,
+        "query": "What are the specific roles of Colletotrichum fructicola and C. siamense in causing chili anthracnose in various climatic conditions in India?"
+    },
+    {
+        "qid": 914,
+        "query": "How do soil amendments like compost or biochar improve strawberry yield?"
+    },
+    {
+        "qid": 915,
+        "query": "How do secondary metabolite profiles contribute to understanding fungal species diversity?"
+    },
+    {
+        "qid": 916,
+        "query": "What are the implications of host-pathogen interactions for sustainable agriculture?"
+    },
+    {
+        "qid": 917,
+        "query": "What are the most effective strategies for managing anthracnose in strawberry production?"
+    },
+    {
+        "qid": 918,
+        "query": "How are strawberries harvested and processed for commercial markets?"
+    },
+    {
+        "qid": 919,
+        "query": "How might advances in genomic sequencing technology improve our understanding of the molecular biology of Colletotrichum gloeosporioides \u201cf. sp. aeschynomenes\u201d and its interactions with host plants?"
+    },
+    {
+        "qid": 920,
+        "query": "What role do fungal endophytes play in promoting plant health and increasing agricultural productivity?"
+    },
+    {
+        "qid": 921,
+        "query": "How does exchangeable sodium relate to other cations like calcium and magnesium in terms of soil fertility and plant nutrition?"
+    },
+    {
+        "qid": 922,
+        "query": "What is the relationship between anthracnose severity and strawberry variety?"
+    },
+    {
+        "qid": 923,
+        "query": "Why is continuous monitoring important for managing anthracnose in strawberries?"
+    },
+    {
+        "qid": 924,
+        "query": "What are the key applications of MEGA X in studying molecular evolution across species?"
+    },
+    {
+        "qid": 925,
+        "query": "Can the techniques for linkage estimation in polyploids discussed by Wu et al. (1992) be utilized in animal genetics as well?"
+    },
+    {
+        "qid": 926,
+        "query": "Can the addition of various micronutrients such as CuSO\u2084\u00b75H\u2082O and ZnSO\u2084\u00b77H\u2082O significantly improve tomato seedling growth in contaminated rockwool?"
+    },
+    {
+        "qid": 927,
+        "query": "How does the rate of appressorial production compare to the rate of conidial germination when exposed to temperatures between 17.6\u00b0C and 26.5\u00b0C?"
+    },
+    {
+        "qid": 928,
+        "query": "How does Colletotrichum affect the roots of strawberry plants?"
+    },
+    {
+        "qid": 929,
+        "query": "How does Colletotrichum miaoliense differ from other Colletotrichum species?"
+    },
+    {
+        "qid": 930,
+        "query": "What are the signs of plant stress caused by disease or poor environmental conditions?"
+    },
+    {
+        "qid": 931,
+        "query": "Can you explain the significance of pale salmon-colored conidia in mass for strains such as CBS 516.78 and CBS 526.77?"
+    },
+    {
+        "qid": 932,
+        "query": "Are there any biological control options for anthracnose?"
+    },
+    {
+        "qid": 933,
+        "query": "How has DNA sequencing advanced the study of plant pathogens?"
+    },
+    {
+        "qid": 934,
+        "query": "What methods are used to track the evolutionary history of fungal pathogens?"
+    },
+    {
+        "qid": 935,
+        "query": "What are the key symptoms of strawberry anthracnose that indicate an infection by Colletotrichum acutatum?"
+    },
+    {
+        "qid": 936,
+        "query": "Why is it important to confirm pathogenicity using verified Colletotrichum species?"
+    },
+    {
+        "qid": 937,
+        "query": "What role did the Aleppo workshop in 1986 play in promoting soil testing in the WANA region?"
+    },
+    {
+        "qid": 938,
+        "query": "Was the USDA strawberry breeding program more successful in developing disease-resistant varieties or in improving strawberry flavor and texture?"
+    },
+    {
+        "qid": 939,
+        "query": "How might human-induced environmental changes in tropical and subtropical regions impact the host range and geographic distribution of certain species?"
+    },
+    {
+        "qid": 940,
+        "query": "What are the risks of using untreated water for irrigation?"
+    },
+    {
+        "qid": 941,
+        "query": "What are the visible symptoms of tissue damage caused by plant pathogens?"
+    },
+    {
+        "qid": 942,
+        "query": "How does the impact of crown rot in strawberries compare to root rot in soybeans in terms of plant mortality and yield losses?"
+    },
+    {
+        "qid": 943,
+        "query": "What is the role of genomic fingerprinting in fungal epidemiology?"
+    },
+    {
+        "qid": 944,
+        "query": "In what ways does composite sampling with varying numbers of sub-samples affect the accuracy and reliability of soil testing results for field-scale research?"
+    },
+    {
+        "qid": 945,
+        "query": "How does the study of fungal lifestyles contribute to broader insights into microbial ecology and evolution?"
+    },
+    {
+        "qid": 946,
+        "query": "What are the challenges associated with traditional diagnostic methods in plant pathology?"
+    },
+    {
+        "qid": 947,
+        "query": "What molecular markers are commonly used in phylogenetic studies of fungi?"
+    },
+    {
+        "qid": 948,
+        "query": "Which crosses demonstrated the largest deviation from the expected mean lesion length, and what does this indicate about their resistance?"
+    },
+    {
+        "qid": 949,
+        "query": "How do variations in temperature and light conditions affect the conidial production and morphological characteristics of fungal isolates?"
+    },
+    {
+        "qid": 950,
+        "query": "What can farmers learn from the success of integrated pest management (IPM) in crops like rice when addressing fungal infections in strawberries?"
+    },
+    {
+        "qid": 951,
+        "query": "How do fungicide resistance mechanisms in Colletotrichum acutatum from strawberry affect its ability to adapt to different agricultural practices?"
+    },
+    {
+        "qid": 952,
+        "query": "What are some common challenges or sources of error when running K standards for calibration, and how can these challenges be minimized during the process?"
+    },
+    {
+        "qid": 953,
+        "query": "Can anthracnose be controlled by adjusting planting density?"
+    },
+    {
+        "qid": 954,
+        "query": "Why do different fungi like different plants?"
+    },
+    {
+        "qid": 955,
+        "query": "How do different parts of the strawberry plant (fruit, leaf, crown) vary in their disease susceptibility?"
+    },
+    {
+        "qid": 956,
+        "query": "Which species of Colletotrichum are identified as causing strawberry anthracnose in Taiwan?"
+    },
+    {
+        "qid": 957,
+        "query": "How do abiotic stressors affect the growth and yield of strawberry plants?"
+    },
+    {
+        "qid": 958,
+        "query": "How does crop rotation help in managing anthracnose in strawberry fields?"
+    },
+    {
+        "qid": 959,
+        "query": "What are the visual differences between anthracnose and other fungal diseases on strawberries?"
+    },
+    {
+        "qid": 960,
+        "query": "Are there good fungi that help plants grow?"
+    },
+    {
+        "qid": 961,
+        "query": "Is prochloraz-Zn consistently the most effective treatment for strawberry infections, or are there conditions under which other treatments perform better?"
+    },
+    {
+        "qid": 962,
+        "query": "What potential challenges arise when interpreting genetic variance estimates derived from asexually propagated species?"
+    },
+    {
+        "qid": 963,
+        "query": "How do environmental conditions like rain or temperature affect the spread of anthracnose?"
+    },
+    {
+        "qid": 964,
+        "query": "How does MEGA X contribute to the study of functional and adaptive genome differences?"
+    },
+    {
+        "qid": 965,
+        "query": "What are the economic and practical implications of delayed fruit production due to anthracnose management in strawberry crops?"
+    },
+    {
+        "qid": 966,
+        "query": "In regions where Colletotrichum gloeosporioides is common, what are the most effective methods to prevent the formation of dead skin on yam tubers?"
+    },
+    {
+        "qid": 967,
+        "query": "How does genetic diversity among strawberry cultivars impact agricultural practices?"
+    },
+    {
+        "qid": 968,
+        "query": "What challenges exist in identifying Colletotrichum species based on morphology alone?"
+    },
+    {
+        "qid": 969,
+        "query": "How can the effectiveness of single-application treatments be maximized in disease control programs?"
+    },
+    {
+        "qid": 970,
+        "query": "What are the benefits of adjusting soil pH to manage Colletotrichum diseases?"
+    },
+    {
+        "qid": 971,
+        "query": "What is the importance of molecular phylogenetic analysis in identifying Colletotrichum species?"
+    },
+    {
+        "qid": 972,
+        "query": "Can the patterns observed in vegetative compatibility among Colletotrichum species be generalized to other fungal genera?"
+    },
+    {
+        "qid": 973,
+        "query": "What are the differences between day-neutral, everbearing, and June-bearing strawberry varieties?"
+    },
+    {
+        "qid": 974,
+        "query": "What is the significance of accurate species identification in managing strawberry anthracnose?"
+    },
+    {
+        "qid": 975,
+        "query": "How should different types of soils be handled when conducting saturation experiments, and what implications does the one-hour standing period have on the accuracy of measuring soil saturation?"
+    },
+    {
+        "qid": 976,
+        "query": "Are there any sprays or chemicals that work against Colletotrichum?"
+    },
+    {
+        "qid": 977,
+        "query": "Did the assessment schedule influence the overall health of the plants in the experimental plots?"
+    },
+    {
+        "qid": 978,
+        "query": "Can the methodologies used in studying strawberry parent clones US70, US159, US292, and US438 be applied to other crops facing similar disease challenges?"
+    },
+    {
+        "qid": 979,
+        "query": "At 29 DAI, how did the use of plastic mulch compare to grass mulch in terms of flower blight reduction across different plant cultivars?"
+    },
+    {
+        "qid": 980,
+        "query": "What role does crop debris play in disease management?"
+    },
+    {
+        "qid": 981,
+        "query": "How do regional agricultural policies impact strawberry farming practices?"
+    },
+    {
+        "qid": 982,
+        "query": "What research methods have been most effective in studying Colletotrichum gloeosporioides as a pathogen in tropical fruits?"
+    },
+    {
+        "qid": 983,
+        "query": "What specific climate factors are most closely associated with the emergence of new plant diseases in agricultural systems?"
+    },
+    {
+        "qid": 984,
+        "query": "How do I choose the right fungicide for my crops?"
+    },
+    {
+        "qid": 985,
+        "query": "How does the use of plasticulture benefit strawberry production?"
+    },
+    {
+        "qid": 986,
+        "query": "How can we stop fungi from making plants sick?"
+    },
+    {
+        "qid": 987,
+        "query": "Are there specific environmental conditions that could affect the band patterns of C. acutatum?"
+    },
+    {
+        "qid": 988,
+        "query": "How do diseases spread from one strawberry plant to another?"
+    },
+    {
+        "qid": 989,
+        "query": "What were the main findings of the laboratory studies on the ED50 of different fungicides against Colletotrichum acutatum?"
+    },
+    {
+        "qid": 990,
+        "query": "In what ways might individual variations in metabolism influence the endothelial response to walnut-enriched meals?"
+    },
+    {
+        "qid": 991,
+        "query": "Can physical barriers such as netting or row covers reduce the incidence of Colletotrichum acutatum infections in bell peppers, and how practical are these methods for large-scale farming?"
+    },
+    {
+        "qid": 992,
+        "query": "What do scientists look for when they try to find out what caused a plant disease?"
+    },
+    {
+        "qid": 993,
+        "query": "What is the role of resistant cultivars in disease management strategies?"
+    },
+    {
+        "qid": 994,
+        "query": "How can fungal pathogens be isolated and identified from infected plant tissues?"
+    },
+    {
+        "qid": 995,
+        "query": "How might changes in climate affect the effectiveness of the drainage treatments discussed in the document?"
+    },
+    {
+        "qid": 996,
+        "query": "What precautions should be taken when applying treatments for anthracnose?"
+    },
+    {
+        "qid": 997,
+        "query": "What is the importance of using disease-free propagation materials in farming?"
+    },
+    {
+        "qid": 998,
+        "query": "Which fungal pathogens are primarily associated with anthracnose in strawberries?"
+    },
+    {
+        "qid": 999,
+        "query": "What methods are used to study preharvest and postharvest diseases in fruits?"
+    }
+]
