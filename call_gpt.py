@@ -158,7 +158,7 @@ def ask_gpt_about_question(gpt_parser, question):
     driver = gptParser.get_driver()
     gpt_parser = gptParser(driver)
 
-    query = "There is a farmer asking a question: " + question + "  " + "Is the above question a question related to research or practice?  Please answer me as simple as possible."
+    query = "There is a farmer asking a question: " + question + "  " + "Is the above question a question related to research or practice?  Please just answer me 'Research-related' or 'Practice-related'."
     
     print(f"Sending asking query...")
     
@@ -216,7 +216,7 @@ if __name__ == "__main__":
         answer_2_list = json.load(fr2)
         fr2.close()
     
-    file_out = output_dir + "RAGFlow_pure-dsr1-70b_comparison_100ex.json"
+    file_out = input_dir + "queries_1000.json"
     
     random_numbers = [random.randint(0, 999) for _ in range(100)]
     
@@ -225,6 +225,8 @@ if __name__ == "__main__":
     with open(file_out, 'r') as fr:
         output_list = json.load(fr)
         fr.close()
+    
+    file_out = output_dir + "question_type_1000.json"
     
     try:
         for i, item in enumerate(output_list):
