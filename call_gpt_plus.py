@@ -41,8 +41,8 @@ class gptParser:
     @staticmethod
     def get_driver():
         options = Options()
-        options.add_argument("--user-data-dir=C:\\selenium\\pcslab_profile")
-        options.debugger_address = "127.0.0.1:61441"
+        options.add_argument("--user-data-dir=$HOME/.config/google-chrome/Profile 1")
+        options.debugger_address = "127.0.0.1:9222"
 
         driver = webdriver.Chrome(options=options)
         
@@ -94,6 +94,8 @@ class gptParser:
             print("Response generation started...")
         except TimeoutException:
             print("Stop button not found, response might be instant or already complete")
+        
+        time.sleep(30)
         
         # Wait for the speech button to appear (indicating generation finished)
         try:
@@ -161,7 +163,7 @@ class gptParser:
         """Start a new chat conversation"""
         try:
             # Look for project button
-            project_name = "agrigraphrag-eden/project"
+            project_name = "agrigraphrag/project"
             project_button = self.driver.find_element(By.XPATH, f"//a[contains(@href, '{project_name}')]")
             project_button.click()
             time.sleep(2)
@@ -185,33 +187,55 @@ def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
     print(f"Sending comparison query...")
     
     try:
+        time.sleep(5)
         gpt_parser.send_message(query)
+        time.sleep(10)
         response = gpt_parser.get_latest_response()
-        return response
+        return query, response
     except Exception as e:
         print(f"Error in ask_gpt_for_final_answer: {e}")
         return f"Error: {e}"
 
-input_dir = "input_file/3163/"
-output_dir = "output_file/3163/"
+def ask_gpt_about_question(gpt_parser, question):
+
+    query = "There is a farmer asking a question: " + question + "  " + "Is the above question a question related to research or practice?  Please just answer me 'Research-related' or 'Practice-related'."
+    
+    print(f"Sending asking query...")
+    
+    try:
+        time.sleep(5)
+        gpt_parser.send_message(query)
+        time.sleep(10)
+        response = gpt_parser.get_latest_response()
+        return response
+    except Exception as e:
+        print(f"Error in ask_gpt_about_question: {e}")
+        return f"Error: {e}"
+
+input_dir = "input_file/"
+output_dir = "output_file/"
 
 if __name__ == "__main__":
-    file_1 = input_dir + "graphRAG_Qwen_Gen_1000Q_150W_llama3.2.json"
-    file_2 = input_dir + "pure_Gen_1000Q_150W_llama3.2.json"
+    # file_1 = input_dir + "graphRAG_Qwen_Gen_1000Q_150W_llama3.2.json"
+    # file_2 = input_dir + "pure_Gen_1000Q_150W_llama3.2.json"
     
-    with open(file_1, 'r') as fr1:
-        answer_1_list = json.load(fr1)
-        fr1.close()
+    # with open(file_1, 'r') as fr1:
+    #     answer_1_list = json.load(fr1)
+    #     fr1.close()
     
-    with open(file_2, 'r') as fr2:
-        answer_2_list = json.load(fr2)
-        fr2.close()
+    # with open(file_2, 'r') as fr2:
+    #     answer_2_list = json.load(fr2)
+    #     fr2.close()
     
-    file_out = output_dir + "graphRAG_pureLLM_comparison_150W_200ex.json"
+    file_out = output_dir + "question_type_1000.json"
     
     random_numbers = [random.randint(0, 999) for _ in range(200)]
     
     output_list = []
+
+    with open(file_out, 'r') as fr:
+        output_list = json.load(fr)
+        fr.close()
     
     # Initialize driver and parser once
     print("Starting browser...")
@@ -224,40 +248,60 @@ if __name__ == "__main__":
     #     print("Login failed. Exiting...")
     #     driver.quit()
     #     exit(1)
-    
+
     try:
-        # Process all questions with the same driver instance
-        for i, qid in enumerate(random_numbers):
-            print(f"\nProcessing question {i+1}/{len(random_numbers)} (ID: {qid})")
-            
-            item = answer_1_list[qid]
-            query = item['query']
-            answer_1 = item['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
-            answer_2 = answer_2_list[qid]['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
-            
+        for i, item in enumerate(output_list):
+            if i < 955: continue
+
             # Start new chat in the project for each comparison to avoid context confusion
             gpt_parser.start_new_chat()
+
+            query_type = ask_gpt_about_question(gpt_parser, item['query'])
             
-            answer_1_no_newline = answer_1.replace("\n", " ")
-            answer_2_no_newline = answer_2.replace("\n", " ")
+            item['query_type'] = query_type
             
-            compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1_no_newline, answer_2_no_newline)
-            
-            output_list.append({
-                "qid": qid,
-                "query": query,
-                "answer 1": answer_1,
-                "answer 2": answer_2,
-                "comparison": compare_result
-            })
-            
+            output_list[i] = item
             print(f"Completed question {i+1}")
-            
             with open(file_out, 'w') as fw:
                 json.dump(output_list, fw, indent=4)
                 fw.close()
-            
+
             time.sleep(30)
+    
+    # try:
+    #     # Process all questions with the same driver instance
+    #     for i, qid in enumerate(random_numbers):
+    #         print(f"\nProcessing question {i+1}/{len(random_numbers)} (ID: {qid})")
+            
+    #         item = answer_1_list[qid]
+    #         query = item['query']
+    #         answer_1 = item['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
+    #         answer_2 = answer_2_list[qid]['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
+            
+    #         # Start new chat in the project for each comparison to avoid context confusion
+    #         gpt_parser.start_new_chat()
+            
+    #         answer_1_no_newline = answer_1.replace("\n", " ")
+    #         answer_2_no_newline = answer_2.replace("\n", " ")
+            
+    #         combined_prompt, compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1_no_newline, answer_2_no_newline)
+            
+    #         output_list.append({
+    #             "qid": qid,
+    #             "query": query,
+    #             "answer 1": answer_1,
+    #             "answer 2": answer_2,
+    #             "prompt" : combined_prompt,
+    #             "comparison": compare_result
+    #         })
+            
+    #         print(f"Completed question {i+1}")
+            
+    #         with open(file_out, 'w') as fw:
+    #             json.dump(output_list, fw, indent=4)
+    #             fw.close()
+            
+    #         time.sleep(30)
     
     except KeyboardInterrupt:
         print("\nProcess interrupted by user")
