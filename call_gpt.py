@@ -155,8 +155,6 @@ def ask_gpt_for_final_answer(gpt_parser, question, answer_one, answer_two):
     
     
 def ask_gpt_about_question(gpt_parser, question):
-    driver = gptParser.get_driver()
-    gpt_parser = gptParser(driver)
 
     query = "There is a farmer asking a question: " + question + "  " + "Is the above question a question related to research or practice?  Please just answer me 'Research-related' or 'Practice-related'."
     
@@ -201,20 +199,20 @@ def ask_gpt_for_retrieve_result(question, answer_one, answer_two):
     
     time.sleep(10)
 
-input_dir = "input_file/RAG_Flow/"
-output_dir = "output_file/RAG_Flow/"
+input_dir = "input_file/"
+output_dir = "output_file/"
 
 if __name__ == "__main__":
-    file_1 = input_dir + "RAGFlow_Gen_1000Q_150W_dsr1-70b.json"
-    file_2 = input_dir + "pure_Gen_1000Q_150W_dsr1-70b.json"
+    # file_1 = input_dir + "RAGFlow_Gen_1000Q_150W_dsr1-70b.json"
+    # file_2 = input_dir + "pure_Gen_1000Q_150W_dsr1-70b.json"
     
-    with open(file_1, 'r') as fr1:
-        answer_1_list = json.load(fr1)
-        fr1.close()
+    # with open(file_1, 'r') as fr1:
+    #     answer_1_list = json.load(fr1)
+    #     fr1.close()
     
-    with open(file_2, 'r') as fr2:
-        answer_2_list = json.load(fr2)
-        fr2.close()
+    # with open(file_2, 'r') as fr2:
+    #     answer_2_list = json.load(fr2)
+    #     fr2.close()
     
     file_out = input_dir + "queries_1000.json"
     
