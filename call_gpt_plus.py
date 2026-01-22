@@ -212,24 +212,22 @@ def ask_gpt_about_question(gpt_parser, question):
         print(f"Error in ask_gpt_about_question: {e}")
         return f"Error: {e}"
 
-input_dir = "input_file/"
-output_dir = "output_file/"
+input_dir = "input_file/RAG_Flow/"
+output_dir = "output_file/RAG_Flow/"
 
 if __name__ == "__main__":
-    # file_1 = input_dir + "graphRAG_Qwen_Gen_1000Q_150W_llama3.2.json"
-    # file_2 = input_dir + "pure_Gen_1000Q_150W_llama3.2.json"
+    file_1 = input_dir + "RAGFlow_Gen_1000Q_150W_llama32-3b.json"
+    file_2 = input_dir + "pure_Gen_1000Q_150W_llama32-3b.json"
     
-    # with open(file_1, 'r') as fr1:
-    #     answer_1_list = json.load(fr1)
-    #     fr1.close()
+    with open(file_1, 'r') as fr1:
+        answer_1_list = json.load(fr1)
+        fr1.close()
     
-    # with open(file_2, 'r') as fr2:
-    #     answer_2_list = json.load(fr2)
-    #     fr2.close()
+    with open(file_2, 'r') as fr2:
+        answer_2_list = json.load(fr2)
+        fr2.close()
     
-    file_out = output_dir + "question_type_1000.json"
-    
-    random_numbers = [random.randint(0, 999) for _ in range(200)]
+    file_out = output_dir + "RAGFlow_pure-llama32-3b_comparison.json"
     
     output_list = []
 
@@ -249,59 +247,61 @@ if __name__ == "__main__":
     #     driver.quit()
     #     exit(1)
 
-    try:
-        for i, item in enumerate(output_list):
-            if i < 955: continue
-
-            # Start new chat in the project for each comparison to avoid context confusion
-            gpt_parser.start_new_chat()
-
-            query_type = ask_gpt_about_question(gpt_parser, item['query'])
-            
-            item['query_type'] = query_type
-            
-            output_list[i] = item
-            print(f"Completed question {i+1}")
-            with open(file_out, 'w') as fw:
-                json.dump(output_list, fw, indent=4)
-                fw.close()
-
-            time.sleep(30)
-    
     # try:
-    #     # Process all questions with the same driver instance
-    #     for i, qid in enumerate(random_numbers):
-    #         print(f"\nProcessing question {i+1}/{len(random_numbers)} (ID: {qid})")
-            
-    #         item = answer_1_list[qid]
-    #         query = item['query']
-    #         answer_1 = item['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
-    #         answer_2 = answer_2_list[qid]['answer'].replace("<|start_header_id|>assistant<|end_header_id|>\n\n", "")
-            
+    #     for i, item in enumerate(output_list):
+    #         if i < 955: continue
+
     #         # Start new chat in the project for each comparison to avoid context confusion
     #         gpt_parser.start_new_chat()
+
+    #         query_type = ask_gpt_about_question(gpt_parser, item['query'])
             
-    #         answer_1_no_newline = answer_1.replace("\n", " ")
-    #         answer_2_no_newline = answer_2.replace("\n", " ")
+    #         item['query_type'] = query_type
             
-    #         combined_prompt, compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1_no_newline, answer_2_no_newline)
-            
-    #         output_list.append({
-    #             "qid": qid,
-    #             "query": query,
-    #             "answer 1": answer_1,
-    #             "answer 2": answer_2,
-    #             "prompt" : combined_prompt,
-    #             "comparison": compare_result
-    #         })
-            
+    #         output_list[i] = item
     #         print(f"Completed question {i+1}")
-            
     #         with open(file_out, 'w') as fw:
     #             json.dump(output_list, fw, indent=4)
     #             fw.close()
-            
+
     #         time.sleep(30)
+    
+    try:
+        # Process all questions with the same driver instance
+        for i in range(0, 1000):
+            if i < 944: continue
+
+            print(f"\nProcessing question {i}/1000")
+            
+            item = answer_1_list[i]
+            query = item['query']
+            answer_1 = item['answer']
+            answer_2 = answer_2_list[i]['answer']
+            
+            # Start new chat in the project for each comparison to avoid context confusion
+            gpt_parser.start_new_chat()
+            
+            answer_1_no_newline = answer_1.replace("\n", " ")
+            answer_1_no_newline = answer_1_no_newline.replace("\t", " ")
+            answer_2_no_newline = answer_2.replace("\n", " ")
+            answer_2_no_newline = answer_2_no_newline.replace("\t", " ")
+            
+            combined_prompt, compare_result = ask_gpt_for_final_answer(gpt_parser, query, answer_1_no_newline, answer_2_no_newline)
+            
+            output_list.append({
+                "qid": i,
+                "query": query,
+                "answer 1": answer_1,
+                "answer 2": answer_2,
+                "prompt" : combined_prompt,
+                "comparison": compare_result
+            })
+            
+            print(f"Completed question {i}")
+            
+            with open(file_out, 'w') as fw:
+                json.dump(output_list, fw, indent=4)
+                fw.close()
     
     except KeyboardInterrupt:
         print("\nProcess interrupted by user")
