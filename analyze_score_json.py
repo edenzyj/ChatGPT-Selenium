@@ -20,6 +20,8 @@ second_scores = []
 first_win = 0
 second_win = 0
 
+bad_rag_num = 0
+
 try:
     with open(comparison_folder + comparison_file, "r") as fr:
         data = json.load(fr)
@@ -37,6 +39,11 @@ try:
 
             first_score = int(split_list[0].split(" ")[-1])
             second_score = int(split_list[-2].split(" ")[-1])
+
+            if first_score < 80:
+                print(f"Question ID: {qid}")
+                print(f"Answer 1: {item['answer 1']}")
+                bad_rag_num += 1
 
             first_scores.append(first_score)
             second_scores.append(second_score)
@@ -71,3 +78,4 @@ print("Second Average : {}".format(second_avr))
 print("Second VD : {}".format(second_vd))
 print("Winning rate = {}".format(winning_rate))
 print("95 confidence : [{}, {}]".format(lower, upper))
+print(f"Number of bad answers generate by RAG Flow: {bad_rag_num}")
