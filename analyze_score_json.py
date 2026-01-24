@@ -20,6 +20,9 @@ second_scores = []
 first_win = 0
 second_win = 0
 
+hard_win = 0
+hard_loss = 0
+
 bad_rag_num = 0
 
 try:
@@ -29,7 +32,7 @@ try:
         for item in data:
             qid = item['qid']
 
-            if question_type[qid]['query_type'] == "Practice-related": continue
+            # if question_type[qid]['query_type'] == "Practice-related": continue
 
             split_list = item['comparison'].split("/100")
 
@@ -42,8 +45,13 @@ try:
 
             if first_score < 80:
                 print(f"Question ID: {qid}")
-                print(f"Answer 1: {item['answer 1']}")
                 bad_rag_num += 1
+                continue
+
+            if first_score - second_score > 5:
+                hard_win += 1
+            elif second_score - first_score > 5:
+                hard_loss += 1
 
             first_scores.append(first_score)
             second_scores.append(second_score)
@@ -79,3 +87,5 @@ print("Second VD : {}".format(second_vd))
 print("Winning rate = {}".format(winning_rate))
 print("95 confidence : [{}, {}]".format(lower, upper))
 print(f"Number of bad answers generate by RAG Flow: {bad_rag_num}")
+print(f"Number of hard wins by RAG Flow: {hard_win}")
+print(f"Number of hard losses by RAG Flow: {hard_loss}")
