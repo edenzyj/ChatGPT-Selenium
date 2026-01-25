@@ -7,6 +7,7 @@ import undetected_chromedriver as uc
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
+import os
 import time
 import json
 import random
@@ -212,11 +213,11 @@ def ask_gpt_about_question(gpt_parser, question):
         print(f"Error in ask_gpt_about_question: {e}")
         return f"Error: {e}"
 
-input_dir = "input_file/RAG_Flow/"
-output_dir = "output_file/RAG_Flow/"
+input_dir = "input_file/GraphRAG/"
+output_dir = "output_file/GraphRAG/"
 
 if __name__ == "__main__":
-    file_1 = input_dir + "RAGFlow_Gen_1000Q_150W_llama32-3b.json"
+    file_1 = input_dir + "graphRAG_Qwen_Gen_1000Q_llama32-3b.json"
     file_2 = input_dir + "pure_Gen_1000Q_150W_llama32-3b.json"
     
     with open(file_1, 'r') as fr1:
@@ -227,7 +228,10 @@ if __name__ == "__main__":
         answer_2_list = json.load(fr2)
         fr2.close()
     
-    file_out = output_dir + "RAGFlow_pure-llama32-3b_comparison.json"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    file_out = output_dir + "graphRAG-Qwen_pure-llama32-3b_comparison.json"
     
     output_list = []
 
