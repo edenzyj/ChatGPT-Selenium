@@ -10,9 +10,9 @@ question_type = []
 with open(question_type_file, "r") as fq:
     question_type = json.load(fq)
 
-comparison_folder = "output_file/RAG_Flow/"
+comparison_folder = "output_file/GraphRAG/"
 
-comparison_file = "RAGFlow_pure-llama32-3b_comparison.json"
+comparison_file = "graphRAG-Qwen_pure-llama32-3b_comparison.json"
 
 first_scores = []
 second_scores = []

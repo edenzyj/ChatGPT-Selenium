@@ -235,9 +235,10 @@ if __name__ == "__main__":
     
     output_list = []
 
-    with open(file_out, 'r') as fr:
-        output_list = json.load(fr)
-        fr.close()
+    if os.path.exists(file_out):
+        with open(file_out, 'r') as fr:
+            output_list = json.load(fr)
+            fr.close()
     
     # Initialize driver and parser once
     print("Starting browser...")
@@ -273,7 +274,7 @@ if __name__ == "__main__":
     try:
         # Process all questions with the same driver instance
         for i in range(0, 1000):
-            if i < 944: continue
+            # if i < 944: continue
 
             print(f"\nProcessing question {i}/1000")
             
