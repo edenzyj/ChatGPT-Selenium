@@ -10,9 +10,9 @@ question_type = []
 with open(question_type_file, "r") as fq:
     question_type = json.load(fq)
 
-comparison_folder = "output_file/GraphRAG/"
+comparison_folder = "output_file/RAG_Flow/"
 
-comparison_file = "graphRAG-Qwen_pure-llama32-3b_comparison.json"
+comparison_file = "RAGFlow_pure-llama32-3b_comparison.json"
 
 first_scores = []
 second_scores = []
@@ -44,9 +44,9 @@ try:
             second_score = int(split_list[-2].split(" ")[-1])
 
             if first_score < 80:
-                print(f"Question ID: {qid}")
                 bad_rag_num += 1
-                continue
+                # print(f"Question ID: {qid}")
+                # continue
 
             if first_score - second_score > 5:
                 hard_win += 1
@@ -56,7 +56,7 @@ try:
             first_scores.append(first_score)
             second_scores.append(second_score)
 
-            if first_score > second_score:
+            if first_score >= second_score:
                 first_win = first_win + 1
             else:
                 second_win = second_win + 1
