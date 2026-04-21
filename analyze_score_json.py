@@ -48,9 +48,9 @@ try:
                 # print(f"Question ID: {qid}")
                 # continue
 
-            if first_score - second_score > 5:
+            if first_score - second_score >= 10:
                 hard_win += 1
-            elif second_score - first_score > 5:
+            elif second_score - first_score >= 10:
                 hard_loss += 1
 
             first_scores.append(first_score)
