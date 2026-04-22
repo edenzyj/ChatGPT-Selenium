@@ -164,7 +164,7 @@ class gptParser:
         """Start a new chat conversation"""
         try:
             # Look for project button
-            project_name = "agrigraphrag/project"
+            project_name = "agrihybridrag/project"
             project_button = self.driver.find_element(By.XPATH, f"//a[contains(@href, '{project_name}')]")
             project_button.click()
             time.sleep(2)
