@@ -12,7 +12,7 @@ with open(question_type_file, "r") as fq:
 
 comparison_folder = "output_file/RAG_Flow/"
 
-comparison_file = "RAGFlow_pure-llama32-3b_comparison.json"
+comparison_file = "RAGFlow-stru_RAG-stru-ft_comparison.json"
 
 first_scores = []
 second_scores = []
