@@ -213,12 +213,12 @@ def ask_gpt_about_question(gpt_parser, question):
         print(f"Error in ask_gpt_about_question: {e}")
         return f"Error: {e}"
 
-input_dir = "input_file/RAG_Flow/"
-output_dir = "output_file/RAG_Flow/"
+input_dir = "input_file/RAG_Flow/260511/"
+output_dir = "output_file/RAG_Flow/260511/"
 
 if __name__ == "__main__":
     file_1 = input_dir + "RAGFlow_structured_Qwen_Gen_1000Q_llama32-3b.json"
-    file_2 = input_dir + "RAGFlow_structured_Qwen_woKG_Gen_1000Q_llama32-3b.json"
+    file_2 = input_dir + "pure_Gen_1000Q_150W_dsr1-70b.json"
     
     with open(file_1, 'r') as fr1:
         answer_1_list = json.load(fr1)
@@ -231,7 +231,7 @@ if __name__ == "__main__":
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
-    file_out = output_dir + "Hybrid-stru_vector-stru_comparison.json"
+    file_out = output_dir + "AgriHybridRAG_pure-dsr1-70b_comparison.json"
     
     output_list = []
 
@@ -274,7 +274,7 @@ if __name__ == "__main__":
     try:
         # Process all questions with the same driver instance
         for i in range(0, 1000):
-            if i < 998: continue
+            # if i < 998: continue
 
             print(f"\nProcessing question {i}/1000")
             
